@@ -1,0 +1,20 @@
+{  "yuri:Yuri Shrine": {
+  "NAME": "Yuri Shrine",
+  "DESCRIPTIONS": [
+    "Before you lies an elaborate shrine to ... well... Yuri. NL (BETA EVENT)",
+    "Before you lies an elaborate shrine to yourself. NL You are very confused about this.",
+    "The shrine's energy flows into you, making you stronger.",
+    "You ignore the shrine.",
+    "I'm a programmer, not a writer, so I don't know what to say here. NL Sorry."
+  ],
+  "OPTIONS": [
+    "[Pray] #gUpgrade #ga #gcard.",
+    "[Leave]",
+    "Select a Card to Upgrade.",
+    "[Locked] Requires: Upgradeable Cards",
+    "[Locked], Requires: Knife",
+    "[Offer: Knife] #gUpgrade #gyour #gstarter #gRelic, #rLose #r",
+    "% #rMax #rHP."
+  ]
+}
+}

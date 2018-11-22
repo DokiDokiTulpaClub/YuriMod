@@ -1,0 +1,11 @@
+{
+  "modid": "YuriMod",
+  "name": "Yuri Mod",
+  "author_list": ["Yuri"],
+  "description": "Adds Yuri into the game, featuring 50+ new cards, 4 relics and a few nasty surprises. May contain disturbing content, which can be turned off in the settings.",
+  "credits": "Gremious: For providing the default mod base this mod was built on.",
+  "version": "0.6",
+  "sts_version": "11-15-2018",
+  "mts_version": "3.6.0",
+  "dependencies": ["basemod", "stslib"]
+}
