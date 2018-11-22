@@ -18,5 +18,10 @@
         "NAME": "Bloody Knife",
 	    "FLAVOR": "You shouldn't have done that.",
         "DESCRIPTIONS": ["You no longer lose health from Insanity. NL May have unexpected side effects."]
+	},
+  "yuri:GlassOfWater": {
+        "NAME": "Glass of Water",
+	    "FLAVOR": "A poorly drawn glass of water. Perhaps drinking from it will calm you down.",
+        "DESCRIPTIONS": ["Whenever you gain #yInsanity, gain #b1 #yTemporary_HP."]
 	}
 }

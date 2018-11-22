@@ -155,8 +155,8 @@
     },
     "yuri:ArmBrace": {
     "NAME": "Arm Brace",
-    "DESCRIPTION": "Gain !M! Temporary HP.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Temporary HP."
+    "DESCRIPTION": "Gain !M! Temporary_HP.",
+    "UPGRADE_DESCRIPTION": "Gain !M! Temporary_HP."
     },
     "yuri:NerfBat": {
     "NAME": "Nerf Bat",
@@ -284,7 +284,7 @@
   },
   "yuri:RhapsodyCurse": {
     "NAME": "Rhapsody Nightmare",
-    "DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Ethereal.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Ethereal. NL Hello Rhapsody."
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Exhaust. NL Hello Rhapsody."
   }
 }
