@@ -1,0 +1,8 @@
+v1.0.1
+Added Changelog
+Mod now automatically updates
+Fixed mod version
+Updated mod badge
+
+v1.0.0
+Initial Release
