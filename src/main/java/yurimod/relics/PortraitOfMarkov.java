@@ -28,10 +28,9 @@ public class PortraitOfMarkov extends CustomRelic {
 
     // Flash at the start of Battle.
     @Override
-    public void atBattleStart(){
+    public void atPreBattle(){
         this.flash();
         AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new GlitchedPower(AbstractDungeon.player, AbstractDungeon.player, 1)));
-        AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
     }
 
     // Gain 1 energy on equip.

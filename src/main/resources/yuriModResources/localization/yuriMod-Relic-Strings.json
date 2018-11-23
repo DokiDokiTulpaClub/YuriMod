@@ -23,5 +23,15 @@
         "NAME": "Glass of Water",
 	    "FLAVOR": "A poorly drawn glass of water. Perhaps drinking from it will calm you down.",
         "DESCRIPTIONS": ["Whenever you gain #yInsanity, gain #b1 #yTemporary_HP."]
-	}
+	},
+  "yuri:PortableGlitches": {
+        "NAME": "Portable Glitches",
+	    "FLAVOR": "A bag full of glitches. Eating them should help you break the enemies.",
+        "DESCRIPTIONS": ["At the start of each combat, apply #b1 #yGlitched to ALL enemies."]
+	},
+  "yuri:GlassOfWine": {
+    "NAME": "Glass of Wine",
+    "FLAVOR": "A poorly drawn glass of wine. Drinking from it will definitely not calm you down.",
+    "DESCRIPTIONS": ["At the start of each combat, gain #b3 #yInsanity."]
+  }
 }

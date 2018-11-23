@@ -37,7 +37,7 @@ public class yuriKnife extends CustomRelic
     @Override
     public void atBattleStart(){
 	    this.flash();
-	    AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new InsanityPower(AbstractDungeon.player, AbstractDungeon.player, 1)));
+	    AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new InsanityPower(AbstractDungeon.player, AbstractDungeon.player, 1), 1));
 	    AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
     }
 

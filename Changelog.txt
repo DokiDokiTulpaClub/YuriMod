@@ -1,3 +1,8 @@
+v1.1.0
+Added 3 relics
+Portrait of Markov now applies Glitched pre-battle
+Fixed Temporary HP keyword
+
 v1.0.1
 Added Changelog
 Mod now automatically updates

@@ -177,6 +177,10 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_BLOODY_KNIFE_OUTLINE = "relics/outline/spearHead.png";
     public static final String yuri_WATER = "relics/Water.png";
     public static final String yuri_WATER_OUTLINE = "relics/outline/Water.png";
+    public static final String yuri_WINE = "relics/Wine.png";
+    public static final String yuri_WINE_OUTLINE = "relics/outline/Water.png";
+    public static final String yuri_GLITCH_BAG = "relics/GlitchBag.png";
+    public static final String yuri_GLITCH_BAG_OUTLINE = "relics/outline/GlitchBag.png";
 
 
     // Character assets
@@ -335,10 +339,12 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		logger.info("Add relics");
 
 		BaseMod.addRelic(new PortraitOfMarkov(), RelicType.SHARED);
+		BaseMod.addRelic(new PortableGlitches(), RelicType.SHARED);
 		BaseMod.addRelicToCustomPool(new yuriKnife(), AbstractCardEnum.YURI_PURPLE);
 		BaseMod.addRelicToCustomPool(new BookOfBooks(), AbstractCardEnum.YURI_PURPLE);
         BaseMod.addRelicToCustomPool(new BloodyKnife(), AbstractCardEnum.YURI_RED);
         BaseMod.addRelicToCustomPool(new GlassOfWater(), AbstractCardEnum.YURI_PURPLE);
+        BaseMod.addRelicToCustomPool(new GlassOfWine(), AbstractCardEnum.YURI_PURPLE);
 
 		logger.info("done adding relics!");
 	}
