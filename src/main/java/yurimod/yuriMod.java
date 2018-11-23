@@ -151,6 +151,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_EXPLOIT_STRIKE = "cards/ExploitStrike.png";
     public static final String yuri_RHAPSODY_CURSE = "cards/Rhapsody.png";
     public static final String yuri_TRIPLE_VALUE = "cards/TripleValue.png";
+    public static final String yuri_SKIP = "cards/Skip.png";
 
 
     // Power images
@@ -420,6 +421,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new ExploitStrike());
 		BaseMod.addCard(new RhapsodyCurse());
 		BaseMod.addCard(new TripleValue());
+		BaseMod.addCard(new Skip());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -480,6 +482,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(ExploitStrike.ID);
         UnlockTracker.unlockCard(RhapsodyCurse.ID);
         UnlockTracker.unlockCard(TripleValue.ID);
+        UnlockTracker.unlockCard(Skip.ID);
 
 		logger.info("Cards - added!");
 	}

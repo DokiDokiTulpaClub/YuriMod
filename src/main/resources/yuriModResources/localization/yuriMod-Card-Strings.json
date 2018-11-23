@@ -291,5 +291,9 @@
     "NAME": "Triple Value",
     "DESCRIPTION": "Gain !B! Block twice. NL Deal !D! damage twice. NL Add !M! Shiv to your hand. NL Channel 1 Frost.",
     "UPGRADE_DESCRIPTION": "Gain !B! Block twice. NL Deal !D! damage twice. NL Add !M! Shivs to your hand. NL Channel 1 Frost."
+  },
+  "yuri:Skip": {
+    "NAME": "Skip",
+    "DESCRIPTION": "Draw !M! cards. NL Discard 2 cards."
   }
 }
