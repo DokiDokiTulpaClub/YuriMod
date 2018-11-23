@@ -1,7 +1,8 @@
 v1.1.0
-Added 3 relics
+Added 4 new relics
 Portrait of Markov now applies Glitched pre-battle
 Fixed Temporary HP keyword
+Underped Glitched description
 
 v1.0.1
 Added Changelog

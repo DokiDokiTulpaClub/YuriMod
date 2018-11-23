@@ -33,5 +33,10 @@
     "NAME": "Glass of Wine",
     "FLAVOR": "A poorly drawn glass of wine. Drinking from it will definitely not calm you down.",
     "DESCRIPTIONS": ["At the start of each combat, gain #b3 #yInsanity."]
+  },
+  "yuri:GlitchPowder": {
+    "NAME": "Glitch Powder",
+    "FLAVOR": "UPDATE FLAVOR TEXT",
+    "DESCRIPTIONS": ["Enemies lose triple health from #yGlitched."]
   }
 }
