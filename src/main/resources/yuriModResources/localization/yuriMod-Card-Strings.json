@@ -295,5 +295,9 @@
   "yuri:Skip": {
     "NAME": "Skip",
     "DESCRIPTION": "Draw !M! cards. NL Discard 2 cards."
+  },
+  "yuri:ConsumeGlitch": {
+    "NAME": "Consume Glitch",
+    "DESCRIPTION": "Enemy loses all Glitched. NL Raise your Max HP equal to Glitched removed. NL Exhaust."
   }
 }

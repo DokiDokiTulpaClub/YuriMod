@@ -1,4 +1,6 @@
-Added 2 new cards
+v1.2.0
+Added 3 new cards
+Nerfed Throw book by 1 damage
 
 v1.1.0
 Added 4 new relics

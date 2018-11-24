@@ -59,7 +59,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
   	
   	//This is for the in-game mod settings pannel.
   	private static final String MODNAME = "Yuri";
-    private static final String AUTHOR = "Yuri";
+    private static final String AUTHOR = "DokiDokiTulpaClub";
     private static final String DESCRIPTION = "Adds Yuri into the game.";
     
     // =============== IMPUT TEXTURE LOCATION =================
@@ -152,6 +152,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_RHAPSODY_CURSE = "cards/Rhapsody.png";
     public static final String yuri_TRIPLE_VALUE = "cards/TripleValue.png";
     public static final String yuri_SKIP = "cards/Skip.png";
+    public static final String yuri_CONSUME_GLITCH = "cards/ConsumeGlitch.png";
 
 
     // Power images
@@ -422,6 +423,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new RhapsodyCurse());
 		BaseMod.addCard(new TripleValue());
 		BaseMod.addCard(new Skip());
+		BaseMod.addCard(new ConsumeGlitch());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -483,6 +485,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(RhapsodyCurse.ID);
         UnlockTracker.unlockCard(TripleValue.ID);
         UnlockTracker.unlockCard(Skip.ID);
+        UnlockTracker.unlockCard(ConsumeGlitch.ID);
 
 		logger.info("Cards - added!");
 	}
