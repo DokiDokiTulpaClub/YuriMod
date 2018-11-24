@@ -1,4 +1,9 @@
 Added 2 new cards
+Cleaned up the description of glitch cards
+Nerfed Exploitive Strike, now adds a Glitch to your draw pile
+Renamed thorn remove to defensive analysis
+Fixed card energy orbs
+Cleaned up some code
 
 v1.2.1
 Consume Glitch no longer generates in combat

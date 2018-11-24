@@ -87,7 +87,6 @@ extends CustomCard {
         if (!this.upgraded) {
             this.upgradeName();
             this.upgradeDamage(UPGRADE_PLUS_DMG);
-            this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
     }

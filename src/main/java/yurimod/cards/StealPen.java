@@ -88,7 +88,6 @@ extends CustomCard {
             this.upgradeName();
             this.upgradeMagicNumber(UPGRADE_MAGIC);
             this.upgradeBaseCost(UPGRADE_COST);
-            this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
     }

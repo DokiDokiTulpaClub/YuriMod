@@ -85,7 +85,6 @@ extends CustomCard {
             this.upgradeName();
             this.upgradeBlock(UPGRADE_PLUS_BLOCK);
             this.upgradeMagicNumber(UPGRADE_MAGIC);
-            this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
     }

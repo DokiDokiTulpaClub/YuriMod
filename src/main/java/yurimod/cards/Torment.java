@@ -80,7 +80,6 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.rawDescription = UPGRADE_DESCRIPTION;
             this.upgradeMagicNumber(UPGRADE_MAGIC);
             this.initializeDescription();
         }

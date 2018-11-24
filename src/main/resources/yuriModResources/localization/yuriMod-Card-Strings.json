@@ -1,21 +1,18 @@
 {
     "yuri:yuriStrike": {
         "NAME": "Strike",
-        "DESCRIPTION": "Deal !D! damage.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage."
+        "DESCRIPTION": "Deal !D! damage."
 
 	},
 
 	"yuri:yuriDefend": {
         "NAME": "Defend",
-        "DESCRIPTION": "Gain !B! Block.",
-        "UPGRADE_DESCRIPTION": "Gain !B! Block."
+        "DESCRIPTION": "Gain !B! Block."
 	},
 	
 	"yuri:GhostForm": {
         "NAME": "Ghost Form",
-        "DESCRIPTION": "Gain !M! Intangible. NL Reduce your Max HP by 3.",
-        "UPGRADE_DESCRIPTION": "Gain !M! Intangible. NL Reduce your Max HP by 3."
+        "DESCRIPTION": "Gain !M! Intangible. NL Reduce your Max HP by 3."
 	},
 	
 	"yuri:yuriHeavyStrike": {
@@ -27,8 +24,7 @@
 
     "yuri:HeavierStrike": {
         "NAME": "Heavier Strike",
-        "DESCRIPTION": "Deal !D! damage. NL Insanity affects this card !M! times.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Insanity affects this card !M! times."
+        "DESCRIPTION": "Deal !D! damage. NL Insanity affects this card !M! times."
 
 	},
     "yuri:yuriQuickStrike": {
@@ -47,8 +43,7 @@
 	
 	"yuri:ChibiInvasion": {
         "NAME": "Chibi Invasion",
-        "DESCRIPTION": "Deal !D! damage to ALL enemies X times. NL Lose !M! Insanity.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies X times. NL Lose !M! Insanity."
+        "DESCRIPTION": "Deal !D! damage to ALL enemies X times. NL Lose !M! Insanity."
 
 	},
 
@@ -64,8 +59,7 @@
 	
 	"yuri:Torment": {
         "NAME": "Torment",
-        "DESCRIPTION": "Apply !M! Weak and Vulnerable to ALL enemies.",
-        "UPGRADE_DESCRIPTION": "Apply !M! Weak and Vulnerable to ALL enemies."
+        "DESCRIPTION": "Apply !M! Weak and Vulnerable to ALL enemies."
     },
     "yuri:Stare": {
         "NAME": "Stare",
@@ -79,8 +73,7 @@
 	},
     "yuri:TPose": {
     "NAME": "T-Pose",
-    "DESCRIPTION": "Gain !B! Block.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block."
+    "DESCRIPTION": "Gain !B! Block."
     },
     "yuri:MPose": {
     "NAME": "M-Pose",
@@ -89,13 +82,12 @@
     },
     "yuri:TeaSet": {
     "NAME": "Portable Tea Set",
-    "DESCRIPTION": "Innate. NL Gain [R]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Gain [R] [R]. NL Exhaust."
+    "DESCRIPTION": "Innate. NL Gain [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Gain [E] [E]. NL Exhaust."
     },
     "yuri:Oolong": {
     "NAME": "Oolong Tea",
-    "DESCRIPTION": "Heal !M! hp. NL Draw 1 card. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Heal !M! hp. NL Draw 1 card. NL Exhaust."
+    "DESCRIPTION": "Heal !M! hp. NL Draw 1 card. NL Exhaust."
     },
     "yuri:ThrowingKnives": {
     "NAME": "Throwing Knives",
@@ -103,28 +95,23 @@
     },
     "yuri:MultiDip": {
     "NAME": "Multi Dip",
-    "DESCRIPTION": "Deal !D! damage !M! times.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage !M! times."
+    "DESCRIPTION": "Deal !D! damage !M! times."
     },
     "yuri:StealPen": {
     "NAME": "Steal Pen",
-    "DESCRIPTION": "Gain !M! gold. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Gain !M! gold. NL Exhaust."
+    "DESCRIPTION": "Gain !M! gold. NL Exhaust."
     },
     "yuri:yuriStab": {
     "NAME": "Stab",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Insanity.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Gain !M! Insanity."
+    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Insanity."
     },
     "yuri:WickedSlash": {
     "NAME": "Wicked Slash",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Insanity.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Insanity."
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Insanity."
     },
     "yuri:DebugCard": {
     "NAME": "Debug",
-    "DESCRIPTION": "Gain !B! Block. NL Exhaust a card in your hand.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Exhaust a card in your hand."
+    "DESCRIPTION": "Gain !B! Block. NL Exhaust a card in your hand."
     },
     "yuri:MarkovCurse": {
     "NAME": "Markov Curse",
@@ -132,8 +119,7 @@
     },
     "yuri:SelfHarm": {
     "NAME": "Self Harm",
-    "DESCRIPTION": "Lose 3 HP. NL Gain !M! Insanity.",
-    "UPGRADE_DESCRIPTION": "Lose 3 HP. NL Gain !M! Insanity."
+    "DESCRIPTION": "Lose 3 HP. NL Gain !M! Insanity."
     },
     "yuri:DeepBreathing": {
     "NAME": "Deep Breathing",
@@ -145,28 +131,23 @@
     },
     "yuri:GrowingInsanity": {
     "NAME": "Growing Insanity",
-    "DESCRIPTION": "At the start of your turn, gain 1 Insanity.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, gain 1 Insanity."
+    "DESCRIPTION": "At the start of your turn, gain 1 Insanity."
     },
     "yuri:AntiGrowingInsanity": {
     "NAME": "Anti Growing Insanity",
-    "DESCRIPTION": "At the start of your turn, lose 1 Insanity.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, lose 1 Insanity."
+    "DESCRIPTION": "At the start of your turn, lose 1 Insanity."
     },
     "yuri:ArmBrace": {
     "NAME": "Arm Brace",
-    "DESCRIPTION": "Gain !M! Temporary_HP.",
-    "UPGRADE_DESCRIPTION": "Gain !M! Temporary_HP."
+    "DESCRIPTION": "Gain !M! Temporary_HP."
     },
     "yuri:NerfBat": {
     "NAME": "Nerf Bat",
-    "DESCRIPTION": "Deal !D! damage. NL Enemy Loses !M! Strength.",
-    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Enemy Loses !M! Strength."
+    "DESCRIPTION": "Deal !D! damage. NL Enemy Loses !M! Strength."
     },
     "yuri:Suicide": {
     "NAME": "Commit Suicide",
-    "DESCRIPTION": "Stab yourself 3 times, killing yourself.",
-    "UPGRADE_DESCRIPTION": "Stab yourself 3 times, killing yourself."
+    "DESCRIPTION": "Stab yourself 3 times, killing yourself."
     },
     "yuri:Glitch": {
     "NAME": "Glitch",
@@ -174,28 +155,23 @@
     },
     "yuri:InduceGlitch": {
         "NAME": "Induce Glitch",
-        "DESCRIPTION": "Apply !M! Glitched. NL Exhaust.",
-        "UPGRADE_DESCRIPTION": "Apply !M! Glitched. NL Exhaust."
+        "DESCRIPTION": "Apply !M! Glitched. NL Exhaust."
     },
     "yuri:BrokenCode": {
         "NAME": "Broken Code",
-        "DESCRIPTION": "Apply !M! Glitched to ALL enemies. NL Shuffle 2 Glitches to your draw pile.",
-        "UPGRADE_DESCRIPTION": "Apply !M! Glitched to ALL enemies. NL Shuffle 2 Glitches to your draw pile."
+        "DESCRIPTION": "Apply !M! Glitched to ALL enemies. NL Glitch 2."
     },
     "yuri:NoEscape": {
         "NAME": "No Escape",
-        "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Double this card's damage for this combat.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage to ALL enemies. NL Double this card's damage for this combat."
+        "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Double this card's damage for this combat."
     },
     "yuri:ThornRemove": {
-        "NAME": "Thorn Removal",
-        "DESCRIPTION": "Gain !B! block. NL Remove Thornlike buffs from ALL enemies.",
-        "UPGRADE_DESCRIPTION": "Gain !B! block. NL Remove Thornlike buffs from ALL enemies."
+        "NAME": "Defensive Analysis",
+        "DESCRIPTION": "Gain !B! block. NL Remove Thornlike buffs from ALL enemies."
     },
   "yuri:SturdyUniform": {
         "NAME": "Sturdy Uniform",
-        "DESCRIPTION": "Gain !M! Plated Armor.",
-        "UPGRADE_DESCRIPTION": "Gain !M! Plated Armor."
+        "DESCRIPTION": "Gain !M! Plated Armor."
     },
     "yuri:RelentlessStrikes": {
         "NAME": "Relentless Strikes",
@@ -214,13 +190,11 @@
     },
     "yuri:GlitchedStrike": {
         "NAME": "Glitched Strike",
-        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Glitched. NL Shuffle 1 Glitch into your draw pile.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Glitched. NL Shuffle 1 Glitch into your draw pile."
+        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Glitched. NL Glitch."
     },
   "yuri:RepairCode": {
         "NAME": "Repair Code",
-        "DESCRIPTION": "Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed.",
-        "UPGRADE_DESCRIPTION": "Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed."
+        "DESCRIPTION": "Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed."
     },
     "yuri:DejaVu": {
         "NAME": "Deja Vu",
@@ -229,18 +203,16 @@
     },
     "yuri:RecklessStrike": {
         "NAME": "Reckless Strike",
-        "DESCRIPTION": "Lose !M! HP. NL Deal !D! damage. NL Gain 1 Insanity.",
-        "UPGRADE_DESCRIPTION": "Lose !M! HP. NL Deal !D! damage. NL Gain 1 Insanity."
+        "DESCRIPTION": "Lose !M! HP. NL Deal !D! damage. NL Gain 1 Insanity."
     },
     "yuri:UntestedCode": {
         "NAME": "Untested Code",
-        "DESCRIPTION": "Gain [R]. NL Shuffle 1 Glitch into your draw pile.",
-        "UPGRADE_DESCRIPTION": "Gain [R] [R]. NL Shuffle 1 Glitch into your draw pile."
+        "DESCRIPTION": "Gain [E]. NL Glitch.",
+        "UPGRADE_DESCRIPTION": "Gain [E] [E]. NL Glitch."
     },
     "yuri:ThrowBook": {
         "NAME": "Throw Book",
-        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Exhaust a card in your hand.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Exhaust a card in your hand."
+        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Exhaust a card in your hand."
     },
     "yuri:GlitchRemove": {
         "NAME": "Glitch Remove",
@@ -249,8 +221,7 @@
     },
     "yuri:BookRed": {
         "NAME": "Fantasy Book",
-        "DESCRIPTION": "Gain 2 Metallicize. NL Gain !M! Regen.",
-        "UPGRADE_DESCRIPTION": "Gain 2 Metallicize. NL Gain !M! Regen."
+        "DESCRIPTION": "Gain 2 Metallicize. NL Gain !M! Regen."
     },
   "yuri:BookGreen": {
         "NAME": "Mystery Book",
@@ -280,7 +251,7 @@
     },
   "yuri:ExploitStrike": {
     "NAME": "Exploitive Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Double the enemy's Glitched."
+    "DESCRIPTION": "Deal !D! damage. NL Double the enemy's Glitched. NL Glitch."
   },
   "yuri:RhapsodyCurse": {
     "NAME": "Rhapsody Nightmare",
@@ -306,7 +277,6 @@
   },
   "yuri:CorruptHitbox": {
     "NAME": "Corrupted Hitbox",
-    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Shuffle !M! Glitches into your draw pile.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Shuffle !M! Glitch into your draw pile."
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Glitch !M!."
   }
 }

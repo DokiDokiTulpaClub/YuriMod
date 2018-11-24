@@ -73,8 +73,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBlock(UPGRADE_PLUS_BLOCK); 
-            this.rawDescription = UPGRADE_DESCRIPTION;
+            this.upgradeBlock(UPGRADE_PLUS_BLOCK);
             this.initializeDescription();
         }
     }
