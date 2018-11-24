@@ -1,4 +1,6 @@
+v1.2.1
 Consume Glitch no longer generates in combat
+Consume Glitch is now capped at 20 Max HP
 Changed the code of Portrait of Markov, it's now even more evil
 
 v1.2.0

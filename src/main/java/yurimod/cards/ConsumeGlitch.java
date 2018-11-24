@@ -65,6 +65,9 @@ extends CustomCard {
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		if (m.hasPower("GlitchedPower")) {
 			int insane = (m.getPower("GlitchedPower").amount);
+			if (insane > 20){
+				insane = 20;
+			}
 			AbstractDungeon.actionManager
 					.addToBottom(new com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction(m, p, "GlitchedPower"));
 			AbstractDungeon.player.increaseMaxHp(insane, true);

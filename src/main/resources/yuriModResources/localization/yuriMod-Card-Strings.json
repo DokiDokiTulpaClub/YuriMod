@@ -298,6 +298,6 @@
   },
   "yuri:ConsumeGlitch": {
     "NAME": "Consume Glitch",
-    "DESCRIPTION": "Enemy loses all Glitched. NL Raise your Max HP equal to Glitched removed. NL Exhaust."
+    "DESCRIPTION": "Enemy loses all Glitched. NL Raise your Max HP equal to Glitched removed, up to 20. NL Exhaust."
   }
 }
