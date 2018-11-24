@@ -1,3 +1,6 @@
+Consume Glitch no longer generates in combat
+Changed the code of Portrait of Markov, it's now even more evil
+
 v1.2.0
 Added 3 new cards
 Nerfed Throw book by 1 damage

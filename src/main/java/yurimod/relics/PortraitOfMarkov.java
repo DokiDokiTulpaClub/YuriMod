@@ -1,6 +1,7 @@
 package yurimod.relics;
 
 import com.badlogic.gdx.graphics.Texture;
+import com.evacipated.cardcrawl.mod.stslib.relics.OnRemoveCardFromMasterDeckRelic;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.RelicAboveCreatureAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -16,7 +17,7 @@ import yurimod.cards.MarkovCurse;
 import yurimod.powers.GlitchedPower;
 import yurimod.yuriMod;
 
-public class PortraitOfMarkov extends CustomRelic {
+public class PortraitOfMarkov extends CustomRelic implements OnRemoveCardFromMasterDeckRelic {
     // ID, images, stats.
     public static final String ID = yurimod.yuriMod.makeID("PortraitOfMarkov");
     public static final String IMG = yuriMod.makePath(yuriMod.yuri_MARKOV);
@@ -47,15 +48,8 @@ public class PortraitOfMarkov extends CustomRelic {
 
     //
     @Override
-    public void onMasterDeckChange() {
-    boolean curseless = true;
-	for(AbstractCard c :AbstractDungeon.player.masterDeck.group) {
+    public     void onRemoveCardFromMasterDeck(AbstractCard c) {
         if (c.cardID.equals(MarkovCurse.ID)) {
-            curseless = false;
-            break;
-        }
-    }
-            if (curseless) {
                 if (AbstractDungeon.player.hasRelic("Omamori") && AbstractDungeon.player.getRelic("Omamori").counter != 0) {
                     ((Omamori)AbstractDungeon.player.getRelic("Omamori")).use();
                     ((Omamori)AbstractDungeon.player.getRelic("Omamori")).use();

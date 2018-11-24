@@ -57,6 +57,7 @@ extends CustomCard {
 	public ConsumeGlitch() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
 		this.exhaust = true;
+		this.tags.add(CardTags.HEALING);
 	}
 	
 	// Actions the card should do.
