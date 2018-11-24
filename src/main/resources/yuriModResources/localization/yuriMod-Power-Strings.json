@@ -42,5 +42,9 @@
         "yuri:GlitchRemovePower2": {
           "NAME": "Glitch Remove",
           "DESCRIPTIONS": ["At the end of your turn, #yExhaust ALL #yStatus cards. NL Gain #b", " #yBlock whenever you #yExhaust a #yStatus card."]
+        },
+  "yuri:CorruptHitboxPower": {
+          "NAME": "Corrupted Hitbox",
+          "DESCRIPTIONS": ["Whenever you are attacked this turn, apply #b", " #yGlitched."]
         }
 }

@@ -153,6 +153,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_TRIPLE_VALUE = "cards/TripleValue.png";
     public static final String yuri_SKIP = "cards/Skip.png";
     public static final String yuri_CONSUME_GLITCH = "cards/ConsumeGlitch.png";
+    public static final String yuri_UNSTABLE_STRIKE = "cards/UnstableStrike.png";
+    public static final String yuri_HITBOX = "cards/CorruptHitbox.png";
 
 
     // Power images
@@ -167,6 +169,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String DRAGON_POWER = "powers/DragonForm.png";
     public static final String GLITCH_REMOVE = "powers/GlitchRemove.png";
     public static final String GLITCH_REMOVE_2 = "powers/GlitchRemove2.png";
+    public static final String THORN_GLITCH = "powers/ThornGlitch.png";
 
 
     // Relic images  
@@ -424,6 +427,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new TripleValue());
 		BaseMod.addCard(new Skip());
 		BaseMod.addCard(new ConsumeGlitch());
+		BaseMod.addCard(new UnstableStrike());
+		BaseMod.addCard(new CorruptHitbox());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -486,6 +491,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(TripleValue.ID);
         UnlockTracker.unlockCard(Skip.ID);
         UnlockTracker.unlockCard(ConsumeGlitch.ID);
+        UnlockTracker.unlockCard(UnstableStrike.ID);
+        UnlockTracker.unlockCard(CorruptHitbox.ID);
 
 		logger.info("Cards - added!");
 	}

@@ -1,3 +1,5 @@
+Added 2 new cards
+
 v1.2.1
 Consume Glitch no longer generates in combat
 Consume Glitch is now capped at 20 Max HP

@@ -299,5 +299,14 @@
   "yuri:ConsumeGlitch": {
     "NAME": "Consume Glitch",
     "DESCRIPTION": "Enemy loses all Glitched. NL Raise your Max HP equal to Glitched removed, up to 20. NL Exhaust."
+  },
+  "yuri:UnstableStrike": {
+    "NAME": "Unstable Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Glitched. NL Increase this card's cost by 1 this combat."
+  },
+  "yuri:CorruptHitbox": {
+    "NAME": "Corrupted Hitbox",
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Shuffle !M! Glitches into your draw pile.",
+    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Shuffle !M! Glitch into your draw pile."
   }
 }
