@@ -1,5 +1,6 @@
 package yurimod.powers;
 
+import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.localization.PowerStrings;
@@ -39,7 +40,7 @@ public class GlitchedPower extends AbstractPower {
     // Reduce damage the same way as strength.
     @Override
     public float atDamageGive(float damage, DamageInfo.DamageType type) {
-        return type == DamageInfo.DamageType.NORMAL ? damage - (float) this.amount : damage;
+        return type == DamageInfo.DamageType.NORMAL ? damage - (float) (this.amount * 0.5) : damage;
     }
 
     // Increases damage taken.
@@ -62,9 +63,9 @@ public class GlitchedPower extends AbstractPower {
     @Override
     public void updateDescription() {
         if (!this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
-            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + (this.amount * 3) + DESCRIPTIONS[3];
+            this.description = DESCRIPTIONS[0] + (this.amount * 0.5) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + (this.amount * 3) + DESCRIPTIONS[3];
         } else {
-            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[3];
+            this.description = DESCRIPTIONS[0] + (this.amount * 0.5) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[3];
         }
     }
 }

@@ -221,7 +221,7 @@
     },
     "yuri:BookRed": {
         "NAME": "Fantasy Book",
-        "DESCRIPTION": "Gain 2 Metallicize. NL Gain !M! Regen."
+        "DESCRIPTION": "Gain !M! Metallicize. NL Gain 2 Regen."
     },
   "yuri:BookGreen": {
         "NAME": "Mystery Book",
@@ -230,8 +230,8 @@
     },
   "yuri:BookBlue": {
         "NAME": "Sci-fi Book",
-        "DESCRIPTION": "Gain 2 Orb slots, up to 6. NL Channel 1 Lightning. NL Channel 1 Frost.",
-        "UPGRADE_DESCRIPTION": "Gain 1 Focus. NL Gain 2 Orb slots, up to 6. NL Channel 1 Lightning. NL Channel 1 Frost."
+        "DESCRIPTION": "Gain 1 Orb slot. NL Channel 1 Lightning.",
+        "UPGRADE_DESCRIPTION": "Gain 1 Focus. NL Gain 1 Orb slot. NL Channel 1 Lightning."
     },
     "yuri:CalmingAura": {
         "NAME": "Calming Aura",

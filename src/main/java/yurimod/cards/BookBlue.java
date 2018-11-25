@@ -68,14 +68,8 @@ extends CustomCard {
 			AbstractDungeon.actionManager
 					.addToBottom(new ApplyPowerAction(p, p, new FocusPower(p, 1), 1));
 		}
-		if (p.maxOrbs < 5) {
-			AbstractDungeon.actionManager.addToBottom(new IncreaseMaxOrbAction(2));
-		} else if (p.maxOrbs < 6) {
-			AbstractDungeon.actionManager.addToBottom(new IncreaseMaxOrbAction(1));
-		}
+		AbstractDungeon.actionManager.addToBottom(new IncreaseMaxOrbAction(1));
 		AbstractDungeon.actionManager.addToBottom(new ChannelAction(new Lightning()));
-		AbstractDungeon.actionManager.addToBottom(new ChannelAction(new Frost()));
-
 	}
 	
 	// Which card to return when making a copy of this card.

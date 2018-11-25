@@ -65,9 +65,9 @@ extends CustomCard {
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		AbstractDungeon.actionManager
-				.addToBottom(new ApplyPowerAction(p, p, new MetallicizePower(p, 2), 2));
+				.addToBottom(new ApplyPowerAction(p, p, new MetallicizePower(p, this.magicNumber), this.magicNumber));
 		AbstractDungeon.actionManager
-				.addToBottom(new ApplyPowerAction(p, p, new RegenPower(p, this.magicNumber), this.magicNumber));
+				.addToBottom(new ApplyPowerAction(p, p, new RegenPower(p, 2), 2));
 	}
 	
 	// Which card to return when making a copy of this card.

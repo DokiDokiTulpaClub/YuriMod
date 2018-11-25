@@ -1,7 +1,12 @@
+v1.3.0
 Added 2 new cards
 Cleaned up the description of glitch cards
 Nerfed Exploitive Strike, now adds a Glitch to your draw pile
-Renamed thorn remove to defensive analysis
+Nerfed Sci-fi book, no longer gives frost, but max orbs increased to 10
+Nerfed Fantasy book, upgrade increases Metallicize instead of Regen
+Halved damage reduction of Glitched
+Buffed no escape, +50% base damage
+Renamed thorn remove to defensive analysis (reina)
 Fixed card energy orbs
 Cleaned up some code
 
