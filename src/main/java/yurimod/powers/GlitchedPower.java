@@ -40,7 +40,11 @@ public class GlitchedPower extends AbstractPower {
     // Reduce damage the same way as strength.
     @Override
     public float atDamageGive(float damage, DamageInfo.DamageType type) {
-        return type == DamageInfo.DamageType.NORMAL ? damage - (float) (this.amount * 0.5) : damage;
+        if (!owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
+            return type == DamageInfo.DamageType.NORMAL ? damage - (float) this.amount : damage;
+        } else {
+            return type == DamageInfo.DamageType.NORMAL ? damage - (float) (this.amount * 0.5) : damage;
+        }
     }
 
     // Increases damage taken.
@@ -51,21 +55,20 @@ public class GlitchedPower extends AbstractPower {
 
     // Hp loss at turn end
     @Override
-    public void atEndOfTurn(final boolean isPlayer) {
-        if (!this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:GlitchPowder"))
-            AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(this.owner, this.owner, this.amount * 3));
-        else {
+    public void atStartOfTurn() {
             AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(this.owner, this.owner, this.amount));
         }
-    }
+
 
     // Update the description when you apply this power. (i.e. add or remove an "s" in keyword(s))
     @Override
     public void updateDescription() {
-        if (!this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
-            this.description = DESCRIPTIONS[0] + (this.amount * 0.5) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + (this.amount * 3) + DESCRIPTIONS[3];
+        if (owner.isPlayer) {
+            this.description = DESCRIPTIONS[0] + (MathUtils.ceil((float)this.amount / 2)) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[3] + this.amount + DESCRIPTIONS[4];
+        } else if (AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
+            this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[4];
         } else {
-            this.description = DESCRIPTIONS[0] + (this.amount * 0.5) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[3];
+            this.description = DESCRIPTIONS[0] + (MathUtils.ceil((float)this.amount / 2)) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[4];
         }
     }
 }

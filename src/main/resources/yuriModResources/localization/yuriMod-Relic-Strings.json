@@ -37,6 +37,6 @@
   "yuri:GlitchPowder": {
     "NAME": "Glitch Powder",
     "FLAVOR": "UPDATE FLAVOR TEXT",
-    "DESCRIPTIONS": ["Enemies lose triple health from #yGlitched."]
+    "DESCRIPTIONS": ["Damage reduction for #yGlitched is twice as effective on enemies."]
   }
 }

@@ -13,7 +13,7 @@
 },
         "yuri:GlitchedPower": {
         "NAME": "Glitched",
-        "DESCRIPTIONS": ["Reduces attack damage by #b", " NL Increases attack damage taken by #b", " NL At the end of it's turn, loses #b", " HP."]
+        "DESCRIPTIONS": ["Reduces attack damage by #b", " NL Increases attack damage taken by #b", " NL At the start of it's turn, loses #b", " NL At the start of your turn, lose #b", " HP."]
 },
         "yuri:NextTurnInsanityPower": {
         "NAME": "Next Turn Insanity",

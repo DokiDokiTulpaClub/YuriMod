@@ -1,3 +1,7 @@
+Updated how power icons load
+Reworked Glitch Powder, now doubles damage reduction
+Glitched now damages at the start of the turn
+
 v1.3.0
 Added 2 new cards
 Cleaned up the description of glitch cards
