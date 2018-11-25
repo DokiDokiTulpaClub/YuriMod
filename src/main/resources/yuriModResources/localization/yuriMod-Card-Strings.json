@@ -278,5 +278,9 @@
   "yuri:CorruptHitbox": {
     "NAME": "Corrupted Hitbox",
     "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Glitch !M!."
+  },
+  "yuri:Parry": {
+    "NAME": "Parry",
+    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage twice."
   }
 }

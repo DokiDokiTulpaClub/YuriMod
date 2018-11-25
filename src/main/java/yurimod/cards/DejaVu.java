@@ -64,6 +64,13 @@ extends CustomCard {
 			AbstractDungeon.actionManager.addToBottom(new DiscardPileToHandAction(1));
 		}
 	}
+
+	@Override
+    public void triggerOnEndOfTurnForPlayingCard() {
+		if (this.upgraded) {
+			this.retain = true;
+		}
+	}
 	
 	// Which card to return when making a copy of this card.
     @Override

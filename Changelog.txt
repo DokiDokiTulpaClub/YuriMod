@@ -1,3 +1,5 @@
+Added 1 new card
+Fixed Deja Vu not retaining
 Updated how power icons load
 Reworked Glitch Powder, now doubles damage reduction
 Glitched now damages at the start of the turn
