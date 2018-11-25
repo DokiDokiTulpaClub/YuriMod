@@ -3,6 +3,7 @@ package yurimod.powers;
 import com.badlogic.gdx.math.MathUtils;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.core.*;
@@ -20,7 +21,6 @@ public class GlitchedPower extends AbstractPower {
     private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
     public static final String NAME = powerStrings.NAME;
     public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
-    public static final String IMG = yuriMod.makePath(yuriMod.GLITCHED);
 
     public GlitchedPower(final AbstractCreature owner, final AbstractCreature source, final int amount) {
         this.name = NAME;
@@ -30,7 +30,7 @@ public class GlitchedPower extends AbstractPower {
         this.updateDescription();
         this.type = PowerType.DEBUFF;
         this.isTurnBased = false;
-        this.img = new Texture(IMG);
+        this.img = ImageMaster.loadImage("yuriModResources/images/powers/Glitch.png");
         this.source = source;
         this.canGoNegative = false;
 

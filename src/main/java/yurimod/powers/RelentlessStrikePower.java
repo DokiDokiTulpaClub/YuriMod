@@ -1,6 +1,7 @@
 package yurimod.powers;
 
 import com.megacrit.cardcrawl.actions.common.DrawCardAction;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
 import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
@@ -23,7 +24,6 @@ public class RelentlessStrikePower extends AbstractPower {
 	private static final PowerStrings powerStrings = CardCrawlGame.languagePack.getPowerStrings(POWER_ID);
 	public static final String NAME = powerStrings.NAME;
 	public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
-	public static final String IMG = yuriMod.makePath(yuriMod.RELENTLESS_STRIKE_POWER);
 
     public RelentlessStrikePower(final AbstractCreature owner, final int amount) {
         this.name = NAME;
@@ -33,7 +33,7 @@ public class RelentlessStrikePower extends AbstractPower {
         this.updateDescription();
         this.type = PowerType.BUFF;
         this.isTurnBased = false;
-        this.img = new Texture(IMG);
+        this.img = ImageMaster.loadImage("yuriModResources/images/powers/placeholder_power.png");
 
         
     }

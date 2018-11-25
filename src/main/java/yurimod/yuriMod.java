@@ -8,6 +8,7 @@ import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
+import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.CardStrings;
 import com.megacrit.cardcrawl.localization.EventStrings;
 import com.megacrit.cardcrawl.localization.PowerStrings;
@@ -152,17 +153,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 
     // Power images
     public static final String COMMON_POWER = "powers/placeholder_power.png";
-    public static final String INSANITY = "powers/Insanity.png";
-    public static final String NT_INSANITY = "powers/InsanityRight.png";
-    public static final String GROW_INSANITY = "powers/InsanityUp.png";
-    public static final String ANTI_GROW_INSANITY = "powers/InsanityDown.png";
     public static final String RARE_POWER = "powers/placeholder_power.png";
-    public static final String GLITCHED = "powers/Glitch.png";
-    public static final String RELENTLESS_STRIKE_POWER = "powers/placeholder_power.png";
-    public static final String DRAGON_POWER = "powers/DragonForm.png";
-    public static final String GLITCH_REMOVE = "powers/GlitchRemove.png";
-    public static final String GLITCH_REMOVE_2 = "powers/GlitchRemove2.png";
-    public static final String THORN_GLITCH = "powers/ThornGlitch.png";
 
 
     // Relic images  
