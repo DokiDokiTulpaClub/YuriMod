@@ -12,6 +12,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import basemod.abstracts.CustomCard;
 
+import yurimod.actions.ThrowingKnivesAction;
 import yurimod.yuriMod;
 import yurimod.patches.AbstractCardEnum;
 
@@ -63,7 +64,7 @@ extends CustomCard {
 	
 	@Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-        AbstractDungeon.actionManager.addToBottom(new SwordBoomerangAction(AbstractDungeon.getMonsters().getRandomMonster(true), new DamageInfo(p, this.baseDamage), this.magicNumber));
+        AbstractDungeon.actionManager.addToBottom(new ThrowingKnivesAction(AbstractDungeon.getMonsters().getRandomMonster(true), new DamageInfo(p, this.baseDamage), this.magicNumber));
     }
 
 	// Which card to return when making a copy of this card.

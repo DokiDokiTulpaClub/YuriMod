@@ -282,5 +282,9 @@
   "yuri:Parry": {
     "NAME": "Parry",
     "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage twice."
+  },
+  "yuri:Spin": {
+    "NAME": "Spin",
+    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add a Dazed on top of your draw pile."
   }
 }
