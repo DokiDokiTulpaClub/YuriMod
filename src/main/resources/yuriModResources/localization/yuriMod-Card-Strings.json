@@ -216,8 +216,8 @@
     },
     "yuri:GlitchRemove": {
         "NAME": "Glitch Remove",
-        "DESCRIPTION": "At the end of your turn, Exhaust ALL Glitches. NL Gain 3 block whenever you Exhaust a Glitch.",
-        "UPGRADE_DESCRIPTION": "At the end of your turn, Exhaust ALL Status cards. NL Gain 3 block whenever you Exhaust a Status card."
+        "DESCRIPTION": "At the end of your turn, Exhaust ALL Glitches. NL Gain 3 Block whenever you Exhaust a Glitch.",
+        "UPGRADE_DESCRIPTION": "At the end of your turn, Exhaust ALL Status cards. NL Gain 3 Block whenever you Exhaust a Status card."
     },
     "yuri:BookRed": {
         "NAME": "Fantasy Book",
@@ -286,5 +286,19 @@
   "yuri:Spin": {
     "NAME": "Spin",
     "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add a Dazed on top of your draw pile."
+  },
+  "yuri:DuplicateCode": {
+    "NAME": "Duplicate Code",
+    "DESCRIPTION": "This turn, your next card is played twice. NL Glitch.",
+    "UPGRADE_DESCRIPTION": "This turn, your next card is played twice."
+  },
+  "yuri:GreenTea": {
+    "NAME": "Green Tea",
+    "DESCRIPTION": "Heal !M! hp. NL Exhaust."
+  },
+  "yuri:BlackTea": {
+    "NAME": "Black Tea",
+    "DESCRIPTION": "Next turn, gain [E] [E] and draw 2 additional cards. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Next turn, gain [E] [E] [E] and draw 2 additional cards. NL Exhaust."
   }
 }

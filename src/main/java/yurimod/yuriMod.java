@@ -151,6 +151,9 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_HITBOX = "cards/CorruptHitbox.png";
     public static final String yuri_PARRY = "cards/Parry.png";
     public static final String yuri_SPIN = "cards/Spin.png";
+    public static final String yuri_DOUBLE_CODE = "cards/DoubleCode.png";
+    public static final String yuri_GREEN_TEA = "cards/GreenTea.png";
+    public static final String yuri_BLACK_TEA = "cards/BlackTea.png";
 
 
     // Power images
@@ -417,6 +420,9 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new CorruptHitbox());
 		BaseMod.addCard(new Parry());
 		BaseMod.addCard(new Spin());
+		BaseMod.addCard(new DuplicateCode());
+		BaseMod.addCard(new GreenTea());
+		BaseMod.addCard(new BlackTea());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -483,6 +489,9 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(CorruptHitbox.ID);
         UnlockTracker.unlockCard(Parry.ID);
         UnlockTracker.unlockCard(Spin.ID);
+        UnlockTracker.unlockCard(DuplicateCode.ID);
+        UnlockTracker.unlockCard(GreenTea.ID);
+        UnlockTracker.unlockCard(BlackTea.ID);
 
 		logger.info("Cards - added!");
 	}

@@ -46,5 +46,9 @@
   "yuri:CorruptHitboxPower": {
           "NAME": "Corrupted Hitbox",
           "DESCRIPTIONS": ["Whenever you are attacked this turn, apply #b", " #yGlitched."]
+        },
+  "yuri:DoubleCodePower": {
+          "NAME": "Duplicated Code",
+          "DESCRIPTIONS": ["Your next card is played twice this turn.", "Your next #b", " cards are played twice this turn."]
         }
 }
