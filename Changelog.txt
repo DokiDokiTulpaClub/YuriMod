@@ -1,4 +1,9 @@
+v1.4.0
 Added 3 new cards
+Buffed Distill Insanity, now buffs for every 2 insanity, and upgrades to cost 1
+Glitches are now added on top of your draw pile
+Slightly reduced damage on many cards
+Greatly nerfed Unstable Strike
 
 v1.3.1
 Added 2 new cards

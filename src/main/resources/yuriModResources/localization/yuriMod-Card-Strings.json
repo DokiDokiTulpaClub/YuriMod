@@ -243,7 +243,7 @@
     },
     "yuri:DistillInsanity": {
         "NAME": "Distill Insanity",
-        "DESCRIPTION": "Lose all Insanity. NL Gain 1 Strength, Dexterity and Plated Armor for every !M! Insanity lost."
+        "DESCRIPTION": "Lose all Insanity. NL Gain 1 Strength, Dexterity and Plated Armor for every 2 Insanity lost."
     },
   "yuri:DistillInsanityCorrupt": {
         "NAME": "Distill Strength",

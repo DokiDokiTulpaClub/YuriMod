@@ -44,15 +44,12 @@ extends CustomCard {
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
 	private static final int COST = 0;
-	private static final int MAGIC = 1;
-	private static final int UPGRADE_MAGIC = 1;
 
 	
 // /STAT DECLARATION/
 	
 	public TeaSet() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
-		this.baseMagicNumber = magicNumber = MAGIC;
 		this.exhaust = true;
         this.isInnate = true;
 	}
@@ -60,8 +57,13 @@ extends CustomCard {
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		AbstractDungeon.actionManager
-				.addToBottom(new com.megacrit.cardcrawl.actions.common.GainEnergyAction(this.magicNumber));
+		if(this.upgraded) {
+			AbstractDungeon.actionManager
+					.addToBottom(new com.megacrit.cardcrawl.actions.common.GainEnergyAction(2));
+		} else {
+            AbstractDungeon.actionManager
+                    .addToBottom(new com.megacrit.cardcrawl.actions.common.GainEnergyAction(1));
+		}
 	}
 	
 	// Which card to return when making a copy of this card.
@@ -75,7 +77,6 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(UPGRADE_MAGIC);
             this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }

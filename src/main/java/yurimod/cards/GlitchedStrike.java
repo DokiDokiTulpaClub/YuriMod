@@ -49,7 +49,7 @@ extends CustomCard {
 
 	private static final int COST = 1;
 	private static final int DAMAGE = 9;
-	private static final int UPGRADE_PLUS_DMG = 4;
+	private static final int UPGRADE_PLUS_DMG = 3;
 	private static final int MAGIC = 1;
 	private static final int UPGRADE_MAGIC = 1;
 
@@ -68,7 +68,7 @@ extends CustomCard {
         AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.DamageAction(m,
                 new DamageInfo(p, this.damage, this.damageTypeForTurn), AbstractGameAction.AttackEffect.SLASH_DIAGONAL));
         AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new GlitchedPower(m, p, this.magicNumber), this.magicNumber));
-        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 1, true, true));
+        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 1, false, true));
     }
 
 	// Which card to return when making a copy of this card.

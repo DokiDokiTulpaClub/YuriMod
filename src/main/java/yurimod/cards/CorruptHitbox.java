@@ -67,7 +67,7 @@ extends CustomCard {
 		AbstractDungeon.actionManager
 				.addToBottom(new com.megacrit.cardcrawl.actions.common.GainBlockAction(p, p, this.block));
 		AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new CorruptHitboxPower(p, 1), 1));
-        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), this.magicNumber, true, true));
+        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), this.magicNumber, false, true));
         }
 	
 	// Which card to return when making a copy of this card.

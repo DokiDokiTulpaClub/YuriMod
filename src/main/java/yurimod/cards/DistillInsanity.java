@@ -52,22 +52,20 @@ extends CustomCard {
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
 	private static final int COST = 2;
-	private static final int MAGIC = 3;
-	private static final int UPGRADE_MAGIC = -1;
+	private static final int UPGRADE_COST = 1;
 
 	
 // /STAT DECLARATION/
 	
 	public DistillInsanity() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
-		this.baseMagicNumber = this.magicNumber = MAGIC;
 	}
 	
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		if (p.hasPower("InsanityPower") && this.magicNumber > 0) {
-			int insane = MathUtils.floor((float)AbstractDungeon.player.getPower("InsanityPower").amount / this.magicNumber);
+		if (p.hasPower("InsanityPower")) {
+			int insane = MathUtils.floor((float)AbstractDungeon.player.getPower("InsanityPower").amount / 2);
 			AbstractDungeon.actionManager
 					.addToBottom(new com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction(p, p, "InsanityPower"));
 			if (insane > 0) {
@@ -93,7 +91,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(UPGRADE_MAGIC);
+            this.upgradeBaseCost(UPGRADE_COST);
             this.initializeDescription();
         }
     }

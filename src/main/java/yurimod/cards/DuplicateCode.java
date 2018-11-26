@@ -62,7 +62,7 @@ extends CustomCard {
 		AbstractDungeon.actionManager
 				.addToBottom(new ApplyPowerAction(p, p, new DoubleCodePower(p, 1), 1));
 		if(!this.upgraded){
-            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 1, true, true));
+            AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 1, false, true));
         }
 	}
 	

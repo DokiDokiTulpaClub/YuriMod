@@ -67,7 +67,7 @@ extends CustomCard {
     	for (final AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
 			AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new GlitchedPower(mo, p, this.magicNumber), this.magicNumber));
 		}
-        	AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 2, true, true));
+        	AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 2, false, true));
     }
 
     
