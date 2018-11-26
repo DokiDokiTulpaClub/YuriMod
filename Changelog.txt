@@ -1,3 +1,5 @@
+Added 1 new card
+
 v1.4.0
 Added 3 new cards
 Buffed Distill Insanity, now buffs for every 2 insanity, and upgrades to cost 1

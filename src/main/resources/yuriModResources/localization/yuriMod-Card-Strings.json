@@ -300,5 +300,9 @@
     "NAME": "Black Tea",
     "DESCRIPTION": "Next turn, gain [E] [E] and draw 2 additional cards. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Next turn, gain [E] [E] [E] and draw 2 additional cards. NL Exhaust."
+  },
+  "yuri:Stalk": {
+    "NAME": "Stalk",
+    "DESCRIPTION": "Gain !B! Block. NL Apply 1 Vulnerable. NL Gain !M! Insanity."
   }
 }
