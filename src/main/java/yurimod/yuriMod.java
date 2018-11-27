@@ -144,7 +144,6 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_DISTILL_CORRUPT = "cards/DistillCorrupt.png";
     public static final String yuri_EXPLOIT_STRIKE = "cards/ExploitStrike.png";
     public static final String yuri_RHAPSODY_CURSE = "cards/Rhapsody.png";
-    public static final String yuri_TRIPLE_VALUE = "cards/TripleValue.png";
     public static final String yuri_SKIP = "cards/Skip.png";
     public static final String yuri_CONSUME_GLITCH = "cards/ConsumeGlitch.png";
     public static final String yuri_UNSTABLE_STRIKE = "cards/UnstableStrike.png";
@@ -155,6 +154,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_GREEN_TEA = "cards/GreenTea.png";
     public static final String yuri_BLACK_TEA = "cards/BlackTea.png";
     public static final String yuri_STALK = "cards/Stalk.png";
+    public static final String yuri_DISABLE_STRIKE = "cards/DisableStrike.png";
 
 
     // Power images
@@ -414,7 +414,6 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new DistillInsanityCorrupt());
 		BaseMod.addCard(new ExploitStrike());
 		BaseMod.addCard(new RhapsodyCurse());
-		BaseMod.addCard(new TripleValue());
 		BaseMod.addCard(new Skip());
 		BaseMod.addCard(new ConsumeGlitch());
 		BaseMod.addCard(new UnstableStrike());
@@ -425,6 +424,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new GreenTea());
 		BaseMod.addCard(new BlackTea());
 		BaseMod.addCard(new Stalk());
+		BaseMod.addCard(new DisableStrike());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -484,7 +484,6 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(DistillInsanity.ID);
         UnlockTracker.unlockCard(ExploitStrike.ID);
         UnlockTracker.unlockCard(RhapsodyCurse.ID);
-        UnlockTracker.unlockCard(TripleValue.ID);
         UnlockTracker.unlockCard(Skip.ID);
         UnlockTracker.unlockCard(ConsumeGlitch.ID);
         UnlockTracker.unlockCard(UnstableStrike.ID);
@@ -495,6 +494,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(GreenTea.ID);
         UnlockTracker.unlockCard(BlackTea.ID);
         UnlockTracker.unlockCard(Stalk.ID);
+        UnlockTracker.unlockCard(DisableStrike.ID);
 
 		logger.info("Cards - added!");
 	}

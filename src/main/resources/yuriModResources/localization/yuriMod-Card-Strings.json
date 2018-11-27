@@ -258,11 +258,6 @@
     "DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Exhaust. NL Hello Rhapsody."
   },
-  "yuri:TripleValue": {
-    "NAME": "Triple Value",
-    "DESCRIPTION": "Gain !B! Block twice. NL Deal !D! damage twice. NL Add !M! Shiv to your hand. NL Channel 1 Frost.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block twice. NL Deal !D! damage twice. NL Add !M! Shivs to your hand. NL Channel 1 Frost."
-  },
   "yuri:Skip": {
     "NAME": "Skip",
     "DESCRIPTION": "Draw !M! cards. NL Discard 2 cards."
@@ -304,5 +299,9 @@
   "yuri:Stalk": {
     "NAME": "Stalk",
     "DESCRIPTION": "Gain !B! Block. NL Apply 1 Vulnerable. NL Gain !M! Insanity."
+  },
+  "yuri:DisableStrike": {
+    "NAME": "Disabling Strike",
+    "DESCRIPTION": "Deal !D! damage. NL Enemy loses that much Strength this turn."
   }
 }

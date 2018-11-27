@@ -1,4 +1,5 @@
-Added 1 new card
+Added 2 new cards
+Removed Triple Value
 
 v1.4.0
 Added 3 new cards
