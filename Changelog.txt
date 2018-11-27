@@ -1,5 +1,6 @@
 v1.4.1
 Added 3 new cards
+Added new character button (Reina)
 Reduced cost and damage of no escape
 Removed Triple Value
 
