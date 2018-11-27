@@ -1,3 +1,4 @@
+v1.4.2
 Added new character button (Reina)
 Fixed softlock with Jumpscare + Necromantic totem
 Fixed exploit with Jumpscare + Scarier Mask
