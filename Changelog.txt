@@ -1,4 +1,6 @@
-Added 2 new cards
+v1.4.1
+Added 3 new cards
+Reduced cost and damage of no escape
 Removed Triple Value
 
 v1.4.0

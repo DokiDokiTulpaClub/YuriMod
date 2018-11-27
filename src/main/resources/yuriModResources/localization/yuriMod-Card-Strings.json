@@ -303,5 +303,9 @@
   "yuri:DisableStrike": {
     "NAME": "Disabling Strike",
     "DESCRIPTION": "Deal !D! damage. NL Enemy loses that much Strength this turn."
+  },
+  "yuri:JumpScare": {
+    "NAME": "Jumpscare",
+    "DESCRIPTION": "Scare away an enemy. NL Can't scare away the last non-minion enemy. NL Exhaust."
   }
 }

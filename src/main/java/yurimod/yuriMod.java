@@ -155,6 +155,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_BLACK_TEA = "cards/BlackTea.png";
     public static final String yuri_STALK = "cards/Stalk.png";
     public static final String yuri_DISABLE_STRIKE = "cards/DisableStrike.png";
+    public static final String yuri_SCARE = "cards/JumpScare.png";
 
 
     // Power images
@@ -425,6 +426,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new BlackTea());
 		BaseMod.addCard(new Stalk());
 		BaseMod.addCard(new DisableStrike());
+		BaseMod.addCard(new JumpScare());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -495,6 +497,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(BlackTea.ID);
         UnlockTracker.unlockCard(Stalk.ID);
         UnlockTracker.unlockCard(DisableStrike.ID);
+        UnlockTracker.unlockCard(JumpScare.ID);
 
 		logger.info("Cards - added!");
 	}
