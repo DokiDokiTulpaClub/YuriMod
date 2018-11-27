@@ -58,10 +58,10 @@ extends CustomCard {
 	
     @Override
     public void use(AbstractPlayer p, AbstractMonster m) {
-		if (AbstractDungeon.getCurrRoom().monsters.monsters.size() > 1) {
+		if (AbstractDungeon.getCurrRoom().monsters.monsters.size() > 1 && !m.id.equals("hubris:NecromanticTotem")) {
 			int nomin = 0;
 			for (final AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
-				if (!mo.hasPower("Minion")) {
+				if (!mo.hasPower("Minion") && !mo.isEscaping) {
 				nomin++;
 				}
 			}
