@@ -167,7 +167,7 @@
     },
     "yuri:ThornRemove": {
         "NAME": "Defensive Analysis",
-        "DESCRIPTION": "Gain !B! block. NL Remove Thornlike buffs from ALL enemies."
+        "DESCRIPTION": "Gain !B! Block. NL Remove Thornlike buffs from ALL enemies."
     },
   "yuri:SturdyUniform": {
         "NAME": "Sturdy Uniform",
@@ -307,5 +307,15 @@
   "yuri:JumpScare": {
     "NAME": "Jumpscare",
     "DESCRIPTION": "Scare away an enemy. NL Can't scare away the last non-minion enemy. NL Exhaust."
+  },
+  "yuri:ReloadGame": {
+    "NAME": "Load Save File",
+    "DESCRIPTION": "Reset your Insanity to the start of combat value.",
+    "UPGRADE_DESCRIPTION": "Reset your Insanity to the start of combat value. NL Draw 1 card."
+  },
+  "yuri:ReloadGameCorrupt": {
+    "NAME": "Corrupted Save File",
+    "DESCRIPTION": "If your Insanity is below 5, set it to 5. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL If your Insanity is below 5, set it to 5. NL Exhaust."
   }
 }

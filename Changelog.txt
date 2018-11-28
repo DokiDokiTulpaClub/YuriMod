@@ -1,3 +1,6 @@
+Added 2 new cards
+Added new Throw Book art (Reina)
+
 v1.4.2
 Added new character button (Reina)
 Fixed softlock with Jumpscare + Necromantic totem
