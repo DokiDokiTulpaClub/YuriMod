@@ -317,5 +317,13 @@
     "NAME": "Corrupted Save File",
     "DESCRIPTION": "If your Insanity is below 5, set it to 5. NL Exhaust.",
     "UPGRADE_DESCRIPTION": "Innate. NL If your Insanity is below 5, set it to 5. NL Exhaust."
+  },
+  "yuri:MirrorInsanity": {
+    "NAME": "Mirror Insanity",
+    "DESCRIPTION": "If the enemy has Glitched, gain Insanity equal to the enemy's Glitched. NL Otherwise, lose 2 Insanity."
+  },
+  "yuri:MirrorInsanityCorrupt": {
+    "NAME": "Broken Mirror",
+    "DESCRIPTION": "If the enemy has Glitched, gain Insanity equal to the enemy's Glitched. NL Otherwise, Gain 2 Insanity."
   }
 }

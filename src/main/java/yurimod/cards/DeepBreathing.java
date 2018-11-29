@@ -66,10 +66,10 @@ extends CustomCard {
 					.addToBottom(new com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction(p, p, "InsanityPower"));
 			AbstractDungeon.actionManager
 					.addToBottom(new ApplyPowerAction(p, p, new NextTurnInsanityPower(p, p, insane), insane));
-			if (AbstractDungeon.player.hasRelic("yuri:BloodyKnife") && !this.purgeOnUse) {
-				AbstractDungeon.actionManager.addToBottom(new CorruptAction(this, new DeepBreathingCorrupt()));
-				FleetingField.fleeting.set(this, true);
 			}
+		if (AbstractDungeon.player.hasRelic("yuri:BloodyKnife") && !this.purgeOnUse) {
+			AbstractDungeon.actionManager.addToBottom(new CorruptAction(this, new DeepBreathingCorrupt()));
+			FleetingField.fleeting.set(this, true);
 		}
 	}
 	

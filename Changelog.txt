@@ -1,5 +1,8 @@
-Added 2 new cards
+v1.4.3
+Added 4 new cards
 Added new Throw Book art (Reina)
+Seeing Double is now uncommon (was rare)
+Fixed Deep Breathing not corrupting if you don't have Insanity.
 
 v1.4.2
 Added new character button (Reina)
