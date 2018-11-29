@@ -325,5 +325,9 @@
   "yuri:MirrorInsanityCorrupt": {
     "NAME": "Broken Mirror",
     "DESCRIPTION": "If the enemy has Glitched, gain Insanity equal to the enemy's Glitched. NL Otherwise, Gain 2 Insanity."
+  },
+  "yuri:Virus": {
+    "NAME": "Virus",
+    "DESCRIPTION": "Infect an enemy, adding Glitched every turn. NL Spreads to other enemies on death. NL Exhaust."
   }
 }

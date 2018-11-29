@@ -50,5 +50,9 @@
   "yuri:DoubleCodePower": {
           "NAME": "Duplicated Code",
           "DESCRIPTIONS": ["Your next card is played twice this turn.", "Your next #b", " cards are played twice this turn."]
+        },
+  "yuri:VirusPower": {
+          "NAME": "Viral Infection",
+          "DESCRIPTIONS": ["At the end of it's turn, gains #b", " #yGlitched. NL On death, infect all other enemies with this power."]
         }
 }

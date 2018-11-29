@@ -160,6 +160,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_RELOAD_CORRUPT = "cards/ReloadCorrupt.png";
     public static final String yuri_MIRROR = "cards/Mirror.png";
     public static final String yuri_MIRROR_CORRUPT = "cards/MirrorCorrupt.png";
+    public static final String yuri_VIRUS = "cards/Virus.png";
 
 
     // Power images
@@ -435,6 +436,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new ReloadGameCorrupt());
 		BaseMod.addCard(new MirrorInsanity());
 		BaseMod.addCard(new MirrorInsanityCorrupt());
+		BaseMod.addCard(new Virus());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -508,6 +510,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(JumpScare.ID);
         UnlockTracker.unlockCard(ReloadGame.ID);
         UnlockTracker.unlockCard(MirrorInsanity.ID);
+        UnlockTracker.unlockCard(Virus.ID);
 
 		logger.info("Cards - added!");
 	}
