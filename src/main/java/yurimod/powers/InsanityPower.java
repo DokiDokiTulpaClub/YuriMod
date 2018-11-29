@@ -1,10 +1,10 @@
 package yurimod.powers;
 
-import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.badlogic.gdx.graphics.Color;
+import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.HealthBarRenderPower;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
 import com.megacrit.cardcrawl.localization.PowerStrings;
-import com.badlogic.gdx.graphics.Texture;
 import com.megacrit.cardcrawl.core.*;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
 import com.megacrit.cardcrawl.powers.*;
@@ -12,7 +12,7 @@ import com.megacrit.cardcrawl.powers.*;
 import yurimod.yuriMod;
 
 
-public class InsanityPower extends AbstractPower {
+public class InsanityPower extends AbstractPower implements HealthBarRenderPower {
 	public AbstractCreature source;
 	
 	public static final String POWER_ID = yurimod.yuriMod.makeID("InsanityPower");
@@ -21,6 +21,7 @@ public class InsanityPower extends AbstractPower {
 	public static final String[] DESCRIPTIONS = powerStrings.DESCRIPTIONS;
 	private int hpLoss;
 	private int hpLossDes;
+	private int hpLossBar;
 
     public InsanityPower(final AbstractCreature owner, final AbstractCreature source, final int amount) {
         this.name = NAME;
@@ -36,6 +37,28 @@ public class InsanityPower extends AbstractPower {
 
 
     }
+
+    @Override
+    public int getHealthBarAmount() {
+        if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
+            this.hpLossBar = 0;
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
+            this.hpLossBar = this.amount - 1;
+        }
+        else {
+            this.hpLossBar = this.amount;
+        }
+        if (yuriMod.BrutalInsanity) {
+            this.hpLossBar *= 2;
+        }
+        return this.hpLossBar;
+    }
+
+    @Override
+    public Color getColor(){
+        return Color.valueOf("400000");
+    }
+
 
 	// Increase damage the same way as strength.
     @Override

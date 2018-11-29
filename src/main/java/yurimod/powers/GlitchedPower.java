@@ -1,6 +1,8 @@
 package yurimod.powers;
 
+import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.math.MathUtils;
+import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.HealthBarRenderPower;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
@@ -14,7 +16,7 @@ import com.megacrit.cardcrawl.powers.*;
 import yurimod.yuriMod;
 
 
-public class GlitchedPower extends AbstractPower {
+public class GlitchedPower extends AbstractPower implements HealthBarRenderPower {
     public AbstractCreature source;
 
     public static final String POWER_ID = yurimod.yuriMod.makeID("GlitchedPower");
@@ -35,6 +37,16 @@ public class GlitchedPower extends AbstractPower {
         this.canGoNegative = false;
 
 
+    }
+
+    @Override
+    public int getHealthBarAmount() {
+        return this.amount;
+    }
+
+    @Override
+    public Color getColor(){
+        return Color.MAGENTA;
     }
 
     // Reduce damage the same way as strength.
