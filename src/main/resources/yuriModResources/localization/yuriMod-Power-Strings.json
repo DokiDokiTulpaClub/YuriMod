@@ -54,5 +54,9 @@
   "yuri:VirusPower": {
           "NAME": "Viral Infection",
           "DESCRIPTIONS": ["At the end of it's turn, gains #b", " #yGlitched. NL On death, infect all other enemies with this power."]
+        },
+  "yuri:RemoveSafetyPower": {
+          "NAME": "Removed Safety Checks",
+          "DESCRIPTIONS": ["At the start of your turn, #yGlitch and draw #b", "At the start of your turn, #yGlitch #b", " and draw #b", " cards."]
         }
 }

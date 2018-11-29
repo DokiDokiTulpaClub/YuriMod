@@ -1,4 +1,7 @@
+Added 2 new cards
 Added Virus
+Debug buffed, now removes 1 Glitched
+Slightly increased damage of some cards
 
 v1.5.0
 Requires StSLib 1.9.0

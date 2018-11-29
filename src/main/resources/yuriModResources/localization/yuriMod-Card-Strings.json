@@ -111,7 +111,7 @@
     },
     "yuri:DebugCard": {
     "NAME": "Debug",
-    "DESCRIPTION": "Gain !B! Block. NL Exhaust a card in your hand."
+    "DESCRIPTION": "Gain !B! Block. NL Remove 1 Glitched. NL Exhaust a card in your hand."
     },
     "yuri:MarkovCurse": {
     "NAME": "Markov Curse",
@@ -329,5 +329,10 @@
   "yuri:Virus": {
     "NAME": "Virus",
     "DESCRIPTION": "Infect an enemy, adding Glitched every turn. NL Spreads to other enemies on death. NL Exhaust."
+  },
+  "yuri:RemoveSafetyChecks": {
+    "NAME": "Remove Safety Checks",
+    "DESCRIPTION": "At the start of your turn, Glitch and draw 2 additional cards.",
+    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, Glitch and draw 2 additional cards."
   }
 }

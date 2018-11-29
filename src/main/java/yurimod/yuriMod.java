@@ -5,6 +5,7 @@ import com.badlogic.gdx.graphics.Color;
 import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
+import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
@@ -161,6 +162,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_MIRROR = "cards/Mirror.png";
     public static final String yuri_MIRROR_CORRUPT = "cards/MirrorCorrupt.png";
     public static final String yuri_VIRUS = "cards/Virus.png";
+    public static final String yuri_REMOVE_SAFETY = "cards/RemoveSafety.png";
 
 
     // Power images
@@ -437,6 +439,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new MirrorInsanity());
 		BaseMod.addCard(new MirrorInsanityCorrupt());
 		BaseMod.addCard(new Virus());
+		BaseMod.addCard(new RemoveSafetyChecks());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -511,6 +514,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(ReloadGame.ID);
         UnlockTracker.unlockCard(MirrorInsanity.ID);
         UnlockTracker.unlockCard(Virus.ID);
+        UnlockTracker.unlockCard(RemoveSafetyChecks.ID);
 
 		logger.info("Cards - added!");
 	}

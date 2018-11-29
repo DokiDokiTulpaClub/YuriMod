@@ -1,5 +1,6 @@
 package yurimod.cards;
 
+import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -60,6 +61,7 @@ extends CustomCard {
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		AbstractDungeon.actionManager
 				.addToBottom(new com.megacrit.cardcrawl.actions.common.GainBlockAction(p, p, this.block));
+		AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(p, p, "GlitchedPower", 1));
 		AbstractDungeon.actionManager
 				.addToBottom(new com.megacrit.cardcrawl.actions.common.ExhaustAction(p, p, 1, false));
 
