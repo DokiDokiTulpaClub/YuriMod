@@ -133,9 +133,9 @@
     "NAME": "Growing Insanity",
     "DESCRIPTION": "At the start of your turn, gain 1 Insanity."
     },
-    "yuri:AntiGrowingInsanity": {
-    "NAME": "Anti Growing Insanity",
-    "DESCRIPTION": "At the start of your turn, lose 1 Insanity."
+    "yuri:AdaptiveAI": {
+    "NAME": "Adaptive AI",
+    "DESCRIPTION": "Whenever you gain Glitched, draw 1 card."
     },
     "yuri:ArmBrace": {
     "NAME": "Arm Brace",
@@ -272,7 +272,7 @@
   },
   "yuri:CorruptHitbox": {
     "NAME": "Corrupted Hitbox",
-    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Glitch !M!."
+    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Glitch."
   },
   "yuri:Parry": {
     "NAME": "Parry",

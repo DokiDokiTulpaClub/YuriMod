@@ -42,7 +42,7 @@ public class DragonPower extends AbstractPower {
 
     @Override
     public void onApplyPower(AbstractPower power, AbstractCreature target, AbstractCreature source) {
-        if (power.ID.equals("InsanityPower")) {
+        if (power.ID.equals("InsanityPower") && target.isPlayer) {
             this.flash();
             AbstractDungeon.actionManager
                     .addToBottom(new ApplyPowerAction(this.owner, this.owner, new StrengthPower(this.owner, this.amount), this.amount));

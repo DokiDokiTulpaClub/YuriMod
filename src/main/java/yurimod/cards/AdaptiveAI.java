@@ -1,7 +1,7 @@
 package yurimod.cards;
 
+import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.FleetingField;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -11,11 +11,13 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import basemod.abstracts.CustomCard;
 
-import yurimod.powers.CorruptHitboxPower;
+import yurimod.actions.CorruptAction;
+import yurimod.powers.AdaptivePower;
+import yurimod.powers.AntiGrowingInsanityPower;
 import yurimod.yuriMod;
 import yurimod.patches.AbstractCardEnum;
 
-public class CorruptHitbox
+public class AdaptiveAI
 extends CustomCard {
 	
 /*
@@ -28,9 +30,9 @@ extends CustomCard {
 	
 // TEXT DECLARATION 
 	
-	public static final String ID = yurimod.yuriMod.makeID("CorruptHitbox");
+	public static final String ID = yurimod.yuriMod.makeID("AdaptiveAI");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-	public static final String IMG = yuriMod.makePath(yuriMod.yuri_HITBOX);
+	public static final String IMG = yuriMod.makePath(yuriMod.yuri_ADAPTIVE);
 	
 	public static final	String NAME = cardStrings.NAME;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -43,34 +45,30 @@ extends CustomCard {
 	
 	private static final CardRarity RARITY = CardRarity.UNCOMMON;
 	private static final CardTarget TARGET = CardTarget.SELF;
-	private static final CardType TYPE = CardType.SKILL;
+	private static final CardType TYPE = CardType.POWER;
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
-	private static final int COST = 2;
-	private static final int BLOCK = 13;
-	private static final int UPGRADE_PLUS_BLOCK = 5;
+	private static final int COST = 1;
+	private static final int UPGRADE_COST = 0;
 
 	
 // /STAT DECLARATION/
 	
-	public CorruptHitbox() {
+	public AdaptiveAI() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
-		this.baseBlock = BLOCK;
 	}
 	
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		AbstractDungeon.actionManager
-				.addToBottom(new com.megacrit.cardcrawl.actions.common.GainBlockAction(p, p, this.block));
-		AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(p, p, new CorruptHitboxPower(p, 1), 1));
-        AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 1, false, true));
-        }
+				.addToBottom(new ApplyPowerAction(p, p, new AdaptivePower(p, 1), 1));
+	}
 	
 	// Which card to return when making a copy of this card.
     @Override
     public AbstractCard makeCopy() {
-        return new CorruptHitbox();
+        return new AdaptiveAI();
     }
     
     //Upgraded stats.
@@ -78,7 +76,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBlock(UPGRADE_PLUS_BLOCK);
+            this.upgradeBaseCost(UPGRADE_COST);
             this.initializeDescription();
         }
     }

@@ -58,5 +58,9 @@
   "yuri:RemoveSafetyPower": {
           "NAME": "Removed Safety Checks",
           "DESCRIPTIONS": ["At the start of your turn, #yGlitch and draw #b", "At the start of your turn, #yGlitch #b", " and draw #b", " cards."]
-        }
+        },
+  "yuri:AdaptivePower": {
+    "NAME": "Adaptive AI",
+    "DESCRIPTIONS": ["Whenever you gain #yGlitched, draw #b", " card.", " cards."]
+  }
 }

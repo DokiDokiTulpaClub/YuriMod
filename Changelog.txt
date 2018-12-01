@@ -1,7 +1,12 @@
-Added 2 new cards
+v1.5.1
+Added 3 new cards
 Added Virus
+Corrupt hitbox now only adds 1 Glitch unupgraded, in exchange for slightly less block
 Debug buffed, now removes 1 Glitched
+Broken Code is now uncommon (was rare)
 Slightly increased damage of some cards
+Fixed a bug that would never happen
+Removed Anti Growing Insanity
 
 v1.5.0
 Requires StSLib 1.9.0

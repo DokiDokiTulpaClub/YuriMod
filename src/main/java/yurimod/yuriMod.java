@@ -116,7 +116,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_DEEP_BREATH = "cards/Breath.png";
     public static final String yuri_DEEP_BREATH_CORRUPT = "cards/BreathCorrupt.png";
     public static final String yuri_GROW_INSANITY = "cards/Grow.png";
-    public static final String yuri_ANTI_GROW_INSANITY = "cards/GrowI.png";
+    public static final String yuri_ADAPTIVE = "cards/Adaptive.png";
     public static final String yuri_ARMBRACE = "cards/Brace.png";
     public static final String yuri_NERFBAT = "cards/Nerf.png";
     public static final String yuri_SUICIDE = "cards/Suicide.png";
@@ -394,7 +394,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new DeepBreathing());
 		BaseMod.addCard(new DeepBreathingCorrupt());
 		BaseMod.addCard(new GrowingInsanity());
-		BaseMod.addCard(new AntiGrowingInsanity());
+		BaseMod.addCard(new AdaptiveAI());
 		BaseMod.addCard(new ArmBrace());
 		BaseMod.addCard(new NerfBat());
 		BaseMod.addCard(new Glitch());
@@ -473,7 +473,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(SelfHarm.ID);
         UnlockTracker.unlockCard(DeepBreathing.ID);
         UnlockTracker.unlockCard(GrowingInsanity.ID);
-        UnlockTracker.unlockCard(AntiGrowingInsanity.ID);
+        UnlockTracker.unlockCard(AdaptiveAI.ID);
         UnlockTracker.unlockCard(ArmBrace.ID);
         UnlockTracker.unlockCard(NerfBat.ID);
         UnlockTracker.unlockCard(Glitch.ID);
