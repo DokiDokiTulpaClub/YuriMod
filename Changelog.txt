@@ -1,3 +1,6 @@
+v1.5.2
+Fixed a mistake
+
 v1.5.1
 Added 3 new cards
 Added Virus
@@ -15,12 +18,10 @@ Yes, that warrants an update all on it's own
 
 v1.4.3
 Added 4 new cards
-Added new Throw Book art (Reina)
 Seeing Double is now uncommon (was rare)
 Fixed Deep Breathing not corrupting if you don't have Insanity.
 
 v1.4.2
-Added new character button (Reina)
 Fixed softlock with Jumpscare + Necromantic totem
 Fixed exploit with Jumpscare + Scarier Mask
 
@@ -52,7 +53,6 @@ Nerfed Sci-fi book, no longer gives frost, but max orbs increased to 10
 Nerfed Fantasy book, upgrade increases Metallicize instead of Regen
 Halved damage reduction of Glitched
 Buffed no escape, +50% base damage
-Renamed thorn remove to defensive analysis (reina)
 Fixed card energy orbs
 Cleaned up some code
 
