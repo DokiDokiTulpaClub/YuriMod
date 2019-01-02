@@ -255,8 +255,8 @@
   },
   "yuri:RhapsodyCurse": {
     "NAME": "Rhapsody Nightmare",
-    "DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Exhaust. NL Hello Rhapsody."
+    "DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Ethereal.",
+    "UPGRADE_DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Ethereal. NL Hello Rhapsody."
   },
   "yuri:Skip": {
     "NAME": "Skip",

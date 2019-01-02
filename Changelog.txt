@@ -1,3 +1,5 @@
+Fixed Rhapsody Nightmare wording
+
 v1.5.2
 Fixed a mistake
 
