@@ -87,6 +87,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     private static final String SKILL_YURI_RED_PORTRAIT = "1024/bg_skill_yuri_red.png";
     private static final String ENERGY_ORB_YURI_RED_PORTRAIT = "1024/card_yuri_red_orb.png";
 
+
     // Card images
     public static final String yuri_STRIKE = "cards/Attack.png";
     public static final String yuri_DEFEND = "cards/Skill.png";
@@ -526,26 +527,22 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 	
 	@Override
 	public void receiveEditStrings() {
-		logger.info("begin editing strings");
+        logger.info("begin editing strings");
+        if (Settings.language == Settings.GameLanguage.ZHS) {
+            BaseMod.loadCustomStringsFile(CardStrings.class, "yuriModResources/localization/yuriMod-Card-Strings-zh.json");
+            BaseMod.loadCustomStringsFile(PowerStrings.class, "yuriModResources/localization/yuriMod-Power-Strings-zh.json");
+            BaseMod.loadCustomStringsFile(RelicStrings.class, "yuriModResources/localization/yuriMod-Relic-Strings-zh.json");
+            BaseMod.loadCustomStringsFile(EventStrings.class, "yuriModResources/localization/yuriMod-Event-Strings-zh.json");
+        } else {
 
-		// CardStrings
-		BaseMod.loadCustomStringsFile(CardStrings.class,
-				"yuriModResources/localization/yuriMod-Card-Strings.json");
+            BaseMod.loadCustomStringsFile(CardStrings.class, "yuriModResources/localization/yuriMod-Card-Strings.json");
+            BaseMod.loadCustomStringsFile(PowerStrings.class, "yuriModResources/localization/yuriMod-Power-Strings.json");
+            BaseMod.loadCustomStringsFile(RelicStrings.class, "yuriModResources/localization/yuriMod-Relic-Strings.json");
+            BaseMod.loadCustomStringsFile(EventStrings.class, "yuriModResources/localization/yuriMod-Event-Strings.json");
+        }
+            logger.info("done editing strings");
+    }
 
-		// PowerStrings
-		BaseMod.loadCustomStringsFile(PowerStrings.class,
-				"yuriModResources/localization/yuriMod-Power-Strings.json");
-
-		// RelicStrings
-		BaseMod.loadCustomStringsFile(RelicStrings.class,
-				"yuriModResources/localization/yuriMod-Relic-Strings.json");
-
-		BaseMod.loadCustomStringsFile(EventStrings.class,
-				"yuriModResources/localization/yuriMod-Event-Strings.json");
-
-		logger.info("done editing strings");
-	}
-	
 	// ================ /LOAD THE TEXT/ ===================
 	    
 	// ================ LOAD THE KEYWORDS ===================

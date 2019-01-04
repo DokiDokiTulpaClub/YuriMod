@@ -1,0 +1,66 @@
+{
+"yuri:CommonPower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["You applied ", " keyword.", " keywords."]
+},
+"yuri:RarePower": {
+        "NAME": "Placeholder Power",
+        "DESCRIPTIONS": ["At the start of your turn TOUCH ", " enemy." , " enemies."]
+},
+        "yuri:InsanityPower": {
+        "NAME": "Insanity",
+        "DESCRIPTIONS": ["Increases attack damage by #b", " NL Reduces attack damage taken by #b", " NL At the end of your turn, lose #b", " HP."]
+},
+        "yuri:GlitchedPower": {
+        "NAME": "Glitched",
+        "DESCRIPTIONS": ["Reduces attack damage by #b", " NL Increases attack damage taken by #b", " NL At the start of it's turn, loses #b", " NL At the start of your turn, lose #b", " HP."]
+},
+        "yuri:NextTurnInsanityPower": {
+        "NAME": "Next Turn Insanity",
+        "DESCRIPTIONS": ["At the start of your next turn, gain #b", "At the start of your next turn, lose #b", " #yInsanity."]
+},
+        "yuri:GrowingInsanityPower": {
+        "NAME": "Growing Insanity",
+        "DESCRIPTIONS": ["At the start of your turn, gain #b", " #yInsanity."]
+},
+        "yuri:AntiGrowingInsanityPower": {
+        "NAME": "Anti Growing Insanity",
+        "DESCRIPTIONS": ["At the start of your turn, lose #b", " #yInsanity."]
+},
+        "yuri:RelentlessStrikePower": {
+          "NAME": "Relentless Strikes",
+          "DESCRIPTIONS": ["When playing a card containing the word #yStrike, draw #b", " card.", " cards."]
+        },
+        "yuri:DragonPower": {
+          "NAME": "Dragon Form",
+          "DESCRIPTIONS": ["Whenever you gain #yInsanity, gain #b", " #yStrength."]
+        },
+        "yuri:GlitchRemovePower": {
+          "NAME": "Glitch Remove",
+          "DESCRIPTIONS": ["At the end of your turn, #yExhaust ALL #yGlitches. NL Gain #b", " #yBlock whenever you #yExhaust a #yGlitch."]
+        },
+        "yuri:GlitchRemovePower2": {
+          "NAME": "Glitch Remove",
+          "DESCRIPTIONS": ["At the end of your turn, #yExhaust ALL #yStatus cards. NL Gain #b", " #yBlock whenever you #yExhaust a #yStatus card."]
+        },
+  "yuri:CorruptHitboxPower": {
+          "NAME": "Corrupted Hitbox",
+          "DESCRIPTIONS": ["Whenever you are attacked this turn, apply #b", " #yGlitched."]
+        },
+  "yuri:DoubleCodePower": {
+          "NAME": "Duplicated Code",
+          "DESCRIPTIONS": ["Your next card is played twice this turn.", "Your next #b", " cards are played twice this turn."]
+        },
+  "yuri:VirusPower": {
+          "NAME": "Viral Infection",
+          "DESCRIPTIONS": ["At the end of it's turn, gains #b", " #yGlitched. NL On death, infect all other enemies with this power."]
+        },
+  "yuri:RemoveSafetyPower": {
+          "NAME": "Removed Safety Checks",
+          "DESCRIPTIONS": ["At the start of your turn, #yGlitch and draw #b", "At the start of your turn, #yGlitch #b", " and draw #b", " cards."]
+        },
+  "yuri:AdaptivePower": {
+    "NAME": "Adaptive AI",
+    "DESCRIPTIONS": ["Whenever you gain #yGlitched, draw #b", " card.", " cards."]
+  }
+}
