@@ -1,4 +1,7 @@
 # YuriMod
+
+This mod is now on steam workshop: https://steamcommunity.com/sharedfiles/filedetails/?id=1613694436
+
 Adds Yuri into the game, featuring 60+ new cards, 8 relics and a few nasty surprises. May contain disturbing content, which can be turned off in the settings.
 
 # Dependencies
