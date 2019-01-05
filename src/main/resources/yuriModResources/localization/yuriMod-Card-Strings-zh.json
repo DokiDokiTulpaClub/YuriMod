@@ -6,8 +6,8 @@
 	},
 
 	"yuri:yuriDefend": {
-        "NAME": "Defend",
-        "DESCRIPTION": "Gain !B! Block."
+        "NAME": "防御",
+        "DESCRIPTION": "获得 !B! 点格挡。"
 	},
 	
 	"yuri:GhostForm": {
