@@ -61,12 +61,10 @@ extends CustomCard {
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		if (p.hasPower("InsanityPower")) {
 			AbstractDungeon.actionManager
 					.addToBottom(new ApplyPowerAction(p, p, new InsanityPower(p, p, this.magicNumber), this.magicNumber));
 			AbstractDungeon.actionManager
 					.addToBottom(new ApplyPowerAction(p, p, new NextTurnInsanityPower(p, p, -this.magicNumber), -this.magicNumber));
-		}
 	}
 	
 	// Which card to return when making a copy of this card.
