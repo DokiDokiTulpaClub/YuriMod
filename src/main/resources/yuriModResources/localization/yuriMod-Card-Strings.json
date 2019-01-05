@@ -334,5 +334,13 @@
     "NAME": "Remove Safety Checks",
     "DESCRIPTION": "At the start of your turn, Glitch and draw 2 additional cards.",
     "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, Glitch and draw 2 additional cards."
+  },
+  "yuri:HoldBack": {
+    "NAME": "Hold Back",
+    "DESCRIPTION": "Lose 2 Insanity. NL At the start of your turn, Gain !M! Temporary_HP."
+  },
+  "yuri:HoldBackCorrupt": {
+    "NAME": "No Holding Back",
+    "DESCRIPTION": "At the start of your turn, Gain !M! Strength."
   }
 }

@@ -1,6 +1,7 @@
 package yurimod.characters;
 import java.util.ArrayList;
 
+import com.megacrit.cardcrawl.localization.CharacterStrings;
 import org.apache.logging.log4j.LogManager;
 import org.apache.logging.log4j.Logger;
 
@@ -33,6 +34,9 @@ import basemod.animations.SpriterAnimation;
 
 public class yuri extends CustomPlayer {
   	public static final Logger logger = LogManager.getLogger(yuriMod.class.getName());
+	private static final CharacterStrings characterStrings = CardCrawlGame.languagePack.getCharacterString(yurimod.yuriMod.makeID("yuri"));
+	public static final String[] NAMES = characterStrings.NAMES;
+	public static final String[] TEXT = characterStrings.TEXT;
 
 	// =============== BASE STATS =================
 	
@@ -108,9 +112,8 @@ public class yuri extends CustomPlayer {
     // Starting description and loadout
 	@Override
     public CharSelectInfo getLoadout() {
-        return new CharSelectInfo("Yuri",
-        		"I figured out how to enter this game. NL " +
-                "UPDATE BODY TEXT ",
+        return new CharSelectInfo(NAMES[0],
+        		TEXT[0],
                 STARTING_HP, MAX_HP, ORB_SLOTS, STARTING_GOLD, CARD_DRAW, this,
                 getStartingRelics(), getStartingDeck(), false);
     }
@@ -193,7 +196,7 @@ public class yuri extends CustomPlayer {
 	// Should return class name as it appears in run history screen.
 	@Override
 	public String getLocalizedCharacterName() {
-		return "Yuri";
+		return NAMES[0];
 	}
 		
 	//Which starting card should specific events give you?
@@ -205,7 +208,7 @@ public class yuri extends CustomPlayer {
 	// The class name as it appears next to your player name in game	
 	@Override
 	public String getTitle(AbstractPlayer.PlayerClass playerClass) {
-		return "the Doki";
+		return NAMES[1];
 	}
 
 	// Should return a new instance of your character, sending this.name as its name parameter.
@@ -240,7 +243,7 @@ public class yuri extends CustomPlayer {
 	// core to its maximum..."
 	@Override
 	public String getSpireHeartText() {
-		return "You stab the heart.";
+		return TEXT[1];
 	}
 
 	// The vampire events refer to the base game characters as "brother", "sister",
@@ -248,7 +251,7 @@ public class yuri extends CustomPlayer {
 	// the full text that will be displayed as the first screen of the vampires event.
 	@Override
 	public String getVampireText() {
-		return "Navigating an unlit street, you come across several hooded figures in the midst of some dark ritual. As you approach, they turn to you in eerie unison. The tallest among them bares fanged teeth and extends a long, pale hand towards you. NL ~\"Join~ ~us~ ~doki,~ ~and~ ~feel~ ~the~ ~warmth~ ~of~ ~the~ ~Spire.\"~";
+		return TEXT[2];
 	}
 
 }

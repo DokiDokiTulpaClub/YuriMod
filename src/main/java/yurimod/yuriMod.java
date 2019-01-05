@@ -6,14 +6,12 @@ import com.badlogic.gdx.graphics.Texture;
 import com.evacipated.cardcrawl.modthespire.lib.SpireConfig;
 import com.evacipated.cardcrawl.modthespire.lib.SpireInitializer;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
+import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.core.Settings;
 import com.megacrit.cardcrawl.helpers.CardHelper;
 import com.megacrit.cardcrawl.helpers.FontHelper;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
-import com.megacrit.cardcrawl.localization.CardStrings;
-import com.megacrit.cardcrawl.localization.EventStrings;
-import com.megacrit.cardcrawl.localization.PowerStrings;
-import com.megacrit.cardcrawl.localization.RelicStrings;
+import com.megacrit.cardcrawl.localization.*;
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
 
 import java.util.Properties;
@@ -164,6 +162,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_MIRROR_CORRUPT = "cards/MirrorCorrupt.png";
     public static final String yuri_VIRUS = "cards/Virus.png";
     public static final String yuri_REMOVE_SAFETY = "cards/RemoveSafety.png";
+    public static final String yuri_HOLD_BACK = "cards/HoldBack.png";
+    public static final String yuri_HOLD_BACK_CORRUPT = "cards/HoldBackCorrupt.png";
 
 
     // Power images
@@ -441,6 +441,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new MirrorInsanityCorrupt());
 		BaseMod.addCard(new Virus());
 		BaseMod.addCard(new RemoveSafetyChecks());
+		BaseMod.addCard(new HoldBack());
+		BaseMod.addCard(new HoldBackCorrupt());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -516,6 +518,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(MirrorInsanity.ID);
         UnlockTracker.unlockCard(Virus.ID);
         UnlockTracker.unlockCard(RemoveSafetyChecks.ID);
+        UnlockTracker.unlockCard(HoldBack.ID);
 
 		logger.info("Cards - added!");
 	}
@@ -533,18 +536,19 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
             BaseMod.loadCustomStringsFile(PowerStrings.class, "yuriModResources/localization/yuriMod-Power-Strings-zh.json");
             BaseMod.loadCustomStringsFile(RelicStrings.class, "yuriModResources/localization/yuriMod-Relic-Strings-zh.json");
             BaseMod.loadCustomStringsFile(EventStrings.class, "yuriModResources/localization/yuriMod-Event-Strings-zh.json");
+            BaseMod.loadCustomStringsFile(CharacterStrings.class, "yuriModResources/localization/yuriMod-Character-Strings-zh.json");
         } else {
-
             BaseMod.loadCustomStringsFile(CardStrings.class, "yuriModResources/localization/yuriMod-Card-Strings.json");
             BaseMod.loadCustomStringsFile(PowerStrings.class, "yuriModResources/localization/yuriMod-Power-Strings.json");
             BaseMod.loadCustomStringsFile(RelicStrings.class, "yuriModResources/localization/yuriMod-Relic-Strings.json");
             BaseMod.loadCustomStringsFile(EventStrings.class, "yuriModResources/localization/yuriMod-Event-Strings.json");
+            BaseMod.loadCustomStringsFile(CharacterStrings.class, "yuriModResources/localization/yuriMod-Character-Strings.json");
         }
             logger.info("done editing strings");
     }
 
 	// ================ /LOAD THE TEXT/ ===================
-	    
+
 	// ================ LOAD THE KEYWORDS ===================
 
 	@Override

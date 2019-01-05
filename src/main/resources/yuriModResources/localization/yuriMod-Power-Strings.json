@@ -62,5 +62,9 @@
   "yuri:AdaptivePower": {
     "NAME": "Adaptive AI",
     "DESCRIPTIONS": ["Whenever you gain #yGlitched, draw #b", " card.", " cards."]
+  },
+  "yuri:HoldBackPower": {
+    "NAME": "Holding Back",
+    "DESCRIPTIONS": ["At the start or your turn, gain #b", " Temporary_HP."]
   }
 }
