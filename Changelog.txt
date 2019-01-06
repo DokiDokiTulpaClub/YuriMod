@@ -1,5 +1,8 @@
+v1.5.4
 Added 2 new cards
 Fixed Manic Laughter not working without Insanity
+
+v1.5.3
 Fixed Rhapsody Nightmare wording
 
 v1.5.2
