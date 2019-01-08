@@ -564,6 +564,14 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		final String[] book = { "book", "books" };
 		BaseMod.addKeyword(book, "A card that grants abilities based on other characters, and synergize with themselves.");
 
+		BaseMod.addKeyword(new String[]{"精神错乱"}, "提升攻击伤害，降低受到的伤害。 NL 在每回合结束时失去生命。");
+		BaseMod.addKeyword(new String[]{"受损"}, "降低攻击伤害，提高受到的伤害。 NL 在每回合结束时失去生命。");
+		BaseMod.addKeyword(new String[]{"故障"}, "向你的抽牌堆中加入一或几张故障（状态牌）。 NL 故障可以零费打出，效果是使你获得一层受损，然后抽一张牌。");
+		BaseMod.addKeyword(new String[]{"类反伤"}, "类反伤状态包括荆棘、锋利外壳、生气和柔韧。");
+		BaseMod.addKeyword(new String[]{"书"}, "通过获得其他角色的能力来增强自己的能力牌。");
+		BaseMod.addKeyword(new String[]{"临时生命"}, "临时生命可以为你抵挡伤害和生命损失，在战斗结束后消失");
+
+
 	}
 	
     // ================ /LOAD THE KEYWORDS/ ===================    
