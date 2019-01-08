@@ -1,20 +1,20 @@
 {  "yuri:Yuri Shrine": {
   "NAME": "Yuri Shrine",
   "DESCRIPTIONS": [
-    "Before you lies an elaborate shrine to ... well... Yuri. NL (BETA EVENT)",
-    "Before you lies an elaborate shrine to yourself. NL You are very confused about this.",
-    "The shrine's energy flows into you, making you stronger.",
-    "You ignore the shrine.",
-    "I'm a programmer, not a writer, so I don't know what to say here. NL Sorry."
+    "在你面前是一个精致神龛 ... 好了... 优里。 NL (测试事件)",
+    "在你面前是一个等待着你的精致神龛。 NL 你对此感到十分疑惑。",
+    "神龛的力量涌入你，让你变强了。",
+    "你无视了神龛。",
+    "我是一个程序猿，不是作家，所以我不知道这里该说什么。 NL 抱歉。"
   ],
   "OPTIONS": [
-    "[Pray] #gUpgrade #ga #gcard.",
-    "[Leave]",
-    "Select a Card to Upgrade.",
-    "[Locked] Requires: Upgradeable Cards",
-    "[Locked], Requires: Knife",
-    "[Offer: Knife] #gUpgrade #gyour #gstarter #gRelic, #rLose #r",
-    "% #rMax #rHP."
+    "[祈祷] #g升级一张牌。",
+    "[离开]",
+    "选择一张牌升级。",
+    "[锁定] 需要： 可以升级的牌",
+    "[锁定] 需要： 小刀",
+    "[交出小刀] #g升级初始遗物， #r失去 #r",
+    "% #r最大生命。"
   ]
 }
 }
