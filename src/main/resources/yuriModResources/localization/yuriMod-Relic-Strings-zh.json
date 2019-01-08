@@ -1,42 +1,42 @@
 {
 "yuri:PortraitOfMarkov": {
-        "NAME": "Portrait of Markov",
+        "NAME": "马尔科夫的肖像",
 	    "FLAVOR": "UPDATE FLAVOR TEXT",
-        "DESCRIPTIONS": ["Gain [R] at the start of your turn. NL At the start of combat, gain #b1 #yGlitched. NL Disables #rOmamori. NL Upon pickup obtain a special #rCurse."]
+        "DESCRIPTIONS": ["在每回合开始时获得 [R] 。 NL 在战斗开始时，获得 #b1 层 #y受损 。 NL 禁用 #r御守 。 NL 当你拾起这件遗物时，获得一张特殊的 #r诅咒 。"]
 	},
   "yuri:BookOfBooks": {
-        "NAME": "Book of Books",
-	    "FLAVOR": "Nerfed now that I'm better at coding.",
-        "DESCRIPTIONS": ["Upon pickup choose an #yUpgraded #yBook to obtain. NL Your #yBooks are played twice."]
+        "NAME": "圣经",
+	    "FLAVOR": "在我的编程技术长进后我削弱了它。",
+        "DESCRIPTIONS": ["获得一张 #y升级 过的 #y书 。 NL 你的 #y书 将会被打出两次。"]
 	},
   "yuri:yuriKnife": {
-        "NAME": "Knife",
-	    "FLAVOR": "The thing is, I'm kind of into knifes.",
-        "DESCRIPTIONS": ["At the start of each combat, gain #b1 #yInsanity. NL Lose #b", " less health from #yInsanity."]
+        "NAME": "小刀",
+	    "FLAVOR": "问题在于，我有点对刀着魔了。",
+        "DESCRIPTIONS": ["在每场战斗开始时, 获得 #b1 点 #y精神错乱 。 NL 来自于 #y精神错乱 的生命损失将会被降低 #b", " 点。"]
 	},
   "yuri:BloodyKnife": {
-        "NAME": "Bloody Knife",
-	    "FLAVOR": "You shouldn't have done that.",
-        "DESCRIPTIONS": ["You no longer lose health from Insanity. NL May have unexpected side effects."]
+        "NAME": "染血小刀",
+	    "FLAVOR": "你不应该那么做的。",
+        "DESCRIPTIONS": [" #y精神错乱 将不会再使你损失生命。 NL 可能会有意想不到的副作用。"]
 	},
   "yuri:GlassOfWater": {
-        "NAME": "Glass of Water",
-	    "FLAVOR": "A poorly drawn glass of water. Perhaps drinking from it will calm you down.",
-        "DESCRIPTIONS": ["Whenever you gain #yInsanity, gain #b1 #yTemporary_HP."]
+        "NAME": "一杯水",
+	    "FLAVOR": "画得很烂的一杯水。 喝下它可能会使你冷静下来。",
+        "DESCRIPTIONS": ["当你获得 #y精神错乱 时， 获得 #b1 点 #y临时生命 。"]
 	},
   "yuri:PortableGlitches": {
-        "NAME": "Portable Glitches",
-	    "FLAVOR": "A bag full of glitches. Eating them should help you break the enemies.",
-        "DESCRIPTIONS": ["At the start of each combat, apply #b1 #yGlitched to ALL enemies."]
+        "NAME": "便携式故障",
+	    "FLAVOR": "装满了故障的袋子。 吃掉它们会帮助你干掉敌人。",
+        "DESCRIPTIONS": ["在每场战斗开始时， 给予所有敌人 #b1 层 #y受损 。"]
 	},
   "yuri:GlassOfWine": {
-    "NAME": "Glass of Wine",
-    "FLAVOR": "A poorly drawn glass of wine. Drinking from it will definitely not calm you down.",
-    "DESCRIPTIONS": ["At the start of each combat, gain #b3 #yInsanity."]
+    "NAME": "一杯葡萄酒",
+    "FLAVOR": "画得很烂的一杯葡萄酒。 喝下它会使你失去理智。",
+    "DESCRIPTIONS": ["在每场战斗开始时， 获得 #b3 点 #y精神错乱 。"]
   },
   "yuri:GlitchPowder": {
-    "NAME": "Glitch Powder",
+    "NAME": "故障粉末",
     "FLAVOR": "UPDATE FLAVOR TEXT",
-    "DESCRIPTIONS": ["Damage reduction for #yGlitched is twice as effective on enemies."]
+    "DESCRIPTIONS": ["有 #y受损 的敌人将会受到双倍的伤害降低效果。"]
   }
 }
