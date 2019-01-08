@@ -7,64 +7,64 @@
 
 	"yuri:yuriDefend": {
         "NAME": "防御",
-        "DESCRIPTION": "获得 !B! 点格挡。"
+        "DESCRIPTION": "获得 !B! 点 格挡 。"
 	},
 	
 	"yuri:GhostForm": {
-        "NAME": "Ghost Form",
-        "DESCRIPTION": "Gain !M! Intangible. NL Reduce your Max HP by 3."
+        "NAME": "鬼魂形态",
+        "DESCRIPTION": "获得 !M! 层 无实体 。 NL 降低3点最大生命。"
 	},
 	
 	"yuri:yuriHeavyStrike": {
-        "NAME": "Heavy Strike",
-        "DESCRIPTION": "Deal !D! damage.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage."
+        "NAME": "重打击",
+        "DESCRIPTION": "造成 !D! 点伤害。",
+        "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。"
 
 	},
 
     "yuri:HeavierStrike": {
-        "NAME": "Heavier Strike",
-        "DESCRIPTION": "Deal !D! damage. NL Insanity affects this card !M! times."
+        "NAME": "超重打击",
+        "DESCRIPTION": "造成 !D! 点伤害。 NL 精神错乱 在 超重打击 上发挥 !M! 倍效果。"
 
 	},
     "yuri:yuriQuickStrike": {
-        "NAME": "Quick Strike",
-        "DESCRIPTION": "Deal !D! damage. NL Draw !M! card.",
-        "UPGRADE_DESCRIPTION": "Deal !D! damage. NL Draw !M! cards."
+        "NAME": "快速打击",
+        "DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。",
+        "UPGRADE_DESCRIPTION": "造成 !D! 点伤害。 NL 抽 !M! 张牌。"
 
 	},
 	
 	"yuri:yuriUncommonSkill": {
-        "NAME": "A better defend",
-        "DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity.",
-        "UPGRADE_DESCRIPTION": "Gain !B! Plated Armor. Affected by Dexterity."
+        "NAME": "更好的防御",
+        "DESCRIPTION": "获得 !B! 层 多层护甲 。 受到 敏捷 影响。",
+        "UPGRADE_DESCRIPTION": "获得 !B! 层 多层护甲 。 受到 敏捷 影响。"
 
 	},
 	
 	"yuri:ChibiInvasion": {
-        "NAME": "Chibi Invasion",
-        "DESCRIPTION": "Deal !D! damage to ALL enemies X times. NL Lose !M! Insanity."
+        "NAME": "豆丁来袭",
+        "DESCRIPTION": "对所有敌人造成 !D! 点伤害X次。 NL 失去 !M! 点 精神错乱 。"
 
 	},
 
     "yuri:ChibiInvasionCorrupt": {
-        "NAME": "CH!vI ?mva@i**n",
-        "DESCRIPTION": ">Eal !D! #ammge to (AII eneies Y tiNeS. NL Loose !M! Sanity!"
+        "NAME": "I苟±聪",
+        "DESCRIPTION": "对所有u腥嗽斐 !D! 点♦害X次。 NL 失i去 !M! 点理智！"
 	},
 	
 	"yuri:yuriRareAttack": {
-        "NAME": "TOUCH",
-        "DESCRIPTION": "Deal !D! damage."
+        "NAME": "触摸",
+        "DESCRIPTION": "造成 !D! 点伤害。"
         	},
 	
 	"yuri:Torment": {
-        "NAME": "Torment",
-        "DESCRIPTION": "Apply !M! Weak and Vulnerable to ALL enemies."
+        "NAME": "折磨",
+        "DESCRIPTION": "给予所有敌人 !M! 层 虚弱 和 易伤 。"
     },
     "yuri:Stare": {
-        "NAME": "Stare",
-        "DESCRIPTION": "Apply !M! Vulnerable.",
-        "UPGRADE_DESCRIPTION": "Apply !M! Vulnerable."
+        "NAME": "凝视",
+        "DESCRIPTION": "给予 !M! 层 易伤 。",
+        "UPGRADE_DESCRIPTION": "给予 !M! 层 易伤 。"
     },
 	
 	"yuri:yuriRarePower": {
@@ -72,275 +72,275 @@
         "DESCRIPTION": "At the start of your turn, play a TOUCH."
 	},
     "yuri:TPose": {
-    "NAME": "T-Pose",
-    "DESCRIPTION": "Gain !B! Block."
+    "NAME": "T字造型",
+    "DESCRIPTION": "获得 !B! 点 格挡 。"
     },
     "yuri:MPose": {
-    "NAME": "M-Pose",
-    "DESCRIPTION": "Gain !B! Block. NL Draw !M! card.",
-    "UPGRADE_DESCRIPTION": "Gain !B! Block. NL Draw !M! cards."
+    "NAME": "M字造型",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 抽 !M! 张牌。",
+    "UPGRADE_DESCRIPTION": "获得 !B! 点 格挡 。 NL 抽 !M! 张牌。"
     },
     "yuri:TeaSet": {
-    "NAME": "Portable Tea Set",
-    "DESCRIPTION": "Innate. NL Gain [E]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Gain [E] [E]. NL Exhaust."
+    "NAME": "便携茶具",
+    "DESCRIPTION": " 固有 。 NL 获得 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 获得 [E] [E] 。 NL 消耗 。"
     },
     "yuri:Oolong": {
-    "NAME": "Oolong Tea",
-    "DESCRIPTION": "Heal !M! hp. NL Draw 1 card. NL Exhaust."
+    "NAME": "乌龙茶",
+    "DESCRIPTION": "回复 !M! 点生命。 NL 抽1张牌。 NL 消耗 。"
     },
     "yuri:ThrowingKnives": {
-    "NAME": "Throwing Knives",
-    "DESCRIPTION": "Deal !D! damage to a random enemy !M! times. NL Exhaust."
+    "NAME": "投掷小刀",
+    "DESCRIPTION": "随机对敌人造成 !D! 点伤害 !M! 次。 NL 消耗 。"
     },
     "yuri:MultiDip": {
-    "NAME": "Multi Dip",
-    "DESCRIPTION": "Deal !D! damage !M! times."
+    "NAME": "多重浸渍",
+    "DESCRIPTION": "造成 !D! 点伤害 !M! 次。"
     },
     "yuri:StealPen": {
-    "NAME": "Steal Pen",
-    "DESCRIPTION": "Gain !M! gold. NL Exhaust."
+    "NAME": "盗窃笔",
+    "DESCRIPTION": "获得 !M! 金币。 NL 消耗 。"
     },
     "yuri:yuriStab": {
-    "NAME": "Stab",
-    "DESCRIPTION": "Deal !D! damage. NL Gain !M! Insanity."
+    "NAME": "刺击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 获得 !M! 点 精神错乱 。"
     },
     "yuri:WickedSlash": {
-    "NAME": "Wicked Slash",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Gain !M! Insanity."
+    "NAME": "恶意挥砍",
+    "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 获得 !M! 点 精神错乱 。"
     },
     "yuri:DebugCard": {
-    "NAME": "Debug",
-    "DESCRIPTION": "Gain !B! Block. NL Remove 1 Glitched. NL Exhaust a card in your hand."
+    "NAME": "调试",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 移除 1 层 受损 。 NL 消耗 一张手牌。"
     },
     "yuri:MarkovCurse": {
-    "NAME": "Markov Curse",
-    "DESCRIPTION": "Unplayable. NL At the end of your turn, gain 1 Insanity. NL There is no escape from this Curse."
+    "NAME": "马尔科夫的诅咒",
+    "DESCRIPTION": " 不能被打出 。 NL 在你的回合结束时， 获得1点 精神错乱 。 NL 这个 诅咒 无法逃脱。"
     },
     "yuri:SelfHarm": {
-    "NAME": "Self Harm",
-    "DESCRIPTION": "Lose 3 HP. NL Gain !M! Insanity."
+    "NAME": "自残",
+    "DESCRIPTION": "失去3点生命。 NL 获得 !M! 点 精神错乱 。"
     },
     "yuri:DeepBreathing": {
-    "NAME": "Deep Breathing",
-    "DESCRIPTION": "Lose all Insanity. NL Gain it back next turn."
+    "NAME": "深呼吸",
+    "DESCRIPTION": "失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。"
     },
     "yuri:DeepBreathingCorrupt": {
-    "NAME": "Manic Laughter",
-    "DESCRIPTION": "Gain !M! Insanity. NL Next turn, lose !M! Insanity."
+    "NAME": "狂笑",
+    "DESCRIPTION": "获得 !M! 点 精神错乱 。 NL 下回合失去 !M! 点 精神错乱 。"
     },
     "yuri:GrowingInsanity": {
-    "NAME": "Growing Insanity",
-    "DESCRIPTION": "At the start of your turn, gain 1 Insanity."
+    "NAME": "逐渐变态",
+    "DESCRIPTION": "在你的回合开始时，获得1点 精神错乱 。"
     },
     "yuri:AdaptiveAI": {
-    "NAME": "Adaptive AI",
-    "DESCRIPTION": "Whenever you gain Glitched, draw 1 card."
+    "NAME": "适应性AI",
+    "DESCRIPTION": "当你获得 受损 时，抽1张牌。"
     },
     "yuri:ArmBrace": {
-    "NAME": "Arm Brace",
-    "DESCRIPTION": "Gain !M! Temporary_HP."
+    "NAME": "护臂",
+    "DESCRIPTION": "获得 !M! 点 临时生命 。"
     },
     "yuri:NerfBat": {
-    "NAME": "Nerf Bat",
-    "DESCRIPTION": "Deal !D! damage. NL Enemy Loses !M! Strength."
+    "NAME": "削弱棒击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 敌人失去 !M! 点 力量 。"
     },
     "yuri:Suicide": {
-    "NAME": "Commit Suicide",
-    "DESCRIPTION": "Stab yourself 3 times, killing yourself."
+    "NAME": "自杀",
+    "DESCRIPTION": "刺你自己三刀，自杀。"
     },
     "yuri:Glitch": {
-    "NAME": "Glitch",
-    "DESCRIPTION": "Gain 1 Glitched. NL Draw 1 card. NL Exhaust."
+    "NAME": "故障",
+    "DESCRIPTION": "获得1层 受损 。 NL 抽1张牌。 NL 消耗 。"
     },
     "yuri:InduceGlitch": {
-        "NAME": "Induce Glitch",
-        "DESCRIPTION": "Apply !M! Glitched. NL Exhaust."
+        "NAME": "诱发故障",
+        "DESCRIPTION": "给予 !M! 层 受损 。 NL 消耗 。"
     },
     "yuri:BrokenCode": {
-        "NAME": "Broken Code",
-        "DESCRIPTION": "Apply !M! Glitched to ALL enemies. NL Glitch 2."
+        "NAME": "损坏代码",
+        "DESCRIPTION": "给予所有敌人 !M! 层 受损 。 NL 故障 2。"
     },
     "yuri:NoEscape": {
-        "NAME": "No Escape",
-        "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Double this card's damage for this combat."
+        "NAME": "无处可逃",
+        "DESCRIPTION": "对所有敌人造成 !D! 点伤害。 NL 这张牌每被打出一次，在本场战斗中伤害翻倍。"
     },
     "yuri:ThornRemove": {
-        "NAME": "Defensive Analysis",
-        "DESCRIPTION": "Gain !B! Block. NL Remove Thornlike buffs from ALL enemies."
+        "NAME": "防御分析",
+        "DESCRIPTION": "获得 !B! 点 格挡 。 NL 移除所有敌人的 类反伤 状态。"
     },
   "yuri:SturdyUniform": {
-        "NAME": "Sturdy Uniform",
-        "DESCRIPTION": "Gain !M! Plated Armor."
+        "NAME": "结实的校服",
+        "DESCRIPTION": "获得 !M! 层 多重护甲 。"
     },
     "yuri:RelentlessStrikes": {
-        "NAME": "Relentless Strikes",
-        "DESCRIPTION": "When playing a card containing the word Strike, draw 1 card.",
-        "UPGRADE_DESCRIPTION": "Innate. NL When playing a card containing the word Strike, draw 1 card."
+        "NAME": "连续打击",
+        "DESCRIPTION": "你每打出一张名字中有 打击 的牌，抽1张牌。",
+        "UPGRADE_DESCRIPTION": " 固有 。 NL 你每打出一张名字中有 打击 的牌，抽1张牌。"
     },
     "yuri:SeeingDouble": {
-        "NAME": "Seeing Double",
-        "DESCRIPTION": "Double your Insanity. NL Exhaust.",
-        "UPGRADE_DESCRIPTION": "Double your Insanity."
+        "NAME": "重影",
+        "DESCRIPTION": "将你的 精神错乱 翻倍。 NL 消耗 。",
+        "UPGRADE_DESCRIPTION": "将你的 精神错乱 翻倍。"
     },
     "yuri:DragonForm": {
-        "NAME": "Dragon Form",
-        "DESCRIPTION": "Whenever you gain Insanity, gain 1 Strength.",
-        "UPGRADE_DESCRIPTION": "Gain 2 Strength. NL Whenever you gain Insanity, gain 1 Strength."
+        "NAME": "龙形态",
+        "DESCRIPTION": "当你获得 精神错乱 时，获得1点力量。",
+        "UPGRADE_DESCRIPTION": "获得2点力量。 NL 当你获得 精神错乱 时，获得1点力量。"
     },
     "yuri:GlitchedStrike": {
-        "NAME": "Glitched Strike",
-        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Glitched. NL Glitch."
+        "NAME": "损伤打击",
+        "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 受损 。 NL 故障 。"
     },
   "yuri:RepairCode": {
-        "NAME": "Repair Code",
-        "DESCRIPTION": "Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed."
+        "NAME": "修复代码",
+        "DESCRIPTION": "移除你身上的全部 受损 。 NL 每移除1层受损，获得 !M! 点 临时生命 。"
     },
     "yuri:DejaVu": {
-        "NAME": "Deja Vu",
-        "DESCRIPTION": "Gain !B! Block. NL Fetch a card from your discard pile.",
-        "UPGRADE_DESCRIPTION": "Retain. NL Gain !B! Block. NL Fetch a card from your discard pile."
+        "NAME": "既视感",
+        "DESCRIPTION": "获得 !B! 点 格挡 。 NL 将弃牌堆中的一张牌放入你的手牌。",
+        "UPGRADE_DESCRIPTION": " 保留 。 NL 获得 !B! 点 格挡 。 NL 将弃牌堆中的一张牌放入你的手牌。"
     },
     "yuri:RecklessStrike": {
-        "NAME": "Reckless Strike",
-        "DESCRIPTION": "Lose !M! HP. NL Deal !D! damage. NL Gain 1 Insanity."
+        "NAME": "鲁莽打击",
+        "DESCRIPTION": "失去 !M! 点生命。 NL 造成 !D! 点伤害。 NL 获得1层 精神错乱 。"
     },
     "yuri:UntestedCode": {
-        "NAME": "Untested Code",
-        "DESCRIPTION": "Gain [E]. NL Glitch.",
-        "UPGRADE_DESCRIPTION": "Gain [E] [E]. NL Glitch."
+        "NAME": "未测试代码",
+        "DESCRIPTION": "获得 [E] 。 NL 故障 。",
+        "UPGRADE_DESCRIPTION": "获得 [E] [E] 。 NL 故障 。"
     },
     "yuri:ThrowBook": {
-        "NAME": "Throw Book",
-        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Exhaust a card in your hand."
+        "NAME": "扔书",
+        "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 虚弱 。 NL 消耗 一张手牌。"
     },
     "yuri:GlitchRemove": {
-        "NAME": "Glitch Remove",
-        "DESCRIPTION": "At the end of your turn, Exhaust ALL Glitches. NL Gain 3 Block whenever you Exhaust a Glitch.",
-        "UPGRADE_DESCRIPTION": "At the end of your turn, Exhaust ALL Status cards. NL Gain 3 Block whenever you Exhaust a Status card."
+        "NAME": "故障排除",
+        "DESCRIPTION": "在你的回合结束时， 消耗 所有故障。 NL 每 消耗 一张故障，获得3点 格挡 。",
+        "UPGRADE_DESCRIPTION": "在你的回合结束时，消耗所有 状态 牌。 NL 每消耗一张 状态 牌，获得3点 格挡 。"
     },
     "yuri:BookRed": {
-        "NAME": "Fantasy Book",
-        "DESCRIPTION": "Gain !M! Metallicize. NL Gain 2 Regen."
+        "NAME": "幻想之书",
+        "DESCRIPTION": "获得 !M! 层 金属化 。 NL 获得 2 层 再生 。"
     },
   "yuri:BookGreen": {
-        "NAME": "Mystery Book",
-        "DESCRIPTION": "Whenever an attack deals unblocked damage, apply 1 Poison.",
-        "UPGRADE_DESCRIPTION": "Whenever an attack deals unblocked damage, apply 1 Poison. NL At the start of your turn, apply 1 Poison to ALL enemies."
+        "NAME": "神秘之书",
+        "DESCRIPTION": "每当你造成未被格挡的 攻击 伤害，给予1点 中毒 。",
+        "UPGRADE_DESCRIPTION": "每当你造成未被格挡的 攻击 伤害，给予1点 中毒 。 NL 在你的回合开始时，给予所有敌人1层 中毒 。"
     },
   "yuri:BookBlue": {
-        "NAME": "Sci-fi Book",
-        "DESCRIPTION": "Gain 1 Orb slot. NL Channel 1 Lightning.",
-        "UPGRADE_DESCRIPTION": "Gain 1 Focus. NL Gain 1 Orb slot. NL Channel 1 Lightning."
+        "NAME": "科幻小说",
+        "DESCRIPTION": "获得1个充能球栏位。 NL 生成 1个 闪电 充能球。",
+        "UPGRADE_DESCRIPTION": "获得1点 集中 。 NL 获得1个充能球栏位。 NL 生成 1个 闪电 充能球。"
     },
     "yuri:CalmingAura": {
-        "NAME": "Calming Aura",
-        "DESCRIPTION": "Gain !B! Block. NL Apply 1 Weak to ALL enemies. NL Lose !M! Insanity."
+        "NAME": "冷静气氛",
+        "DESCRIPTION": "获得 !B! 点 格挡 。 NL 给予所有敌人1层 虚弱 。 NL 失去 !M! 点 精神错乱 。"
     },
     "yuri:CalmingAuraCorrupt": {
-        "NAME": "Dangerous Aura",
-        "DESCRIPTION": "Gain !B! Block. NL Apply 1 Vulnerable to ALL enemies. NL Gain !M! Insanity."
+        "NAME": "危险气氛",
+        "DESCRIPTION": "获得 !B! 点 格挡 。 NL 给予所有敌人1层 易伤 。 NL 获得 !M! 点 精神错乱 。"
     },
     "yuri:DistillInsanity": {
-        "NAME": "Distill Insanity",
-        "DESCRIPTION": "Lose all Insanity. NL Gain 1 Strength, Dexterity and Plated Armor for every 2 Insanity lost."
+        "NAME": "精神提取",
+        "DESCRIPTION": "失去全部 精神错乱 。 NL 每失去2点 精神错乱 ，获得1点 力量 ， 敏捷 和 多重护甲 。"
     },
   "yuri:DistillInsanityCorrupt": {
-        "NAME": "Distill Strength",
-        "DESCRIPTION": "Lose all Strength. NL Gain Insanity equal to your Strength."
+        "NAME": "力量提取",
+        "DESCRIPTION": "失去全部 力量 。 NL 获得等量的 精神错乱 。"
     },
   "yuri:ExploitStrike": {
-    "NAME": "Exploitive Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Double the enemy's Glitched. NL Glitch."
+    "NAME": "英勇打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 将敌人的 受损 翻倍 。 NL 故障 。"
   },
   "yuri:RhapsodyCurse": {
-    "NAME": "Rhapsody Nightmare",
-    "DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Ethereal.",
-    "UPGRADE_DESCRIPTION": "Unplayable. NL At the end of your turn, add a random card to your deck. NL Ethereal. NL Hello Rhapsody."
+    "NAME": "噩梦狂想曲",
+    "DESCRIPTION": " 不能被打出 。 NL 在你的回合开始时，添加一张随机卡至你的卡组。 NL 虚无 。",
+    "UPGRADE_DESCRIPTION": " 不能被打出 。 NL 在你的回合开始时，添加一张随机卡至你的卡组。 NL 虚无 。 NL 你好Rhapsody。"
   },
   "yuri:Skip": {
-    "NAME": "Skip",
-    "DESCRIPTION": "Draw !M! cards. NL Discard 2 cards."
+    "NAME": "跳过",
+    "DESCRIPTION": "抽 !M! 张牌。 NL 丢弃2张牌。"
   },
   "yuri:ConsumeGlitch": {
-    "NAME": "Consume Glitch",
-    "DESCRIPTION": "Enemy loses all Glitched. NL Raise your Max HP equal to Glitched removed, up to 20. NL Exhaust."
+    "NAME": "吞尽故障",
+    "DESCRIPTION": "敌人失去全部 受损 。 NL 你获得等量的生命上限，最多20点。 NL 消耗 。"
   },
   "yuri:UnstableStrike": {
-    "NAME": "Unstable Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Apply !M! Glitched. NL Increase this card's cost by 1 this combat."
+    "NAME": "无常打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 给予 !M! 层 受损 。 NL 这张卡的耗能增加1。"
   },
   "yuri:CorruptHitbox": {
-    "NAME": "Corrupted Hitbox",
-    "DESCRIPTION": "Gain !B! Block. NL Whenever you are attacked this turn, apply 1 Glitched. NL Glitch."
+    "NAME": "致伤碰撞器",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 当你在本回合受到攻击时，给予1层 受损 。 NL 故障 。"
   },
   "yuri:Parry": {
-    "NAME": "Parry",
-    "DESCRIPTION": "Gain !B! Block. NL Deal !D! damage twice."
+    "NAME": "招架",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 造成 !D! 点伤害2次。"
   },
   "yuri:Spin": {
-    "NAME": "Spin",
-    "DESCRIPTION": "Deal !D! damage to ALL enemies. NL Add a Dazed on top of your draw pile."
+    "NAME": "旋转",
+    "DESCRIPTION": "对全体敌人造成 !D! 点伤害。 NL 在抽牌堆顶部加入一张 晕眩 。"
   },
   "yuri:DuplicateCode": {
-    "NAME": "Duplicate Code",
-    "DESCRIPTION": "This turn, your next card is played twice. NL Glitch.",
-    "UPGRADE_DESCRIPTION": "This turn, your next card is played twice."
+    "NAME": "重复代码",
+    "DESCRIPTION": "在这个回合，你的下一张牌会打出2次。 NL 故障 。",
+    "UPGRADE_DESCRIPTION": "在这个回合，你的下一张牌会打出2次。"
   },
   "yuri:GreenTea": {
-    "NAME": "Green Tea",
-    "DESCRIPTION": "Heal !M! hp. NL Exhaust."
+    "NAME": "绿茶",
+    "DESCRIPTION": "回复 !M! 点生命。 NL 消耗 。"
   },
   "yuri:BlackTea": {
-    "NAME": "Black Tea",
-    "DESCRIPTION": "Next turn, gain [E] [E] and draw 2 additional cards. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Next turn, gain [E] [E] [E] and draw 2 additional cards. NL Exhaust."
+    "NAME": "红茶",
+    "DESCRIPTION": "下一回合，获得 [E] [E] 并额外抽2张牌。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "下一回合，获得 [E] [E] [E] 并额外抽2张牌。 NL 消耗 。"
   },
   "yuri:Stalk": {
-    "NAME": "Stalk",
-    "DESCRIPTION": "Gain !B! Block. NL Apply 1 Vulnerable. NL Gain !M! Insanity."
+    "NAME": "追踪",
+    "DESCRIPTION": "获得 !B! 点 格挡 。 NL 给予1层易伤。 NL 获得 !M! 点 精神错乱 。"
   },
   "yuri:DisableStrike": {
-    "NAME": "Disabling Strike",
-    "DESCRIPTION": "Deal !D! damage. NL Enemy loses that much Strength this turn."
+    "NAME": "致残打击",
+    "DESCRIPTION": "造成 !D! 点伤害。 NL 敌人在本回合失去同等数值的 力量 。"
   },
   "yuri:JumpScare": {
-    "NAME": "Jumpscare",
-    "DESCRIPTION": "Scare away an enemy. NL Can't scare away the last non-minion enemy. NL Exhaust."
+    "NAME": "魂飞魄散",
+    "DESCRIPTION": "吓跑一名敌人。 NL 若敌人只有一名且不是爪牙，则本卡无效。 NL 消耗 。"
   },
   "yuri:ReloadGame": {
-    "NAME": "Load Save File",
-    "DESCRIPTION": "Reset your Insanity to the start of combat value.",
-    "UPGRADE_DESCRIPTION": "Reset your Insanity to the start of combat value. NL Draw 1 card."
+    "NAME": "读档",
+    "DESCRIPTION": "将你的 精神错乱 重置为战斗开始时的数值。",
+    "UPGRADE_DESCRIPTION": "将你的 精神错乱 重置为战斗开始时的数值。 NL 抽1张牌。"
   },
   "yuri:ReloadGameCorrupt": {
-    "NAME": "Corrupted Save File",
-    "DESCRIPTION": "If your Insanity is below 5, set it to 5. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL If your Insanity is below 5, set it to 5. NL Exhaust."
+    "NAME": "存档损坏",
+    "DESCRIPTION": "如果你的 精神错乱 小于5点，将 精神错乱 改为5点。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 如果你的 精神错乱 小于5点，将 精神错乱 改为5点。 NL 消耗 。"
   },
   "yuri:MirrorInsanity": {
-    "NAME": "Mirror Insanity",
-    "DESCRIPTION": "If the enemy has Glitched, gain Insanity equal to the enemy's Glitched. NL Otherwise, lose 2 Insanity."
+    "NAME": "镜像疯狂",
+    "DESCRIPTION": "如果敌人有 受损 ，获得同等点数的 精神错乱 。 NL 否则，失去2点 精神错乱 。"
   },
   "yuri:MirrorInsanityCorrupt": {
-    "NAME": "Broken Mirror",
-    "DESCRIPTION": "If the enemy has Glitched, gain Insanity equal to the enemy's Glitched. NL Otherwise, Gain 2 Insanity."
+    "NAME": "破碎之镜",
+    "DESCRIPTION": "如果敌人有 受损 ，获得同等点数的 精神错乱 。 NL 否则，获得2点 精神错乱 。"
   },
   "yuri:Virus": {
-    "NAME": "Virus",
-    "DESCRIPTION": "Infect an enemy, adding Glitched every turn. NL Spreads to other enemies on death. NL Exhaust."
+    "NAME": "病毒",
+    "DESCRIPTION": "感染一名敌人，使其每回合增加一层 受损 。 NL 在其死亡时，扩散至所有其他敌人。 NL 消耗 。"
   },
   "yuri:RemoveSafetyChecks": {
-    "NAME": "Remove Safety Checks",
-    "DESCRIPTION": "At the start of your turn, Glitch and draw 2 additional cards.",
-    "UPGRADE_DESCRIPTION": "Innate. NL At the start of your turn, Glitch and draw 2 additional cards."
+    "NAME": "移除安全检查",
+    "DESCRIPTION": "在你的回合开始时， 故障 并额外抽2张牌。",
+    "UPGRADE_DESCRIPTION": " 固有 。 NL 在你的回合开始时， 故障 并额外抽2张牌。"
   },
   "yuri:HoldBack": {
-    "NAME": "Hold Back",
-    "DESCRIPTION": "Lose 2 Insanity. NL At the start of your turn, Gain !M! Temporary_HP."
+    "NAME": "控制",
+    "DESCRIPTION": "失去2点 精神错乱 。 NL 在你的回合开始时，获得 !M! 点 临时生命 。"
   },
   "yuri:HoldBackCorrupt": {
-    "NAME": "No Holding Back",
-    "DESCRIPTION": "At the start of your turn, Gain !M! Strength."
+    "NAME": "失控",
+    "DESCRIPTION": "在你的回合开始时，获得 !M! 点 力量 。"
   }
 }

@@ -8,63 +8,63 @@
         "DESCRIPTIONS": ["At the start of your turn TOUCH ", " enemy." , " enemies."]
 },
         "yuri:InsanityPower": {
-        "NAME": "Insanity",
-        "DESCRIPTIONS": ["Increases attack damage by #b", " NL Reduces attack damage taken by #b", " NL At the end of your turn, lose #b", " HP."]
+        "NAME": "精神错乱",
+        "DESCRIPTIONS": ["提高 #b", " 点攻击伤害。 NL 受到的攻击伤害降低 #b", " 点。 NL 在你的回合结束时，失去 #b", " 点生命。"]
 },
         "yuri:GlitchedPower": {
-        "NAME": "Glitched",
-        "DESCRIPTIONS": ["Reduces attack damage by #b", " NL Increases attack damage taken by #b", " NL At the start of it's turn, loses #b", " NL At the start of your turn, lose #b", " HP."]
+        "NAME": "受损",
+        "DESCRIPTIONS": ["降低 #b", " 点攻击伤害。 NL 受到的攻击伤害提高 #b", " 点。 NL 在其回合结束时，失去 #b", " NL 在你的回合开始时，失去 #b", " 点生命。"]
 },
         "yuri:NextTurnInsanityPower": {
-        "NAME": "Next Turn Insanity",
-        "DESCRIPTIONS": ["At the start of your next turn, gain #b", "At the start of your next turn, lose #b", " #yInsanity."]
+        "NAME": "下回合精神错乱",
+        "DESCRIPTIONS": ["在你的下个回合开始时，获得 #b", "在你的下个回合开始时，失去 #b", " 点 #y精神错乱 。"]
 },
         "yuri:GrowingInsanityPower": {
-        "NAME": "Growing Insanity",
-        "DESCRIPTIONS": ["At the start of your turn, gain #b", " #yInsanity."]
+        "NAME": "逐渐变态",
+        "DESCRIPTIONS": ["在你的回合开始时， 获得 #b", " 点 #y精神错乱 。"]
 },
         "yuri:AntiGrowingInsanityPower": {
-        "NAME": "Anti Growing Insanity",
-        "DESCRIPTIONS": ["At the start of your turn, lose #b", " #yInsanity."]
+        "NAME": "逐渐平静",
+        "DESCRIPTIONS": ["在你的回合开始时， 失去 #b", " 点 #y精神错乱 。"]
 },
         "yuri:RelentlessStrikePower": {
-          "NAME": "Relentless Strikes",
-          "DESCRIPTIONS": ["When playing a card containing the word #yStrike, draw #b", " card.", " cards."]
+          "NAME": "连续打击",
+          "DESCRIPTIONS": ["你每打出一张名字中有 #y打击 的牌，抽 #b", " 张牌。", " 张牌。"]
         },
         "yuri:DragonPower": {
-          "NAME": "Dragon Form",
-          "DESCRIPTIONS": ["Whenever you gain #yInsanity, gain #b", " #yStrength."]
+          "NAME": "龙形态",
+          "DESCRIPTIONS": ["当你获得 #y精神错乱 时，获得 #b", " 点 #y力量 。"]
         },
         "yuri:GlitchRemovePower": {
-          "NAME": "Glitch Remove",
-          "DESCRIPTIONS": ["At the end of your turn, #yExhaust ALL #yGlitches. NL Gain #b", " #yBlock whenever you #yExhaust a #yGlitch."]
+          "NAME": "故障排除",
+          "DESCRIPTIONS": ["在你的回合结束时， #y消耗 全部 #y故障 。 NL 每 #y消耗 一张 #y故障 ，获得 #b", " 点 #y格挡 。"]
         },
         "yuri:GlitchRemovePower2": {
-          "NAME": "Glitch Remove",
-          "DESCRIPTIONS": ["At the end of your turn, #yExhaust ALL #yStatus cards. NL Gain #b", " #yBlock whenever you #yExhaust a #yStatus card."]
+          "NAME": "故障排除",
+          "DESCRIPTIONS": ["在你的回合结束时， #y消耗 全部 #y状态 牌。 NL 每 #y消耗 一张 #y状态 牌，获得 #b", " 点 #y格挡 。"]
         },
   "yuri:CorruptHitboxPower": {
-          "NAME": "Corrupted Hitbox",
-          "DESCRIPTIONS": ["Whenever you are attacked this turn, apply #b", " #yGlitched."]
+          "NAME": "致伤碰撞器",
+          "DESCRIPTIONS": ["当你在本回合受到攻击时，给予 #b", " 层 #y受损 。"]
         },
   "yuri:DoubleCodePower": {
-          "NAME": "Duplicated Code",
-          "DESCRIPTIONS": ["Your next card is played twice this turn.", "Your next #b", " cards are played twice this turn."]
+          "NAME": "重复代码",
+          "DESCRIPTIONS": ["在这个回合，你打出的下一张牌会打出两次。", "在这个回合，你打出的下 #b", " 张牌会打出两次。"]
         },
   "yuri:VirusPower": {
-          "NAME": "Viral Infection",
-          "DESCRIPTIONS": ["At the end of it's turn, gains #b", " #yGlitched. NL On death, infect all other enemies with this power."]
+          "NAME": "病毒传染",
+          "DESCRIPTIONS": ["在其回合结束时，获得 #b", " 层 #y受损 。 NL 在其死亡时，使所有其他敌人感染此状态。"]
         },
   "yuri:RemoveSafetyPower": {
-          "NAME": "Removed Safety Checks",
-          "DESCRIPTIONS": ["At the start of your turn, #yGlitch and draw #b", "At the start of your turn, #yGlitch #b", " and draw #b", " cards."]
+          "NAME": "移除安全检查",
+          "DESCRIPTIONS": ["在你的回合开始时， #y故障 并抽 #b", "在你的回合开始时， #y故障 #b", " 并抽 #b", " 张牌。"]
         },
   "yuri:AdaptivePower": {
-    "NAME": "Adaptive AI",
-    "DESCRIPTIONS": ["Whenever you gain #yGlitched, draw #b", " card.", " cards."]
+    "NAME": "适应性AI",
+    "DESCRIPTIONS": ["当你获得 #y受损 时，抽 #b", " 张牌。", " 张牌。"]
   },
   "yuri:HoldBackPower": {
-    "NAME": "Holding Back",
-    "DESCRIPTIONS": ["At the start or your turn, gain #b", " Temporary_HP."]
+    "NAME": "控制",
+    "DESCRIPTIONS": ["在你的回合开始时，获得 #b", " 点 #y临时生命 。"]
   }
 }
