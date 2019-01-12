@@ -14,6 +14,8 @@ import com.megacrit.cardcrawl.core.*;
 import com.megacrit.cardcrawl.actions.common.*;
 
 import com.megacrit.cardcrawl.unlock.UnlockTracker;
+import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
+import yurimod.cards.MarkovCurse;
 import yurimod.powers.CommonPower;
 
 public class CorruptAction extends AbstractGameAction {
@@ -34,8 +36,7 @@ public class CorruptAction extends AbstractGameAction {
         if (this.card.type != AbstractCard.CardType.POWER) {
             AbstractDungeon.actionManager.addToTop(new MakeTempCardInDiscardAction(cardC, 1));
         }
-        AbstractDungeon.player.masterDeck.addToTop(cardC);
-
+        AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(cardC, Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));
         if (this.card.inBottleFlame) {
             BottledFlame bf = (BottledFlame)AbstractDungeon.player.getRelic("Bottled Flame");
             bf.card = this.cardC;

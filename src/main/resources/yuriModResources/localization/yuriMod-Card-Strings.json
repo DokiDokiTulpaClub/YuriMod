@@ -147,7 +147,8 @@
     },
     "yuri:Suicide": {
     "NAME": "Commit Suicide",
-    "DESCRIPTION": "Stab yourself 3 times, killing yourself."
+    "DESCRIPTION": "Stab yourself 3 times, killing yourself.",
+      "UPGRADE_DESCRIPTION": "I don't have a knife."
     },
     "yuri:Glitch": {
     "NAME": "Glitch",

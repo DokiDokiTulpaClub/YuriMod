@@ -147,7 +147,8 @@
     },
     "yuri:Suicide": {
     "NAME": "自杀",
-    "DESCRIPTION": "刺你自己三刀，自杀。"
+    "DESCRIPTION": "刺你自己三刀，自杀。",
+      "UPGRADE_DESCRIPTION": "I don't have a knife."
     },
     "yuri:Glitch": {
     "NAME": "故障",

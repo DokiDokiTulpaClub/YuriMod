@@ -15,6 +15,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import basemod.abstracts.CustomCard;
 
 import com.megacrit.cardcrawl.relics.AbstractRelic;
+import com.megacrit.cardcrawl.vfx.ThoughtBubble;
 import yurimod.powers.InsanityPower;
 import yurimod.yuriMod;
 import yurimod.patches.AbstractCardEnum;
@@ -65,6 +66,7 @@ extends CustomCard {
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
+		if (AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
         AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(p, p, "IntangiblePlayer", 3));
 		AbstractDungeon.actionManager
 				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 20));
@@ -102,7 +104,6 @@ extends CustomCard {
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager
 				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 999));
-     if (AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
 		 int relicAtIndex = 0;
 
 		 for(int i = 0; i < AbstractDungeon.player.relics.size(); ++i) {
@@ -114,7 +115,11 @@ extends CustomCard {
          (AbstractDungeon.player.relics.get(relicAtIndex)).onUnequip();
          AbstractRelic BloodyKnife = RelicLibrary.getRelic("yuri:BloodyKnife").makeCopy();
          BloodyKnife.instantObtain(AbstractDungeon.player, relicAtIndex, false);
-     }
+     } else if (AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
+			AbstractDungeon.effectList.add(new ThoughtBubble(AbstractDungeon.player.dialogX, AbstractDungeon.player.dialogY, 3.0F, "...", true));
+		} else {
+			AbstractDungeon.effectList.add(new ThoughtBubble(AbstractDungeon.player.dialogX, AbstractDungeon.player.dialogY, 3.0F, UPGRADE_DESCRIPTION, true));
+		}
 	}
 	
 	// Which card to return when making a copy of this card.

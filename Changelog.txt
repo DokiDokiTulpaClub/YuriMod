@@ -1,3 +1,8 @@
+v1.6.1
+Suicide no longer triggers if you don't have the starter relic
+Jumpscare no longer works on woke bloke(awakened one), fixing a softlock issue
+Added visual effect to gaining red cards
+
 v1.6.0
 Added Chinese translation.
 
