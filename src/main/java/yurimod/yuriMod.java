@@ -556,7 +556,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		final String[] insanity = { "insanity" };
 		BaseMod.addKeyword(insanity, "Increases attack damage and reduces incoming attack damage. NL Lose HP at the end of each turn.");
 		final String[] glitched = { "glitched" };
-		BaseMod.addKeyword(glitched, "Reduces attack damage and increases incoming attack damage. NL Lose HP at the end of each turn.");
+		BaseMod.addKeyword(glitched, "Reduces attack damage and increases incoming attack damage. NL Lose HP at the start of each turn.");
 		final String[] glitch = { "glitch" };
 		BaseMod.addKeyword(glitch, "Add one or more Glitches on top of your draw pile. NL Glitch is a status card that inflicts glitched and draws another card when played.");
 		final String[] thornlike = { "thornlike" };
