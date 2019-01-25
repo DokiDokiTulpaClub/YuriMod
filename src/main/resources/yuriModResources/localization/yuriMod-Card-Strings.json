@@ -231,8 +231,7 @@
     },
   "yuri:BookBlue": {
         "NAME": "Sci-fi Book",
-        "DESCRIPTION": "Gain 1 Orb slot. NL Channel 1 Lightning.",
-        "UPGRADE_DESCRIPTION": "Gain 1 Focus. NL Gain 1 Orb slot. NL Channel 1 Lightning."
+        "DESCRIPTION": "Gain !M! Focus. NL Gain 1 Orb slot. NL Channel 1 Lightning."
     },
     "yuri:CalmingAura": {
         "NAME": "Calming Aura",
@@ -321,7 +320,7 @@
   },
   "yuri:MirrorInsanity": {
     "NAME": "Mirror Insanity",
-    "DESCRIPTION": "If the enemy has Glitched, gain Insanity equal to the enemy's Glitched. NL Otherwise, lose 2 Insanity."
+    "DESCRIPTION": "Apply Glitched equal to your Insanity. NL Glitch. NL Exhaust."
   },
   "yuri:MirrorInsanityCorrupt": {
     "NAME": "Broken Mirror",

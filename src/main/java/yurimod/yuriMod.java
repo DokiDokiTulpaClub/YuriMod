@@ -345,7 +345,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 	public void receiveEditRelics() {
 		logger.info("Add relics");
 
-		BaseMod.addRelic(new PortraitOfMarkov(), RelicType.SHARED);
+		BaseMod.addRelicToCustomPool(new PortraitOfMarkov(), AbstractCardEnum.YURI_PURPLE);
 		BaseMod.addRelic(new PortableGlitches(), RelicType.SHARED);
 		BaseMod.addRelicToCustomPool(new yuriKnife(), AbstractCardEnum.YURI_PURPLE);
 		BaseMod.addRelicToCustomPool(new BookOfBooks(), AbstractCardEnum.YURI_PURPLE);
@@ -438,7 +438,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new ReloadGame());
 		BaseMod.addCard(new ReloadGameCorrupt());
 		BaseMod.addCard(new MirrorInsanity());
-		BaseMod.addCard(new MirrorInsanityCorrupt());
+//		BaseMod.addCard(new MirrorInsanityCorrupt());
 		BaseMod.addCard(new Virus());
 		BaseMod.addCard(new RemoveSafetyChecks());
 		BaseMod.addCard(new HoldBack());

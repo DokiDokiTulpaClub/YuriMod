@@ -2,6 +2,7 @@ package yurimod.cards;
 
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.FleetingField;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.MakeTempCardInDrawPileAction;
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
@@ -14,6 +15,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 import basemod.abstracts.CustomCard;
 
 import yurimod.actions.CorruptAction;
+import yurimod.powers.GlitchedPower;
 import yurimod.powers.InsanityPower;
 import yurimod.powers.NextTurnInsanityPower;
 import yurimod.yuriMod;
@@ -50,30 +52,25 @@ extends CustomCard {
 	private static final CardType TYPE = CardType.SKILL;
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
-	private static final int COST = 1;
-	private static final int UPGRADE_COST = 0;
+	private static final int COST = 2;
+	private static final int UPGRADE_COST = 1;
 
 	
 // /STAT DECLARATION/
 	
 	public MirrorInsanity() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
+		this.exhaust = true;
 	}
 	
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		if (m.hasPower("GlitchedPower")) {
-			int insane = (m.getPower("GlitchedPower").amount);
-			AbstractDungeon.actionManager
-					.addToBottom(new ApplyPowerAction(p, p, new InsanityPower(p, p, insane), insane));
-		} else {
-			AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(p, p, "InsanityPower", 2));
+		if (p.hasPower("InsanityPower")) {
+			int insanity = p.getPower("InsanityPower").amount;
+			AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(m, p, new GlitchedPower(m, p, insanity), insanity));
 		}
-			if (AbstractDungeon.player.hasRelic("yuri:BloodyKnife") && !this.purgeOnUse) {
-				AbstractDungeon.actionManager.addToBottom(new CorruptAction(this, new MirrorInsanityCorrupt()));
-				FleetingField.fleeting.set(this, true);
-		}
+		AbstractDungeon.actionManager.addToBottom(new MakeTempCardInDrawPileAction(new Glitch(), 1, false, true));
 	}
 	
 	// Which card to return when making a copy of this card.

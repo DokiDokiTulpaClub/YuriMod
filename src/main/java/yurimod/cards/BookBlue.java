@@ -52,6 +52,8 @@ extends CustomCard {
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
 	private static final int COST = 1;
+	private static final int MAGIC = 1;
+	private static final int UPGRADE_MAGIC = 1;
 
 	
 // /STAT DECLARATION/
@@ -59,15 +61,14 @@ extends CustomCard {
 	public BookBlue() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
 		this.tags.add(yuriModTags.BOOK);
+		this.baseMagicNumber=this.magicNumber=MAGIC;
 	}
 	
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		if (this.upgraded) {
 			AbstractDungeon.actionManager
-					.addToBottom(new ApplyPowerAction(p, p, new FocusPower(p, 1), 1));
-		}
+					.addToBottom(new ApplyPowerAction(p, p, new FocusPower(p, this.magicNumber), this.magicNumber));
 		AbstractDungeon.actionManager.addToBottom(new IncreaseMaxOrbAction(1));
 		AbstractDungeon.actionManager.addToBottom(new ChannelAction(new Lightning()));
 	}
@@ -83,7 +84,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.rawDescription = UPGRADE_DESCRIPTION;
+            this.upgradeMagicNumber(UPGRADE_MAGIC);
             this.initializeDescription();
         }
     }

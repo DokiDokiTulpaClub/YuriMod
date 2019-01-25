@@ -1,3 +1,10 @@
+v1.6.2
+Reworked Mirror insanity, no longer garbage
+Portrait of Markov no longer shows up on other characters
+Nerfed multiple cards, mostly with block
+Nerfed unstable strike, no longer increases glitched on upgrade
+Buffed Scifi book, now adds one more focus
+
 v1.6.1
 Suicide no longer triggers if you don't have the starter relic
 Jumpscare no longer works on woke bloke(awakened one), fixing a softlock issue

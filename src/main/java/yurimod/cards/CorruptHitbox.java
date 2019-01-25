@@ -47,7 +47,7 @@ extends CustomCard {
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
 	private static final int COST = 2;
-	private static final int BLOCK = 13;
+	private static final int BLOCK = 12;
 	private static final int UPGRADE_PLUS_BLOCK = 5;
 
 	
