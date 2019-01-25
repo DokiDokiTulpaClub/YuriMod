@@ -320,7 +320,7 @@
   },
   "yuri:MirrorInsanity": {
     "NAME": "镜像疯狂",
-    "DESCRIPTION": "如果敌人有 受损 ，获得同等点数的 精神错乱 。 NL 否则，失去2点 精神错乱 。"
+    "DESCRIPTION": "给予敌人与你的 精神错乱 相同点数的 受损 。 NL 故障 。 NL 消耗 。"
   },
   "yuri:MirrorInsanityCorrupt": {
     "NAME": "破碎之镜",
