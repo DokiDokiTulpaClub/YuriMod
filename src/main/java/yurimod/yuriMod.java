@@ -164,6 +164,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_REMOVE_SAFETY = "cards/RemoveSafety.png";
     public static final String yuri_HOLD_BACK = "cards/HoldBack.png";
     public static final String yuri_HOLD_BACK_CORRUPT = "cards/HoldBackCorrupt.png";
+    public static final String yuri_MAGNET = "cards/MagneticKnives.png";
 
 
     // Power images
@@ -443,6 +444,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new RemoveSafetyChecks());
 		BaseMod.addCard(new HoldBack());
 		BaseMod.addCard(new HoldBackCorrupt());
+		BaseMod.addCard(new MagneticKnives());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -519,6 +521,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(Virus.ID);
         UnlockTracker.unlockCard(RemoveSafetyChecks.ID);
         UnlockTracker.unlockCard(HoldBack.ID);
+        UnlockTracker.unlockCard(MagneticKnives.ID);
 
 		logger.info("Cards - added!");
 	}

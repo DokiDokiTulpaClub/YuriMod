@@ -342,5 +342,9 @@
   "yuri:HoldBackCorrupt": {
     "NAME": "No Holding Back",
     "DESCRIPTION": "At the start of your turn, Gain !M! Strength."
+  },
+  "yuri:MagneticKnives": {
+    "NAME": "Magnetic Knives",
+    "DESCRIPTION": "At the start of your turn, Add Upgraded Throwing Knives into your hand."
   }
 }

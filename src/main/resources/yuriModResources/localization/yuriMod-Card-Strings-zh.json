@@ -342,5 +342,9 @@
   "yuri:HoldBackCorrupt": {
     "NAME": "失控",
     "DESCRIPTION": "在你的回合开始时，获得 !M! 点 力量 。"
+  },
+  "yuri:MagneticKnives": {
+    "NAME": "Magnetic Knives",
+    "DESCRIPTION": "At the start of your turn, Add Upgraded Throwing Knives into your hand."
   }
 }

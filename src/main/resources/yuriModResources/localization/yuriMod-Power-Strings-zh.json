@@ -66,5 +66,9 @@
   "yuri:HoldBackPower": {
     "NAME": "控制",
     "DESCRIPTIONS": ["在你的回合开始时，获得 #b", " 点 #y临时生命 。"]
+  },
+  "yuri:MagneticKnivesPower": {
+    "NAME": "Magnetic Knives",
+    "DESCRIPTIONS": ["At the start of your turn, add #b", " #yUpgraded #yThrowing #yKnives into your hand."]
   }
 }

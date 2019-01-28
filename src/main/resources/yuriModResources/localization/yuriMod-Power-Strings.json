@@ -66,5 +66,9 @@
   "yuri:HoldBackPower": {
     "NAME": "Holding Back",
     "DESCRIPTIONS": ["At the start or your turn, gain #b", " Temporary_HP."]
+  },
+  "yuri:MagneticKnivesPower": {
+    "NAME": "Magnetic Knives",
+    "DESCRIPTIONS": ["At the start of your turn, add #b", " #yUpgraded #yThrowing #yKnives into your hand."]
   }
 }
