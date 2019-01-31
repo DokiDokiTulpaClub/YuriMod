@@ -15,6 +15,7 @@ import yurimod.actions.CorruptAction;
 import yurimod.powers.AdaptivePower;
 import yurimod.powers.AntiGrowingInsanityPower;
 import yurimod.powers.MagneticKnivesPower;
+import yurimod.powers.MagneticKnivesPower2;
 import yurimod.yuriMod;
 import yurimod.patches.AbstractCardEnum;
 
@@ -50,7 +51,6 @@ extends CustomCard {
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
 	private static final int COST = 3;
-	private static final int UPGRADE_COST = 2;
 
 	
 // /STAT DECLARATION/
@@ -62,8 +62,13 @@ extends CustomCard {
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		AbstractDungeon.actionManager
-				.addToBottom(new ApplyPowerAction(p, p, new MagneticKnivesPower(p, 1), 1));
+		if (this.upgraded) {
+			AbstractDungeon.actionManager
+					.addToBottom(new ApplyPowerAction(p, p, new MagneticKnivesPower2(p, 1), 1));
+		} else {
+			AbstractDungeon.actionManager
+					.addToBottom(new ApplyPowerAction(p, p, new MagneticKnivesPower(p, 1), 1));
+		}
 	}
 	
 	// Which card to return when making a copy of this card.
@@ -77,7 +82,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBaseCost(UPGRADE_COST);
+            this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
     }

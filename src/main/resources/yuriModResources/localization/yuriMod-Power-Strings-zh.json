@@ -69,6 +69,10 @@
   },
   "yuri:MagneticKnivesPower": {
     "NAME": "Magnetic Knives",
+    "DESCRIPTIONS": ["At the start of your turn, add #b", " #yThrowing #yKnives into your hand."]
+  },
+  "yuri:MagneticKnivesPower2": {
+    "NAME": "Magnetic Knives",
     "DESCRIPTIONS": ["At the start of your turn, add #b", " #yUpgraded #yThrowing #yKnives into your hand."]
   }
 }

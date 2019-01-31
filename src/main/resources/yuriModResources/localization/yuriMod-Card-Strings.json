@@ -345,6 +345,7 @@
   },
   "yuri:MagneticKnives": {
     "NAME": "Magnetic Knives",
-    "DESCRIPTION": "At the start of your turn, Add Upgraded Throwing Knives into your hand."
+    "DESCRIPTION": "At the start of your turn, Add Throwing Knives into your hand.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, Add Upgraded Throwing Knives into your hand."
   }
 }
