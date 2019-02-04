@@ -1,3 +1,10 @@
+v1.6.3
+Added 2 + 1 new cards
+Buffed Ghost Form to lose less Max HP
+Updated some card art
+Fixed Jumpscare working when it shouldn't
+Tweaked some red cards to be more consistent
+
 v1.6.2
 Reworked Mirror insanity, no longer garbage
 Portrait of Markov no longer shows up on other characters

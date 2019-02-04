@@ -64,7 +64,7 @@ extends CustomCard {
 	public void use(AbstractPlayer p, AbstractMonster m) {
 		AbstractDungeon.actionManager
 				.addToBottom(new ApplyPowerAction(p, p, new IntangiblePlayerPower(p, this.magicNumber), this.magicNumber));
-		AbstractDungeon.player.decreaseMaxHealth(3);
+		AbstractDungeon.player.decreaseMaxHealth(2);
 	}
 
 	// Which card to return when making a copy of this card.

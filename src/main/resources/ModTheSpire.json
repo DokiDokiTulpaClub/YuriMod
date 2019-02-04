@@ -4,7 +4,7 @@
   "author_list": ["DokiDokiTulpaClub"],
   "description": "Adds Yuri into the game, featuring 60+ new cards, 8 relics and a few nasty surprises. May contain disturbing content, which can be turned off in the settings.",
   "credits": "Contributors: Geloog (Chinese Translation), Gremious (Providing the default mod base this mod was built on)",
-  "version": "1.6.2",
+  "version": "1.6.3",
   "sts_version": "11-15-2018",
   "mts_version": "3.6.0",
   "dependencies": ["basemod", "stslib"],
