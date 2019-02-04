@@ -344,17 +344,17 @@
     "DESCRIPTION": "在你的回合开始时，获得 !M! 点 力量 。"
   },
   "yuri:MagneticKnives": {
-    "NAME": "Magnetic Knives",
-    "DESCRIPTION": "At the start of your turn, Add Throwing Knives into your hand.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, Add Upgraded Throwing Knives into your hand."
+    "NAME": "磁力小刀",
+    "DESCRIPTION": "在你的回合开始时，将一张投掷小刀加入你的手牌。",
+    "UPGRADE_DESCRIPTION": "在你的回合开始时，将一张 升级 过的投掷小刀加入你的手牌。"
   },
   "yuri:ReactiveMadness": {
-    "NAME": "Reactive Madness",
-    "DESCRIPTION": "If the enemy intends to attack, gain !M! Insanity. NL Otherwise, lose !M! Insanity."
+    "NAME": "活性疯狂",
+    "DESCRIPTION": "如果敌人的意图是攻击，获得 !M! 点 精神错乱 。 NL 否则，失去 !M! 点 精神错乱 。"
   },
   "yuri:ReactiveMadnessCorrupt": {
-    "NAME": "Reactive Anger",
-    "DESCRIPTION": "If the enemy intends to attack, gain 3 Insanity.",
-    "UPGRADE_DESCRIPTION": "If the enemy intends to attack, gain 3 Insanity. NL Otherwise, Gain 2 Strength."
+    "NAME": "活性愤怒",
+    "DESCRIPTION": "如果敌人的意图是攻击，获得3点 精神错乱 。",
+    "UPGRADE_DESCRIPTION": "如果敌人的意图是攻击，获得3点 精神错乱 。 NL 否则，获得2点 力量 。"
   }
 }
