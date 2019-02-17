@@ -1,5 +1,6 @@
 package yurimod.cards;
 
+import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
 import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
 import com.megacrit.cardcrawl.actions.common.RemoveSpecificPowerAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
@@ -11,6 +12,7 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import basemod.abstracts.CustomCard;
 
+import yurimod.powers.NoMamaSneckoPower;
 import yurimod.yuriMod;
 import yurimod.patches.AbstractCardEnum;
 
@@ -65,8 +67,24 @@ extends CustomCard {
         for (final AbstractMonster mo : AbstractDungeon.getCurrRoom().monsters.monsters) {
             AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "Thorns"));
             AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "Sharp Hide"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "Curl Up"));
             AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "Angry"));
             AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "Malleable"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "Flame Barrier"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "theJungle:SwingingTrapPower"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "theJungle:ObsessionPower"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "theJungle:ProtectionPower"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "theJungle:EnergeticPower"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "theJungle:TotemRevengeAttackPower"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "infinitespire:TempThorns"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "infinitespire:RealityShiftPower"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "conspire:HoldsTreasure"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "conspire:Shedding"));
+            AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "conspire:ReflectAttack"));
+            if (mo.id.equals("theJungle:MamaSnecko") && mo.hasPower("theJungle:MamaSneckoRevengePower")){
+            	AbstractDungeon.actionManager.addToBottom(new RemoveSpecificPowerAction(mo, p, "theJungle:MamaSneckoRevengePower"));
+            	AbstractDungeon.actionManager.addToBottom(new ApplyPowerAction(mo, p, new NoMamaSneckoPower(mo,1), 1));
+			}
         }
 	}
 	

@@ -1,3 +1,6 @@
+v1.6.4
+Defensive Analysis now works on modded buffs
+
 v1.6.3
 Added 2 + 1 new cards
 Buffed Ghost Form to lose less Max HP
