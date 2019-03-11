@@ -358,7 +358,7 @@
     "UPGRADE_DESCRIPTION": "如果敌人的意图是攻击，获得3点 精神错乱 。 NL 否则，获得2点 力量 。"
   },
   "yuri:InsanityDefense": {
-    "NAME": "Insanity Defense",
-    "DESCRIPTION": "Gain !D! Block. NL This card is affected by damage modifiers."
+    "NAME": "狂气防御",
+    "DESCRIPTION": "获得 !D! 点格挡。 NL 格挡数值会受到伤害加成类状态影响。"
   }
 }
