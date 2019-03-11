@@ -356,5 +356,9 @@
     "NAME": "活性愤怒",
     "DESCRIPTION": "如果敌人的意图是攻击，获得3点 精神错乱 。",
     "UPGRADE_DESCRIPTION": "如果敌人的意图是攻击，获得3点 精神错乱 。 NL 否则，获得2点 力量 。"
+  },
+  "yuri:InsanityDefense": {
+    "NAME": "Insanity Defense",
+    "DESCRIPTION": "Gain !D! Block. NL This card is affected by damage modifiers."
   }
 }

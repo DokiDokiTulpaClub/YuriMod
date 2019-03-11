@@ -356,5 +356,9 @@
     "NAME": "Reactive Anger",
     "DESCRIPTION": "If the enemy intends to attack, gain 3 Insanity.",
     "UPGRADE_DESCRIPTION": "If the enemy intends to attack, gain 3 Insanity. NL Otherwise, Gain 2 Strength."
+  },
+  "yuri:InsanityDefense": {
+    "NAME": "Insanity Defense",
+    "DESCRIPTION": "Gain !D! Block. NL This card is affected by damage modifiers."
   }
 }

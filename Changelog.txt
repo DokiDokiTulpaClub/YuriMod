@@ -1,5 +1,9 @@
 v1.6.4
+Added 1 new card
 Defensive Analysis now works on modded buffs
+Added Googly eyes
+Tweaked Chibi Invasion
+
 
 v1.6.3
 Added 2 + 1 new cards
