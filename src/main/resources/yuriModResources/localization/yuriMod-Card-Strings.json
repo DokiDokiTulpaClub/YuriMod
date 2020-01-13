@@ -123,7 +123,8 @@
     },
     "yuri:DeepBreathing": {
     "NAME": "Deep Breathing",
-    "DESCRIPTION": "Lose all Insanity. NL Gain it back next turn."
+    "DESCRIPTION": "Lose all Insanity. NL Gain it back next turn.",
+      "UPGRADE_DESCRIPTION": "Lose all Insanity. NL Gain it back next turn. NL Draw 1 card."
     },
     "yuri:DeepBreathingCorrupt": {
     "NAME": "Manic Laughter",
@@ -337,7 +338,7 @@
   },
   "yuri:HoldBack": {
     "NAME": "Hold Back",
-    "DESCRIPTION": "Lose 2 Insanity. NL At the start of your turn, Gain !M! Temporary_HP."
+    "DESCRIPTION": "Lose 2 Insanity. NL Gain !M! Peace."
   },
   "yuri:HoldBackCorrupt": {
     "NAME": "No Holding Back",
@@ -360,5 +361,10 @@
   "yuri:InsanityDefense": {
     "NAME": "Insanity Defense",
     "DESCRIPTION": "Gain !D! Block. NL This card is affected by damage modifiers."
-  }
+  },
+  "yuri:BookPurple": {
+  "NAME": "Religion Book",
+  "DESCRIPTION": "Gain 1 Peace. NL You next attack deals additional damage equal to your Peace.",
+  "UPGRADE_DESCRIPTION": "Gain 1 Peace. NL You next attack deals additional damage equal to !M! times your Peace."
+}
 }

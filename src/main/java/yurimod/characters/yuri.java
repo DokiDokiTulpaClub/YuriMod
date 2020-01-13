@@ -38,6 +38,10 @@ public class yuri extends CustomPlayer {
 	public static final String[] NAMES = characterStrings.NAMES;
 	public static final String[] TEXT = characterStrings.TEXT;
 
+	@Override
+	public String getPortraitImageName() {
+		return "YURI_BUTTON";
+	}
 	// =============== BASE STATS =================
 	
 		public static final int ENERGY_PER_TURN = 3; 

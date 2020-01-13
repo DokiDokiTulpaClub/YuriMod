@@ -17,6 +17,7 @@ import basemod.abstracts.CustomRelic;
 import com.megacrit.cardcrawl.vfx.cardManip.ShowCardAndObtainEffect;
 import yurimod.cards.BookBlue;
 import yurimod.cards.BookGreen;
+import yurimod.cards.BookPurple;
 import yurimod.cards.BookRed;
 import yurimod.patches.yuriModTags;
 import yurimod.yuriMod;
@@ -34,6 +35,7 @@ public class BookOfBooks extends CustomRelic {
         books.addToTop(new BookRed());
         books.addToTop(new BookGreen());
         books.addToTop(new BookBlue());
+        books.addToTop(new BookPurple());
         for (AbstractCard c : books.group) {
             c.upgrade();
     }
@@ -43,12 +45,15 @@ public class BookOfBooks extends CustomRelic {
                 AbstractCard cr = new BookRed();
         AbstractCard cg = new BookGreen();
         AbstractCard cb = new BookBlue();
+        AbstractCard cp = new BookPurple();
         cr.upgrade();
         cg.upgrade();
         cb.upgrade();
+        cp.upgrade();
         retVal.add(cr);
         retVal.add(cg);
         retVal.add(cb);
+        retVal.add(cp);
         return retVal;
     }
 

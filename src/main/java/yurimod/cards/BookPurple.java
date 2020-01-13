@@ -1,8 +1,8 @@
 package yurimod.cards;
 
-import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.FleetingField;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
-import com.megacrit.cardcrawl.actions.common.ReducePowerAction;
+import com.megacrit.cardcrawl.actions.defect.ChannelAction;
+import com.megacrit.cardcrawl.actions.defect.IncreaseMaxOrbAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -12,14 +12,17 @@ import com.megacrit.cardcrawl.monsters.AbstractMonster;
 
 import basemod.abstracts.CustomCard;
 
-import yurimod.actions.CorruptAction;
+import com.megacrit.cardcrawl.orbs.Frost;
+import com.megacrit.cardcrawl.orbs.Lightning;
+import com.megacrit.cardcrawl.powers.*;
+import com.megacrit.cardcrawl.powers.watcher.VigorPower;
+import yurimod.patches.yuriModTags;
 import yurimod.powers.GrowingInsanityPower;
-import yurimod.powers.HoldBackPower;
 import yurimod.powers.PeacePower;
 import yurimod.yuriMod;
 import yurimod.patches.AbstractCardEnum;
 
-public class HoldBack
+public class BookPurple
 extends CustomCard {
 	
 /*
@@ -32,9 +35,9 @@ extends CustomCard {
 	
 // TEXT DECLARATION 
 	
-	public static final String ID = yurimod.yuriMod.makeID("HoldBack");
+	public static final String ID = yurimod.yuriMod.makeID("BookPurple");
 	private static final CardStrings cardStrings = CardCrawlGame.languagePack.getCardStrings(ID);
-	public static final String IMG = yuriMod.makePath(yuriMod.yuri_HOLD_BACK);
+	public static final String IMG = yuriMod.makePath(yuriMod.yuri_BOOK_PURPLE);
 	
 	public static final	String NAME = cardStrings.NAME;
 	public static final String DESCRIPTION = cardStrings.DESCRIPTION;
@@ -51,32 +54,35 @@ extends CustomCard {
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
 	private static final int COST = 1;
-	private static final int MAGIC = 2;
+	private static final int MAGIC = 1;
 	private static final int UPGRADE_MAGIC = 1;
 
 	
 // /STAT DECLARATION/
 	
-	public HoldBack() {
+	public BookPurple() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
-		this.baseMagicNumber = this.magicNumber = MAGIC;
+		this.tags.add(yuriModTags.BOOK);
+		this.baseMagicNumber=this.magicNumber=MAGIC;
 	}
 	
 	// Actions the card should do.
 	@Override
 	public void use(AbstractPlayer p, AbstractMonster m) {
-		AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(p, p, "InsanityPower", 2));
-		AbstractDungeon.actionManager
-				.addToBottom(new ApplyPowerAction(p, p, new PeacePower(p, this.magicNumber), this.magicNumber));
-        if (AbstractDungeon.player.hasRelic("yuri:BloodyKnife") && !this.purgeOnUse) {
-            AbstractDungeon.actionManager.addToBottom(new CorruptAction(this, new HoldBackCorrupt()));
-            FleetingField.fleeting.set(this, true);
-        }
-	}
+		addToBot(new ApplyPowerAction(p, p, new PeacePower(p, 1), 1));
+		int peace;
+		if (p.hasPower("PeacePower")) {
+			peace = (p.getPower("PeacePower").amount+1);
+		} else {
+			peace = 1;
+		}
+			this.addToBot(new ApplyPowerAction(p, p, new VigorPower(p, peace*this.magicNumber), peace*this.magicNumber));
+		}
 	
 	// Which card to return when making a copy of this card.
     @Override
-    public AbstractCard makeCopy() { return new HoldBack();
+    public AbstractCard makeCopy() {
+        return new BookPurple();
     }
     
     //Upgraded stats.
@@ -84,6 +90,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
+            this.rawDescription=UPGRADE_DESCRIPTION;
             this.upgradeMagicNumber(UPGRADE_MAGIC);
             this.initializeDescription();
         }

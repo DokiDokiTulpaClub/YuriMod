@@ -58,8 +58,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     // =============== IMPUT TEXTURE LOCATION =================
    
     // Color
-    public static final Color YURI_PURPLE = CardHelper.getColor(158.0f, 16.0f, 203.0f);
-    public static final Color YURI_RED = CardHelper.getColor(169.0f, 36.0f, 18.0f);
+    public static final Color YURI_PURPLE = CardHelper.getColor(158, 16, 203);
+    public static final Color YURI_RED = CardHelper.getColor(169, 36, 18);
 
     // Image folder name
     private static final String yuri_MOD_ASSETS_FOLDER = "yuriModResources/images";
@@ -138,6 +138,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_BOOK_RED = "cards/BookR.png";
     public static final String yuri_BOOK_GREEN = "cards/BookG.png";
     public static final String yuri_BOOK_BLUE = "cards/BookB.png";
+    public static final String yuri_BOOK_PURPLE = "cards/BookP.png";
     public static final String yuri_AURA_CALM = "cards/CalmAura.png";
     public static final String yuri_AURA_CALM_CORRUPT = "cards/CalmAuraCorrupt.png";
     public static final String yuri_DISTILL = "cards/Distill.png";
@@ -302,7 +303,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		ModPanel settingsPanel = new ModPanel();
 		BaseMod.registerModBadge(badgeTexture, MODNAME, AUTHOR, DESCRIPTION, settingsPanel);
 
-        ModLabeledToggleButton BrutalButton = new ModLabeledToggleButton("Doubles health loss from insanity.",
+        ModLabeledToggleButton BrutalButton = new ModLabeledToggleButton("Hard mode (Damage reduction is half as effective).",
                 350.0f, 700.0f, Settings.CREAM_COLOR, FontHelper.charDescFont,
                 BrutalInsanity, settingsPanel, (label) -> {
         }, (button) -> {
@@ -421,6 +422,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new BookRed());
 		BaseMod.addCard(new BookGreen());
 		BaseMod.addCard(new BookBlue());
+		BaseMod.addCard(new BookPurple());
 		BaseMod.addCard(new CalmingAura());
 		BaseMod.addCard(new CalmingAuraCorrupt());
 		BaseMod.addCard(new DistillInsanity());
@@ -506,6 +508,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(BookRed.ID);
         UnlockTracker.unlockCard(BookGreen.ID);
         UnlockTracker.unlockCard(BookBlue.ID);
+        UnlockTracker.unlockCard(BookPurple.ID);
         UnlockTracker.unlockCard(CalmingAura.ID);
         UnlockTracker.unlockCard(DistillInsanity.ID);
         UnlockTracker.unlockCard(ExploitStrike.ID);
@@ -574,6 +577,8 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addKeyword(thornlike, "Thornlike buffs include thorns, sharp hide, angry, malleable, curl up and similar modded buffs.");
 		final String[] book = { "book", "books" };
 		BaseMod.addKeyword(book, "A card that grants abilities based on other characters, and synergize with themselves.");
+        final String[] peace = { "peace" };
+        BaseMod.addKeyword(peace, "Reduces health loss from Insanity.");
 
 		BaseMod.addKeyword(new String[]{"精神错乱"}, "提升攻击伤害，降低受到的伤害。 NL 在每回合结束时失去生命。");
 		BaseMod.addKeyword(new String[]{"受损"}, "降低攻击伤害，提高受到的伤害。 NL 在每回合开始时失去生命。");

@@ -9,7 +9,6 @@ import com.megacrit.cardcrawl.actions.defect.ChannelAction;
 import com.megacrit.cardcrawl.actions.utility.WaitAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.cards.DamageInfo;
-import com.megacrit.cardcrawl.cards.colorless.Shiv;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
 import com.megacrit.cardcrawl.dungeons.AbstractDungeon;
@@ -56,7 +55,7 @@ extends CustomCard {
 	private static final int COST = 2;
 	private static final int DAMAGE = 4;
 	private static final int UPGRADE_PLUS_DMG = 2;
-	private static final int BLOCK = 8;
+	private static final int BLOCK = 9;
 	private static final int UPGRADE_BLOCK = 2;
 
 	

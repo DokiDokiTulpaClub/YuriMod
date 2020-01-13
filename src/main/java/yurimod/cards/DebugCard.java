@@ -63,7 +63,7 @@ extends CustomCard {
 				.addToBottom(new com.megacrit.cardcrawl.actions.common.GainBlockAction(p, p, this.block));
 		AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(p, p, "GlitchedPower", 1));
 		AbstractDungeon.actionManager
-				.addToBottom(new com.megacrit.cardcrawl.actions.common.ExhaustAction(p, p, 1, false));
+				.addToBottom(new com.megacrit.cardcrawl.actions.common.ExhaustAction(1, false));
 
 
 	}

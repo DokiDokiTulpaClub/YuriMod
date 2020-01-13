@@ -52,12 +52,14 @@ public class GlitchedPower extends AbstractPower implements HealthBarRenderPower
     // Reduce damage the same way as strength.
     @Override
     public float atDamageGive(float damage, DamageInfo.DamageType type) {
-        if (!owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
+        if (!owner.isPlayer && !yuriMod.BrutalInsanity && AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
             return type == DamageInfo.DamageType.NORMAL ? damage - (float) this.amount : damage;
+        } else  if (!owner.isPlayer && yuriMod.BrutalInsanity && !AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
+            return type == DamageInfo.DamageType.NORMAL ? damage - (float) (this.amount * 0.25) : damage;
         } else {
             return type == DamageInfo.DamageType.NORMAL ? damage - (float) (this.amount * 0.5) : damage;
+            }
         }
-    }
 
     // Increases damage taken.
     @Override
@@ -77,8 +79,10 @@ public class GlitchedPower extends AbstractPower implements HealthBarRenderPower
     public void updateDescription() {
         if (owner.isPlayer) {
             this.description = DESCRIPTIONS[0] + (MathUtils.ceil((float)this.amount / 2)) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[3] + this.amount + DESCRIPTIONS[4];
-        } else if (AbstractDungeon.player.hasRelic("yuri:GlitchPowder")) {
+        } else if (AbstractDungeon.player.hasRelic("yuri:GlitchPowder") && !yuriMod.BrutalInsanity) {
             this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[4];
+        } else if (!AbstractDungeon.player.hasRelic("yuri:GlitchPowder") && yuriMod.BrutalInsanity) {
+            this.description = DESCRIPTIONS[0] + (MathUtils.ceil((float)this.amount / 4)) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[4];
         } else {
             this.description = DESCRIPTIONS[0] + (MathUtils.ceil((float)this.amount / 2)) + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + this.amount + DESCRIPTIONS[4];
         }

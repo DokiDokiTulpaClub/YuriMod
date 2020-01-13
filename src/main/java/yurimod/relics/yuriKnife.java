@@ -9,6 +9,7 @@ import com.megacrit.cardcrawl.relics.AbstractRelic;
 
 import basemod.abstracts.CustomRelic;
 import yurimod.powers.InsanityPower;
+import yurimod.powers.PeacePower;
 import yurimod.yuriMod;
 
 public class yuriKnife extends CustomRelic
@@ -26,11 +27,7 @@ public class yuriKnife extends CustomRelic
     // Description
 	@Override
 	public String getUpdatedDescription() {
-        if (yuriMod.BrutalInsanity) {
-            return DESCRIPTIONS[0] + 2 + DESCRIPTIONS[1];
-        } else {
-            return DESCRIPTIONS[0] + 1 + DESCRIPTIONS[1];
-        }
+            return DESCRIPTIONS[0];
     }
 
 	//
@@ -38,6 +35,7 @@ public class yuriKnife extends CustomRelic
     public void atBattleStart(){
 	    this.flash();
 	    AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new InsanityPower(AbstractDungeon.player, AbstractDungeon.player, 1), 1));
+	    AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new PeacePower(AbstractDungeon.player, 1), 1));
 	    AbstractDungeon.actionManager.addToTop(new RelicAboveCreatureAction(AbstractDungeon.player, this));
     }
 

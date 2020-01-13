@@ -68,7 +68,7 @@ extends CustomCard {
         AbstractDungeon.actionManager
                 .addToBottom(new com.megacrit.cardcrawl.actions.common.ApplyPowerAction(m, p, new WeakPower(m, this.magicNumber, false), this.magicNumber));
         AbstractDungeon.actionManager
-                .addToBottom(new com.megacrit.cardcrawl.actions.common.ExhaustAction(p, p, 1, false));
+                .addToBottom(new com.megacrit.cardcrawl.actions.common.ExhaustAction(1, false));
 	}
 
 	// Which card to return when making a copy of this card.

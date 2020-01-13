@@ -60,9 +60,6 @@ extends CustomCard
 	public RhapsodyCurse() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 		this.exhaust = true;
-		if (CardCrawlGame.playerName.equals("Rhapsody")){
-			this.rawDescription = UPGRADE_DESCRIPTION;
-		}
 	}
 
 		// Actions the card should do.

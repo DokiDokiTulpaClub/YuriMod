@@ -1,6 +1,7 @@
 package yurimod.powers;
 
 import com.badlogic.gdx.graphics.Color;
+import com.badlogic.gdx.math.MathUtils;
 import com.evacipated.cardcrawl.mod.stslib.powers.interfaces.HealthBarRenderPower;
 import com.megacrit.cardcrawl.cards.DamageInfo;
 import com.megacrit.cardcrawl.helpers.ImageMaster;
@@ -42,14 +43,11 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
     public int getHealthBarAmount() {
         if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
             this.hpLossBar = 0;
-        } else if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
-            this.hpLossBar = this.amount - 1;
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower")) {
+            this.hpLossBar = this.amount - AbstractDungeon.player.getPower("PeacePower").amount;
         }
         else {
             this.hpLossBar = this.amount;
-        }
-        if (yuriMod.BrutalInsanity) {
-            this.hpLossBar *= 2;
         }
         return this.hpLossBar;
     }
@@ -68,21 +66,22 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
     // Reduces damage taken.
     @Override
     public float atDamageReceive(float damage, DamageInfo.DamageType type) {
-        return type == DamageInfo.DamageType.NORMAL ? damage - (float)this.amount : damage;
+        if (yuriMod.BrutalInsanity) {
+            return type == DamageInfo.DamageType.NORMAL ? damage - (float) (this.amount * 0.5) : damage;
+        } else {
+            return type == DamageInfo.DamageType.NORMAL ? damage - (float) this.amount : damage;
+        }
     }
     // Hp loss at turn end
     @Override
     public void atEndOfTurn(final boolean isPlayer) {
         if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
             this.hpLoss = 0;
-        } else if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
-            this.hpLoss = this.amount - 1;
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower")) {
+            this.hpLoss = this.amount - AbstractDungeon.player.getPower("PeacePower").amount;
         }
         else {
             this.hpLoss = this.amount;
-        }
-        if (yuriMod.BrutalInsanity) {
-          this.hpLoss *= 2;
         }
         if (this.hpLoss > 0) {
             AbstractDungeon.actionManager.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(this.owner, this.owner, this.hpLoss));
@@ -94,16 +93,19 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
     {
         if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
             this.hpLossDes = 0;
-        } else if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
-            this.hpLossDes = this.amount - 1;
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower")) {
+            this.hpLossDes = this.amount - AbstractDungeon.player.getPower("PeacePower").amount;
         }
         else {
             this.hpLossDes = this.amount;
         }
         if (yuriMod.BrutalInsanity) {
-            this.hpLossDes *= 2;
-        }
-        if (this.hpLossDes > 0) {
+            if (this.hpLossDes > 0) {
+                this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + (MathUtils.ceil((float)this.amount / 2)) + DESCRIPTIONS[2] + (this.hpLossDes) + DESCRIPTIONS[3];
+            } else {
+                this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + (MathUtils.ceil((float)this.amount / 2));
+            }
+        } else if (this.hpLossDes > 0) {
                 this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount + DESCRIPTIONS[2] + (this.hpLossDes) + DESCRIPTIONS[3];
             } else {
             this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1] + this.amount;

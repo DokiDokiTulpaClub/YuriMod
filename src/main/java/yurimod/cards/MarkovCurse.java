@@ -64,9 +64,7 @@ extends CustomCard
 		// Actions the card should do.
 		@Override
 		public void use (AbstractPlayer p, AbstractMonster m) {
-            if (!this.dontTriggerOnUseCard && p.hasRelic("Blue Candle")) {
-                this.useBlueCandle(p);
-            } else {
+            if (this.dontTriggerOnUseCard) {
                 AbstractDungeon.actionManager
                         .addToBottom(new ApplyPowerAction(p, p, new InsanityPower(p, p, this.magicNumber), this.magicNumber));
             }

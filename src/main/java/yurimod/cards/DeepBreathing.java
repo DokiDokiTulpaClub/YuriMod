@@ -2,6 +2,7 @@ package yurimod.cards;
 
 import com.evacipated.cardcrawl.mod.stslib.fields.cards.AbstractCard.FleetingField;
 import com.megacrit.cardcrawl.actions.common.ApplyPowerAction;
+import com.megacrit.cardcrawl.actions.common.DrawCardAction;
 import com.megacrit.cardcrawl.cards.AbstractCard;
 import com.megacrit.cardcrawl.characters.AbstractPlayer;
 import com.megacrit.cardcrawl.core.CardCrawlGame;
@@ -47,8 +48,7 @@ extends CustomCard {
 	private static final CardType TYPE = CardType.SKILL;
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
-	private static final int COST = 1;
-	private static final int UPGRADE_COST = 0;
+	private static final int COST = 0;
 
 	
 // /STAT DECLARATION/
@@ -67,6 +67,9 @@ extends CustomCard {
 			AbstractDungeon.actionManager
 					.addToBottom(new ApplyPowerAction(p, p, new NextTurnInsanityPower(p, p, insane), insane));
 			}
+		if (this.upgraded) {
+			addToBot(new DrawCardAction(1));
+		}
 		if (AbstractDungeon.player.hasRelic("yuri:BloodyKnife") && !this.purgeOnUse) {
 			AbstractDungeon.actionManager.addToBottom(new CorruptAction(this, new DeepBreathingCorrupt()));
 			FleetingField.fleeting.set(this, true);
@@ -84,7 +87,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeBaseCost(UPGRADE_COST);
+            this.rawDescription = UPGRADE_DESCRIPTION;
             this.initializeDescription();
         }
     }

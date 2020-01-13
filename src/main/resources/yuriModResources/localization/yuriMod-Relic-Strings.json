@@ -6,13 +6,13 @@
 	},
   "yuri:BookOfBooks": {
         "NAME": "Book of Books",
-	    "FLAVOR": "Nerfed now that I'm better at coding.",
+	    "FLAVOR": "A book containing instructions on how to read books. Comes with a free book.",
         "DESCRIPTIONS": ["Upon pickup choose an #yUpgraded #yBook to obtain. NL Your #yBooks are played twice."]
 	},
   "yuri:yuriKnife": {
         "NAME": "Knife",
 	    "FLAVOR": "The thing is, I'm kind of into knifes.",
-        "DESCRIPTIONS": ["At the start of each combat, gain #b1 #yInsanity. NL Lose #b", " less health from #yInsanity."]
+        "DESCRIPTIONS": ["At the start of each combat, gain #b1 #yInsanity and #b1 #yPeace."]
 	},
   "yuri:BloodyKnife": {
         "NAME": "Bloody Knife",

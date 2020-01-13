@@ -1,3 +1,14 @@
+v1.7.0
+Updated to work on the latest version of the game
+Added peace, which reduces hp loss from Insanity
+Added a new card
+Knife now adds peace
+Hold Back reworked to add peace instead
+Reworked config option, now makes damage reduction less effective instead of doubling HP loss.
+Buffed Parry defense 8(10) to 9(11)
+Fixed Adaptive AI not stacking
+Nerfed Nerf Bat damage 6(8) to 6
+
 v1.6.4
 Added 1 new card
 Defensive Analysis now works on modded buffs

@@ -123,7 +123,8 @@
     },
     "yuri:DeepBreathing": {
     "NAME": "深呼吸",
-    "DESCRIPTION": "失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。"
+    "DESCRIPTION": "失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。",
+      "UPGRADE_DESCRIPTION": "失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。 NL 抽1张牌。"
     },
     "yuri:DeepBreathingCorrupt": {
     "NAME": "狂笑",
@@ -360,5 +361,10 @@
   "yuri:InsanityDefense": {
     "NAME": "狂气防御",
     "DESCRIPTION": "获得 !D! 点 格挡 。 NL 格挡 数值会受到伤害加成类状态影响。"
+  },
+  "yuri:BookPurple": {
+    "NAME": "Religion Book",
+    "DESCRIPTION": "Gain 1 Peace. NL You next attack deals additional damage equal to your Peace.",
+    "UPGRADE_DESCRIPTION": "Gain 1 Peace. NL You next attack deals additional damage equal to !M! times your Peace."
   }
 }
