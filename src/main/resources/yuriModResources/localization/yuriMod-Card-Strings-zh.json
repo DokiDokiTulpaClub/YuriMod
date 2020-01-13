@@ -338,7 +338,7 @@
   },
   "yuri:HoldBack": {
     "NAME": "控制",
-    "DESCRIPTION": "失去2点 精神错乱 。 NL 在你的回合开始时，获得 !M! 点 临时生命 。"
+    "DESCRIPTION": "失去2点 精神错乱 。 NL 获得 !M! 层 镇定 。"
   },
   "yuri:HoldBackCorrupt": {
     "NAME": "失控",

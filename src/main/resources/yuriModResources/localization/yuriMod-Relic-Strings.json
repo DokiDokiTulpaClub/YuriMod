@@ -1,7 +1,7 @@
 {
 "yuri:PortraitOfMarkov": {
         "NAME": "Portrait of Markov",
-	    "FLAVOR": "UPDATE FLAVOR TEXT",
+	    "FLAVOR": "Open your third eye.",
         "DESCRIPTIONS": ["Gain [R] at the start of your turn. NL At the start of combat, gain #b1 #yGlitched. NL Disables #rOmamori. NL Upon pickup obtain a special #rCurse."]
 	},
   "yuri:BookOfBooks": {

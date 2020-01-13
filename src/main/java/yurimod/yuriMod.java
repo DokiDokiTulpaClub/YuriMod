@@ -586,6 +586,7 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addKeyword(new String[]{"类反伤"}, "类反伤状态指荆棘，锋利外壳，生气，柔韧，蜷身和其他类似的模组化状态。");
 		BaseMod.addKeyword(new String[]{"书"}, "通过获得其他角色的能力来增强自己的能力牌。");
 		BaseMod.addKeyword(new String[]{"临时生命"}, "临时生命可以为你抵挡伤害和生命损失，在战斗结束后消失");
+		BaseMod.addKeyword(new String[]{"镇定"}, "减少精神错乱造成的生命损失。");
 
 
 	}
