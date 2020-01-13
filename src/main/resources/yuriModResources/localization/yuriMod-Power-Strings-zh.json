@@ -76,7 +76,7 @@
     "DESCRIPTIONS": ["在你的回合开始时，将 #b", " 张 升级 过的 #y投掷小刀 加入你的手牌。"]
   },
   "yuri:Peace": {
-    "NAME": "Peace",
-    "DESCRIPTIONS": ["Lose #b", " less health from #yInsanity."]
+    "NAME": "镇定",
+    "DESCRIPTIONS": ["来自 #y精神错乱 的生命损失将会被减少 #b", " 点。"]
   }
 }
