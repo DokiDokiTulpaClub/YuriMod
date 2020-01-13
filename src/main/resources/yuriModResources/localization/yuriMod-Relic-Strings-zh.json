@@ -5,14 +5,14 @@
         "DESCRIPTIONS": ["在每回合开始时获得 [R] 。 NL 在战斗开始时，获得 #b1 层 #y受损 。 NL 禁用 #r御守 。 NL 当你拾起这件遗物时，获得一张特殊的 #r诅咒 。"]
 	},
   "yuri:BookOfBooks": {
-        "NAME": "圣经",
-	    "FLAVOR": "在我的编程技术长进后我削弱了它。",
+        "NAME": "书之书",
+	    "FLAVOR": "一本关于如何读书的书。附赠一本书。",
         "DESCRIPTIONS": ["获得一张 #y升级 过的 #y书 。 NL 你的 #y书 将会被打出两次。"]
 	},
   "yuri:yuriKnife": {
         "NAME": "小刀",
 	    "FLAVOR": "问题在于，我有点对刀着魔了。",
-        "DESCRIPTIONS": ["在每场战斗开始时, 获得 #b1 点 #y精神错乱 。 NL 来自于 #y精神错乱 的生命损失将会被降低 #b", " 点。"]
+        "DESCRIPTIONS": ["在每场战斗开始时, 获得 #b1 点 #y精神错乱 和 #b1 点 #y镇定 。"]
 	},
   "yuri:BloodyKnife": {
         "NAME": "染血小刀",
