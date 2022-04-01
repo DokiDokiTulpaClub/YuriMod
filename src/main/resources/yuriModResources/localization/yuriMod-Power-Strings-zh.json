@@ -77,6 +77,6 @@
   },
   "yuri:Peace": {
     "NAME": "镇定",
-    "DESCRIPTIONS": ["来自 #y精神错乱 的生命损失将会被减少 #b", " 点。"]
+    "DESCRIPTIONS": ["来自 #y精神错乱 的生命损失将会被减少 #b", " 点。", "#rOpen #ryour #rthird #reye."]
   }
 }

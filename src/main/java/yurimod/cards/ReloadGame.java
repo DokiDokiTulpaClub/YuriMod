@@ -56,6 +56,7 @@ extends CustomCard {
 	
 	public ReloadGame() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
+		this.selfRetain = true;
 	}
 	
 	// Actions the card should do.

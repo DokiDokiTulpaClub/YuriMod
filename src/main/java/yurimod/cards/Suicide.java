@@ -69,7 +69,7 @@ extends CustomCard {
 		if (AbstractDungeon.player.hasRelic("yuri:yuriKnife")) {
         AbstractDungeon.actionManager.addToBottom(new ReducePowerAction(p, p, "IntangiblePlayer", 3));
 		AbstractDungeon.actionManager
-				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 20));
+				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 25));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
@@ -86,7 +86,7 @@ extends CustomCard {
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager
-				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 40));
+				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 50));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
@@ -103,7 +103,7 @@ extends CustomCard {
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager.addToBottom(new WaitAction(0.1f));
 		AbstractDungeon.actionManager
-				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 999));
+				.addToBottom(new com.megacrit.cardcrawl.actions.common.LoseHPAction(p, p, 9999));
 		 int relicAtIndex = 0;
 
 		 for(int i = 0; i < AbstractDungeon.player.relics.size(); ++i) {

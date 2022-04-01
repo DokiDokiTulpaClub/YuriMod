@@ -41,6 +41,9 @@ public class PeacePower extends AbstractPower {
     // Update the description when you apply this power. (i.e. add or remove an "s" in keyword(s))
     @Override
     public void updateDescription() {
+        if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:PortraitOfMarkov")) {
+            this.description = DESCRIPTIONS[2];
+        } else
         this.description = DESCRIPTIONS[0] + this.amount + DESCRIPTIONS[1];
     }
 }

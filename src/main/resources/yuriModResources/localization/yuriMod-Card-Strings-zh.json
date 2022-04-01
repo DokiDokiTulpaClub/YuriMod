@@ -82,8 +82,8 @@
     },
     "yuri:TeaSet": {
     "NAME": "便携茶具",
-    "DESCRIPTION": " 固有 。 NL 获得 [E] 。 NL 消耗 。",
-    "UPGRADE_DESCRIPTION": " 固有 。 NL 获得 [E] [E] 。 NL 消耗 。"
+    "DESCRIPTION": "Retain. NL 固有 。 NL 获得 [E] 。 NL 消耗 。",
+    "UPGRADE_DESCRIPTION": "Retain. NL 固有 。 NL 获得 [E] [E] 。 NL 消耗 。"
     },
     "yuri:Oolong": {
     "NAME": "乌龙茶",
@@ -123,8 +123,8 @@
     },
     "yuri:DeepBreathing": {
     "NAME": "深呼吸",
-    "DESCRIPTION": "失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。",
-      "UPGRADE_DESCRIPTION": "失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。 NL 抽1张牌。"
+    "DESCRIPTION": "Retain. NL 失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。",
+      "UPGRADE_DESCRIPTION": "Retain. NL 失去所有 精神错乱 。 NL 在下回合重新获得等量的 精神错乱 。 NL 抽1张牌。"
     },
     "yuri:DeepBreathingCorrupt": {
     "NAME": "狂笑",
@@ -196,7 +196,8 @@
     },
   "yuri:RepairCode": {
         "NAME": "修复代码",
-        "DESCRIPTION": "移除你身上的全部 受损 。 NL 每移除1层受损，获得 !M! 点 临时生命 。"
+        "DESCRIPTION": "移除你身上的全部 受损 。 NL 每移除1层受损，获得 !M! 点 临时生命 。",
+        "UPGRADE_DESCRIPTION": "Retain. NL 移除你身上的全部 受损 。 NL 每移除1层受损，获得 !M! 点 临时生命 。"
     },
     "yuri:DejaVu": {
         "NAME": "既视感",
@@ -311,8 +312,8 @@
   },
   "yuri:ReloadGame": {
     "NAME": "读档",
-    "DESCRIPTION": "将你的 精神错乱 重置为战斗开始时的数值。",
-    "UPGRADE_DESCRIPTION": "将你的 精神错乱 重置为战斗开始时的数值。 NL 抽1张牌。"
+    "DESCRIPTION": "Retain. NL 将你的 精神错乱 重置为战斗开始时的数值。",
+    "UPGRADE_DESCRIPTION": "Retain. NL 将你的 精神错乱 重置为战斗开始时的数值。 NL 抽1张牌。"
   },
   "yuri:ReloadGameCorrupt": {
     "NAME": "存档损坏",
@@ -346,8 +347,8 @@
   },
   "yuri:MagneticKnives": {
     "NAME": "磁力小刀",
-    "DESCRIPTION": "在你的回合开始时，将一张投掷小刀加入你的手牌。",
-    "UPGRADE_DESCRIPTION": "在你的回合开始时，将一张 升级 过的投掷小刀加入你的手牌。"
+    "DESCRIPTION": "Ethereal. NL 在你的回合开始时，将一张投掷小刀加入你的手牌。 NL It costs 0 this combat.",
+    "UPGRADE_DESCRIPTION": "在你的回合开始时，将一张 升级 过的投掷小刀加入你的手牌。 NL It costs 0 this combat."
   },
   "yuri:ReactiveMadness": {
     "NAME": "活性疯狂",
@@ -364,7 +365,6 @@
   },
   "yuri:BookPurple": {
     "NAME": "宗教之书",
-    "DESCRIPTION": "获得1层 镇定 。 NL 你的下次攻击造成等同于你 镇定 层数的额外伤害。",
-    "UPGRADE_DESCRIPTION": "获得1层 镇定 。 NL 你的下次攻击造成等同于你 镇定 层数的 !M! 倍的额外伤害。"
+    "DESCRIPTION": "Gain 1 Peace. NL Gain temporary Strength equal to !M! times your Peace."
   }
 }

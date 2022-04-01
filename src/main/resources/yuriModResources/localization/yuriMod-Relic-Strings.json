@@ -2,7 +2,7 @@
 "yuri:PortraitOfMarkov": {
         "NAME": "Portrait of Markov",
 	    "FLAVOR": "Open your third eye.",
-        "DESCRIPTIONS": ["Gain [R] at the start of your turn. NL At the start of combat, gain #b1 #yGlitched. NL Disables #rOmamori. NL Upon pickup obtain a special #rCurse."]
+        "DESCRIPTIONS": ["Gain [R] at the start of your turn. NL #yPeace no longer reduces HP loss. NL Upon pickup obtain a special #rCurse."]
 	},
   "yuri:BookOfBooks": {
         "NAME": "Book of Books",
@@ -17,7 +17,7 @@
   "yuri:BloodyKnife": {
         "NAME": "Bloody Knife",
 	    "FLAVOR": "You shouldn't have done that.",
-        "DESCRIPTIONS": ["You no longer lose health from Insanity. NL May have unexpected side effects."]
+        "DESCRIPTIONS": ["You no longer lose health from #yInsanity. NL May have unexpected side effects."]
 	},
   "yuri:GlassOfWater": {
         "NAME": "Glass of Water",

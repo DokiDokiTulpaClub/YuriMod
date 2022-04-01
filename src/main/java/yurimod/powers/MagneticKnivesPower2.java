@@ -44,6 +44,7 @@ public class MagneticKnivesPower2 extends AbstractPower {
         this.flash();
         AbstractCard s = (new ThrowingKnives().makeCopy());
         s.upgrade();
+        s.freeToPlayOnce = true;
             AbstractDungeon.actionManager
                     .addToBottom(new MakeTempCardInHandAction(s, this.amount, false));
 

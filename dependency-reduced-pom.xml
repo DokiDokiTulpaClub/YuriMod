@@ -52,34 +52,38 @@
     <dependency>
       <groupId>com.megacrit.cardcrawl</groupId>
       <artifactId>slaythespire</artifactId>
-      <version>016</version>
+      <version>${SlayTheSpire.version}</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/desktop-1.0.jar</systemPath>
+      <systemPath>${Steam.path}/common/SlayTheSpire/desktop-1.0.jar</systemPath>
     </dependency>
     <dependency>
       <groupId>com.evacipated.cardcrawl</groupId>
-      <artifactId>ModTheSpire</artifactId>
-      <version>3.6.0</version>
+      <artifactId>modthespire</artifactId>
+      <version>${ModTheSpire.version}</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/ModTheSpire.jar</systemPath>
+      <systemPath>${Steam.path}/workshop/content/646570/1605060445/ModTheSpire.jar</systemPath>
     </dependency>
     <dependency>
-      <groupId>com.evacipated.cardcrawl</groupId>
-      <artifactId>BaseMod</artifactId>
-      <version>5.5.0</version>
+      <groupId>basemod</groupId>
+      <artifactId>basemod</artifactId>
+      <version>5.0.0</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/BaseMod.jar</systemPath>
+      <systemPath>${Steam.path}/workshop/content/646570/1605833019/BaseMod.jar</systemPath>
     </dependency>
     <dependency>
-      <groupId>com.evacipated.cardcrawl</groupId>
+      <groupId>com.evacipated.cardcrawl.mod</groupId>
       <artifactId>StSLib</artifactId>
-      <version>1.9.0</version>
+      <version>1.3.2</version>
       <scope>system</scope>
-      <systemPath>${basedir}/../lib/StSlib.jar</systemPath>
+      <systemPath>${Steam.path}/workshop/content/646570/1609158507/StSLib.jar</systemPath>
     </dependency>
   </dependencies>
   <properties>
+    <ModTheSpire.version>3.8.0</ModTheSpire.version>
+    <Steam.path>C:\Program Files (x86)\steam\steamapps</Steam.path>
+    <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
     <maven.compiler.source>1.8</maven.compiler.source>
+    <SlayTheSpire.version>01-23-2019</SlayTheSpire.version>
     <maven.compiler.target>1.8</maven.compiler.target>
   </properties>
 </project>

@@ -1,3 +1,13 @@
+v1.8.0
+Tweaked some cards
+Reworked Portrait of markov, now disables peace
+Magnetic knives is now a form card, instead of dragon form and ghost form
+Added retain to some cards
+Glass of water is now common (from uncommon)
+Portable glitches is now rare (from uncommon)
+Increased health loss of a certain card
+Minor text changes
+
 v1.7.0
 Updated to work on the latest version of the game
 Added peace, which reduces hp loss from Insanity

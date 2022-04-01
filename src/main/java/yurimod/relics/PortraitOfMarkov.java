@@ -27,20 +27,10 @@ public class PortraitOfMarkov extends CustomRelic implements OnRemoveCardFromMas
         super(ID, new Texture(IMG), new Texture(OUTLINE), RelicTier.BOSS, LandingSound.FLAT);
     }
 
-    // Flash at the start of Battle.
-    @Override
-    public void atPreBattle(){
-        this.flash();
-        AbstractDungeon.actionManager.addToTop(new ApplyPowerAction(AbstractDungeon.player, AbstractDungeon.player, new GlitchedPower(AbstractDungeon.player, AbstractDungeon.player, 1)));
-    }
 
     // Gain 1 energy on equip.
     @Override
     public void onEquip() {
-        if (AbstractDungeon.player.hasRelic("Omamori") && AbstractDungeon.player.getRelic("Omamori").counter != 0) {
-            ((Omamori)AbstractDungeon.player.getRelic("Omamori")).use();
-            ((Omamori)AbstractDungeon.player.getRelic("Omamori")).use();
-        }
         CardCrawlGame.sound.play("NECRONOMICON");
         AbstractDungeon.player.energy.energyMaster += 1;
         AbstractDungeon.effectList.add(new ShowCardAndObtainEffect(new MarkovCurse(), Settings.WIDTH / 2.0F, Settings.HEIGHT / 2.0F));

@@ -23,7 +23,7 @@ public class GlassOfWater extends CustomRelic implements OnReceivePowerRelic
 
 	public GlassOfWater()
     {
-        super(ID, new Texture(IMG), new Texture(OUTLINE), RelicTier.UNCOMMON, LandingSound.CLINK);
+        super(ID, new Texture(IMG), new Texture(OUTLINE), RelicTier.COMMON, LandingSound.CLINK);
     }
 
     // Description

@@ -50,6 +50,7 @@ extends CustomCard {
 	
 	public TeaSet() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
+		this.selfRetain = true;
 		this.exhaust = true;
         this.isInnate = true;
 	}

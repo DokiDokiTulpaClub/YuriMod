@@ -57,7 +57,6 @@ extends CustomCard {
 	public GhostForm() {
 		super(ID, NAME, IMG, COST, DESCRIPTION, TYPE, COLOR, RARITY, TARGET);
 		this.magicNumber = this.baseMagicNumber = MAGIC;
-		this.tags.add(BaseModCardTags.FORM);
 	}
 	
 	@Override

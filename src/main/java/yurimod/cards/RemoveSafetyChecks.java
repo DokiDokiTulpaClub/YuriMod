@@ -46,7 +46,7 @@ extends CustomCard {
 	private static final CardType TYPE = CardType.POWER;
 	public static final CardColor COLOR = AbstractCardEnum.YURI_PURPLE;
 
-	private static final int COST = 0;
+	private static final int COST = 1;
 
 	
 // /STAT DECLARATION/

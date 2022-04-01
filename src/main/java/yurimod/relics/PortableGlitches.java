@@ -28,7 +28,7 @@ public class PortableGlitches extends CustomRelic
 
 	public PortableGlitches()
     {
-        super(ID, new Texture(IMG), new Texture(OUTLINE), RelicTier.UNCOMMON, LandingSound.FLAT);
+        super(ID, new Texture(IMG), new Texture(OUTLINE), RelicTier.RARE, LandingSound.FLAT);
     }
 
     // Description

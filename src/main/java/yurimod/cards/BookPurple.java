@@ -76,7 +76,8 @@ extends CustomCard {
 		} else {
 			peace = 1;
 		}
-			this.addToBot(new ApplyPowerAction(p, p, new VigorPower(p, peace*this.magicNumber), peace*this.magicNumber));
+		this.addToBot(new ApplyPowerAction(p, p, new StrengthPower(p, peace*this.magicNumber), peace*this.magicNumber));
+		this.addToBot(new ApplyPowerAction(p, p, new LoseStrengthPower(p, peace*this.magicNumber), peace*this.magicNumber));
 		}
 	
 	// Which card to return when making a copy of this card.
@@ -90,7 +91,6 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.rawDescription=UPGRADE_DESCRIPTION;
             this.upgradeMagicNumber(UPGRADE_MAGIC);
             this.initializeDescription();
         }

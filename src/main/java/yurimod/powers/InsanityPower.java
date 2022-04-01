@@ -43,7 +43,7 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
     public int getHealthBarAmount() {
         if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
             this.hpLossBar = 0;
-        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower")) {
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower") && !AbstractDungeon.player.hasRelic("yuri:PortraitOfMarkov")) {
             this.hpLossBar = this.amount - AbstractDungeon.player.getPower("PeacePower").amount;
         }
         else {
@@ -77,7 +77,7 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
     public void atEndOfTurn(final boolean isPlayer) {
         if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
             this.hpLoss = 0;
-        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower")) {
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower") && !AbstractDungeon.player.hasRelic("yuri:PortraitOfMarkov")) {
             this.hpLoss = this.amount - AbstractDungeon.player.getPower("PeacePower").amount;
         }
         else {
@@ -93,7 +93,7 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
     {
         if (this.owner.isPlayer && AbstractDungeon.player.hasRelic("yuri:BloodyKnife")) {
             this.hpLossDes = 0;
-        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower")) {
+        } else if (this.owner.isPlayer && AbstractDungeon.player.hasPower("PeacePower") && !AbstractDungeon.player.hasRelic("yuri:PortraitOfMarkov")) {
             this.hpLossDes = this.amount - AbstractDungeon.player.getPower("PeacePower").amount;
         }
         else {

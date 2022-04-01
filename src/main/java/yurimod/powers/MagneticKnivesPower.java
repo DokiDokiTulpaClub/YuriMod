@@ -42,8 +42,11 @@ public class MagneticKnivesPower extends AbstractPower {
     @Override
     public void atStartOfTurn() {
         this.flash();
-            AbstractDungeon.actionManager
-                    .addToBottom(new MakeTempCardInHandAction(new ThrowingKnives(), this.amount, false));
+        AbstractCard s = (new ThrowingKnives().makeCopy());
+        s.modifyCostForCombat(-1);
+        AbstractDungeon.actionManager
+                .addToBottom(new MakeTempCardInHandAction(s, this.amount, false));
+
         }
 
     // Update the description when you apply this power. (i.e. add or remove an "s" in keyword(s))

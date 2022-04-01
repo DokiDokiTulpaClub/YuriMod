@@ -56,7 +56,6 @@ extends CustomCard {
 	
 	public DragonForm() {
 		super(ID,NAME,IMG,COST,DESCRIPTION,TYPE,COLOR,RARITY,TARGET);
-        this.tags.add(BaseModCardTags.FORM);
 	}
 	
 	// Actions the card should do.

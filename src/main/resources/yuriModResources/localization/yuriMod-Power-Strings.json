@@ -77,6 +77,6 @@
   },
   "yuri:PeacePower": {
     "NAME": "Peace",
-    "DESCRIPTIONS": ["Lose #b", " less health from #yInsanity."]
+    "DESCRIPTIONS": ["Lose #b", " less health from #yInsanity.", "#rOpen #ryour #rthird #reye."]
   }
 }

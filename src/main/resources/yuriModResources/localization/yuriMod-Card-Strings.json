@@ -11,7 +11,7 @@
 	},
 	
 	"yuri:GhostForm": {
-        "NAME": "Ghost Form",
+        "NAME": "Ghost Forme",
         "DESCRIPTION": "Gain !M! Intangible. NL Reduce your Max HP by 2."
 	},
 	
@@ -82,8 +82,8 @@
     },
     "yuri:TeaSet": {
     "NAME": "Portable Tea Set",
-    "DESCRIPTION": "Innate. NL Gain [E]. NL Exhaust.",
-    "UPGRADE_DESCRIPTION": "Innate. NL Gain [E] [E]. NL Exhaust."
+    "DESCRIPTION": "Innate. NL Retain. NL Gain [E]. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Innate. NL Retain. NL Gain [E] [E]. NL Exhaust."
     },
     "yuri:Oolong": {
     "NAME": "Oolong Tea",
@@ -111,7 +111,7 @@
     },
     "yuri:DebugCard": {
     "NAME": "Debug",
-    "DESCRIPTION": "Gain !B! Block. NL Remove 1 Glitched. NL Exhaust a card in your hand."
+    "DESCRIPTION": "Gain !B! Block. NL Remove 1 Glitched. NL Exhaust a card."
     },
     "yuri:MarkovCurse": {
     "NAME": "Markov Curse",
@@ -123,8 +123,8 @@
     },
     "yuri:DeepBreathing": {
     "NAME": "Deep Breathing",
-    "DESCRIPTION": "Lose all Insanity. NL Gain it back next turn.",
-      "UPGRADE_DESCRIPTION": "Lose all Insanity. NL Gain it back next turn. NL Draw 1 card."
+    "DESCRIPTION": "Retain. NL Lose all Insanity. NL Gain it back next turn.",
+      "UPGRADE_DESCRIPTION": "Retain. NL Lose all Insanity. NL Gain it back next turn. NL Draw 1 card."
     },
     "yuri:DeepBreathingCorrupt": {
     "NAME": "Manic Laughter",
@@ -186,7 +186,7 @@
         "UPGRADE_DESCRIPTION": "Double your Insanity."
     },
     "yuri:DragonForm": {
-        "NAME": "Dragon Form",
+        "NAME": "Dragon Forme",
         "DESCRIPTION": "Whenever you gain Insanity, gain 1 Strength.",
         "UPGRADE_DESCRIPTION": "Gain 2 Strength. NL Whenever you gain Insanity, gain 1 Strength."
     },
@@ -196,7 +196,8 @@
     },
   "yuri:RepairCode": {
         "NAME": "Repair Code",
-        "DESCRIPTION": "Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed."
+        "DESCRIPTION": "Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed.",
+        "UPGRADE_DESCRIPTION":"Retain. NL Remove Glitched. NL Gain !M! Temporary HP for each Glitched removed."
     },
     "yuri:DejaVu": {
         "NAME": "Deja Vu",
@@ -214,7 +215,7 @@
     },
     "yuri:ThrowBook": {
         "NAME": "Throw Book",
-        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Exhaust a card in your hand."
+        "DESCRIPTION": "Deal !D! damage. NL Apply !M! Weak. NL Exhaust a card."
     },
     "yuri:GlitchRemove": {
         "NAME": "Glitch Remove",
@@ -311,8 +312,8 @@
   },
   "yuri:ReloadGame": {
     "NAME": "Load Save File",
-    "DESCRIPTION": "Reset your Insanity to the start of combat value.",
-    "UPGRADE_DESCRIPTION": "Reset your Insanity to the start of combat value. NL Draw 1 card."
+    "DESCRIPTION": "Retain. NL Reset your Insanity to the start of combat value.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Reset your Insanity to the start of combat value. NL Draw 1 card."
   },
   "yuri:ReloadGameCorrupt": {
     "NAME": "Corrupted Save File",
@@ -346,8 +347,8 @@
   },
   "yuri:MagneticKnives": {
     "NAME": "Magnetic Knives",
-    "DESCRIPTION": "At the start of your turn, Add Throwing Knives into your hand.",
-    "UPGRADE_DESCRIPTION": "At the start of your turn, Add Upgraded Throwing Knives into your hand."
+    "DESCRIPTION": "Ethereal. NL At the start of your turn, Add Throwing Knives into your hand. NL It costs 0 this combat.",
+    "UPGRADE_DESCRIPTION": "At the start of your turn, Add Throwing Knives into your hand. NL It costs 0 this combat."
   },
   "yuri:ReactiveMadness": {
     "NAME": "Reactive Madness",
@@ -364,7 +365,6 @@
   },
   "yuri:BookPurple": {
   "NAME": "Religion Book",
-  "DESCRIPTION": "Gain 1 Peace. NL You next attack deals additional damage equal to your Peace.",
-  "UPGRADE_DESCRIPTION": "Gain 1 Peace. NL You next attack deals additional damage equal to !M! times your Peace."
+  "DESCRIPTION": "Gain 1 Peace. NL Gain temporary Strength equal to !M! times your Peace."
 }
 }

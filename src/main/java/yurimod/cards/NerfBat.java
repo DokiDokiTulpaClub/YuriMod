@@ -51,8 +51,8 @@ extends CustomCard {
 
 	private static final int COST = 1;
 	private static final int DAMAGE = 6;
+	private static final int UPGRADE_PLUS_DAMAGE = 4;
     private static final int MAGIC = 1;
-    private static final int UPGRADE_MAGIC = 1;
 	
 // /STAT DECLARATION/
 	
@@ -83,7 +83,7 @@ extends CustomCard {
     public void upgrade() {
         if (!this.upgraded) {
             this.upgradeName();
-            this.upgradeMagicNumber(UPGRADE_MAGIC);
+			this.upgradeDamage(UPGRADE_PLUS_DAMAGE);
             this.initializeDescription();
         }
     }
