@@ -2,7 +2,7 @@
 "yuri:PortraitOfMarkov": {
         "NAME": "马尔科夫的肖像",
 	    "FLAVOR": "睁开天眼吧。",
-        "DESCRIPTIONS": ["在每回合开始时获得 [R] 。 NL #yPeace no longer reduces HP loss. NL 当你拾起这件遗物时，获得一张特殊的 #r诅咒 。"]
+        "DESCRIPTIONS": ["在每回合开始时获得 [R] 。 NL #y镇定 不再会降低你的生命损耗。 NL 当你拾起这件遗物时，获得一张特殊的 #r诅咒 。"]
 	},
   "yuri:BookOfBooks": {
         "NAME": "书之书",

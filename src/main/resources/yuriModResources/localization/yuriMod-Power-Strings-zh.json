@@ -68,15 +68,15 @@
     "DESCRIPTIONS": ["在你的回合开始时，获得 #b", " 点 #y临时生命 。"]
   },
   "yuri:MagneticKnivesPower": {
-    "NAME": "Magnetic Knives",
+    "NAME": "磁力小刀",
     "DESCRIPTIONS": ["在你的回合开始时，将 #b", " 张 #y投掷小刀 加入你的手牌。"]
   },
   "yuri:MagneticKnivesPower2": {
-    "NAME": "Magnetic Knives",
+    "NAME": "磁力小刀",
     "DESCRIPTIONS": ["在你的回合开始时，将 #b", " 张 升级 过的 #y投掷小刀 加入你的手牌。"]
   },
   "yuri:Peace": {
     "NAME": "镇定",
-    "DESCRIPTIONS": ["来自 #y精神错乱 的生命损失将会被减少 #b", " 点。", "#rOpen #ryour #rthird #reye."]
+    "DESCRIPTIONS": ["来自 #y精神错乱 的生命损失将会被减少 #b", " 点。", "#r睁开天眼吧 。"]
   }
 }
