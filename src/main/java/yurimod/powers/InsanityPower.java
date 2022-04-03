@@ -35,8 +35,6 @@ public class InsanityPower extends AbstractPower implements HealthBarRenderPower
         this.img = ImageMaster.loadImage("yuriModResources/images/powers/Insanity.png");
         this.source = source;
         this.canGoNegative = false;
-
-
     }
 
     @Override

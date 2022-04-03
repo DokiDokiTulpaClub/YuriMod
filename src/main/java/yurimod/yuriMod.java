@@ -169,6 +169,10 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
     public static final String yuri_REACT = "cards/ReactiveMadness.png";
     public static final String yuri_REACT_CORRUPT = "cards/ReactiveMadnessCorrupt.png";
     public static final String yuri_INSANITY_DEFENSE = "cards/InsanityDefense.png";
+    public static final String yuri_DELETE = "cards/Delete.png";
+    public static final String yuri_HAPPY = "cards/Happy.png";
+    public static final String yuri_HAPPY_CORRUPT = "cards/HappyCorrupt.png";
+    public static final String yuri_YEET = "cards/Yeet.png";
 
 
     // Power images
@@ -453,6 +457,10 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
 		BaseMod.addCard(new ReactiveMadness());
 		BaseMod.addCard(new ReactiveMadnessCorrupt());
 		BaseMod.addCard(new InsanityDefense());
+        BaseMod.addCard(new Delete());
+        BaseMod.addCard(new Happy());
+        BaseMod.addCard(new HappyCorrupt());
+        BaseMod.addCard(new Yeet());
 		if (!SafeMode){
             BaseMod.addCard(new Suicide());
             BaseMod.addCard(new SelfHarm());
@@ -533,6 +541,9 @@ public class yuriMod implements EditCardsSubscriber, EditRelicsSubscriber, EditS
         UnlockTracker.unlockCard(MagneticKnives.ID);
         UnlockTracker.unlockCard(ReactiveMadness.ID);
         UnlockTracker.unlockCard(InsanityDefense.ID);
+        UnlockTracker.unlockCard(Delete.ID);
+        UnlockTracker.unlockCard(Happy.ID);
+        UnlockTracker.unlockCard(Yeet.ID);
 
 		logger.info("Cards - added!");
 	}

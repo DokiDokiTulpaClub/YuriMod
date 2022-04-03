@@ -28,13 +28,15 @@ public class NextTurnInsanityPower extends AbstractPower {
         this.owner = owner;
         this.amount = amount;
         this.updateDescription();
-        this.type = PowerType.BUFF;
+
         this.isTurnBased = false;
         this.img = ImageMaster.loadImage("yuriModResources/images/powers/InsanityRight.png");
         this.source = source;
         this.canGoNegative = true;
-
-
+        if (amount > 0) {
+                this.type = PowerType.BUFF;
+        } else {this.type = PowerType.DEBUFF;
+        }
     }
 
     @Override

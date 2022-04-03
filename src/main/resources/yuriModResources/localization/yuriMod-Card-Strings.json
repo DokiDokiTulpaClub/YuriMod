@@ -366,5 +366,24 @@
   "yuri:BookPurple": {
   "NAME": "Religion Book",
   "DESCRIPTION": "Gain 1 Peace. NL Gain temporary Strength equal to !M! times your Peace."
-}
+},
+  "yuri:Delete": {
+    "NAME": "Delete",
+    "DESCRIPTION": "Draw !M! cards. NL Exhaust 2 cards.",
+    "UPGRADE_DESCRIPTION": "Retain. NL Draw !M! cards. NL Exhaust 2 cards."
+  },
+  "yuri:Happy": {
+    "NAME": "Happy Thoughts",
+    "DESCRIPTION": "Gain !M! Peace."
+  },
+  "yuri:HappyCorrupt": {
+    "NAME": "Hxppy Thxughts",
+    "DESCRIPTION": "Lose !M! Max HP. NL Remove a card from your deck. NL Purge.",
+    "UPGRADE_DESCRIPTION": "Sayori.chr not found."
+  },
+  "yuri:Yeet": {
+    "NAME": "Yeet Cupcake",
+    "DESCRIPTION": "Deal !D! damage. NL A random card in your hand costs 0 this turn. NL Exhaust.",
+    "UPGRADE_DESCRIPTION": "Deal !D! damage. NL A random card in your hand costs 0 this combat. NL Exhaust."
+  }
 }
